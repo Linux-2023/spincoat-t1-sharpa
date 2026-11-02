@@ -1,0 +1,1825 @@
+{
+  "schema_version": 1,
+  "source_episode": "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_human_v31_08_preturn_margin",
+  "assembly_manifest": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/assembly_manifest.json",
+  "render_mode": "full_v31",
+  "source_kind": "exact_v31_saved_episode",
+  "camera_spec": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/camera_spec_return.json",
+  "source_hashes": {
+    "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_human_v31_08_preturn_margin/model.mjb": "17caa24ba5548137c8727d4eefe46516d8df1efc89f0adfec30571f250fb366b",
+    "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_human_v31_08_preturn_margin/episode.npz": "5b730688e5f159ea67968e1f256a19560ad30ee8db1115d74549df30f6a0f660",
+    "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_human_v31_08_preturn_margin/reagent_preparation.npz": "9ac469ac9e23bb3951c94a4588ce6133aeab649e2de950f096e5a3e874054287",
+    "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_human_v31_08_preturn_margin/reagent_preparation/gravity_liquid_record.json": "47818890a5f269bb91bf0a3f50f87fa78550cf9b28b82aa7bc081faaca83c5fc"
+  },
+  "input_and_implementation_hashes": {
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/assembly_manifest.json": "9f723059fe80c2848cbb85f6c1e4d860b41fd35736b2729b0c66059d76989ec7",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/camera_spec_return.json": "41e134d57eb3368ff6fae57ed52d6344595a8f745e78c480888057498755ab30",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/render_mechanical_redesign.py": "9b388dd67cf3f72d74b027b9a39402cdc39b6669473937906d775d06aecce742",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_metal_base.stl": "304b1e58161a296f35f98c7b5d4f86775e7eb765b296766282829bf8f9403669",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_wrist_reference.stl": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_printed_carrier.stl": "5bb14186d5730156d103252118e54c335f013837484470e6f5f30af86b42595d",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_D405_envelope.stl": "f33b22a0486d6a7758d53e8b1c1d38b228e88ccbd8cf1d7e9a97625a58fe4e3e",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_window_0.stl": "c526d44f63031ad41b77bbf5344e70e8e488de1dc29271ee80ba1eb01b11dbfe",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_window_1.stl": "b6b52694a3a7e3de619e6b87be323fbf5fa4de43c25b187ba4645be03eff8ae6",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_0.stl": "1a7de262bd82858d8fb462825a3a3832b9272748048c41bebf381565b211e5e6",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_washer_0.stl": "1c831aa16e88399f5d8b5a1c5071a2119066548836ff123647d44e44e6af8465",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_nut_washer_0.stl": "38275d92e6cb1cd7442b3655df852fd24910bebf624750efa9317bd14b37b36c",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_locknut_0.stl": "3b08a6fa836efd3a6e8b07a286bde00051984196aed330ac1fc48a6daf8cbb9e",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_1.stl": "1eaf6d28a27d17a12f29253d27dc30a8572d042c38539de7fa0cb4689cbab99d",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_washer_1.stl": "62c42389d7a49276fc7a616670010af6bf114920f3b319049718274b09408a5d",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_nut_washer_1.stl": "7e0464cf8a60d63954ac83d31dcb4eed2e5aa3acc613e4fd452004d8f9ec978b",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_locknut_1.stl": "813a950ab0db784fa38e4e5a55fd0de99f769364614b99402f14aa2aa7a5ca65",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_screw_0.stl": "09e70387b98ab77de246b9d9e9bb1db13082dc7f9f83c668be9aa648b536c778",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_washer_0.stl": "9872de8d5d5b84fe18deaf04f8aedbb8cea1126e8b9c837c7390c7dbbc416e17",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_screw_1.stl": "8bf6460074de81493248b0fca3e599e459859d7d23c232971229a56ae286261e",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_washer_1.stl": "7dfd4430de709d476b4bb8df2191e56980b521615da3aab030ddb2335660756f",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_metal_base.stl": "aaf3b411b9ee954c08e381a5ae213506d6836aab1e805b68c1d23ec727683b01",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_wrist_reference.stl": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_printed_carrier.stl": "cb43495e61a74158137bedcfb087bf3bb3c2621b2da0e7311da501d17466fc89",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_D405_envelope.stl": "537d7fed97474e99ca9e4ceb21a53a10cafd89b7ccfd5201823e5a9089c89325",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_window_0.stl": "2574af6031eb0b8eeb93ff825f57b63b2b9bb012add847dabfe642be444bd135",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_window_1.stl": "275971a8d87d4f8d83a23f47f4a6390a2ddabe80feafd25ad26a0afc5bf2551c",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_0.stl": "0f56ec62f0c75190b5775a628b53901d54306b59c979767212471afe0873182c",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_washer_0.stl": "4b447e211c7443c57df3d942709f5c4f5cfdccb87d9f2e8b842d7b8908703dfa",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_nut_washer_0.stl": "4f368d7420df66debee086c0ce1a674ac7b4e60d9d36be19ee1c7dcc44f6de69",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_locknut_0.stl": "e33b4c604e56b09df5a84e29f159f9328cd50a2e9904ddc11e29c977e40df675",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_1.stl": "e2be10874c70c9d17276f457834afba594c761b81cf042a6444fcddba6d03870",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_washer_1.stl": "fad6384041c3d91357e8b3fe0236d67f701d2f50e00f70bcaed933b0b9d71fcb",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_nut_washer_1.stl": "bc6020a713c23e72f8121d23d755dc0ce8b682f14a7f78f5132c3280d884198b",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_locknut_1.stl": "4bf4309fcabd8ecfb883599029fe5280325b2f7daf41fd873b3d5edcb186512a",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_screw_0.stl": "c98cef003226a5606c2e096e28916f0c8f5b2d750b4b209f76bac5d65c265d48",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_washer_0.stl": "19d39844d0a390b400cf02ce9223c879df1ab4e2b674f97f328bc4121da132a2",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_screw_1.stl": "57be5193f7d894049fbc4b07a4b5b4fb4bd180b3c5cb0c582205911909267964",
+    "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_washer_1.stl": "ab4a609cbd5b13715d03c59f6cdcba912541e33abcac15c1e8572ace507e4c25",
+    "/home/agilex/spincoat-t1-sharpa/research/hardware/v31_three_camera_inputs/onboard/render_onboard_review.py": "fb787fa8c5babc8136db3b1919c2ecc029fbd1e427de9bad053e77ae3f2bda0a",
+    "/home/agilex/spincoat-t1-sharpa/research/hardware/v31_three_camera_inputs/export_v31_three_cameras.py": "e32dcf6add3c64fb688f1e2d68cc541afa4f19a64ea824554067e70b0af1788c",
+    "/home/agilex/spincoat-t1-sharpa/scripts/render_t1_neutral_multiview.py": "24ac004a158714750cdb1c288483d5b0f03a739ea88ab0e9f9095fe9217fd47f",
+    "/home/agilex/spincoat-t1-sharpa/scripts/t1_gravity_liquid_render_v2.py": "237ac748e98ea76dda01745d923ade25b80761fd188c5ea73c6a7e59adaded16",
+    "/home/agilex/spincoat-t1-sharpa/scripts/t1_liquid_palette.py": "2c71b68d99ff44e439ea2f769381b71e04c9f05f06ffd45a4f6174beefa62383",
+    "/home/agilex/spincoat-t1-sharpa/scripts/t1_spincoat_scene.py": "8cbe40df8c4426eeca3b9592d20359127f822bfdd8b71cd7506df6652874b039"
+  },
+  "units": "m",
+  "frames": {
+    "left": "sharpa_left/left_hand_C_MC",
+    "right": "sharpa_right/right_hand_C_MC"
+  },
+  "parts": [
+    {
+      "id": "left_metal_base",
+      "side": "left",
+      "kind": "mount_base",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_metal_base.stl",
+      "step_mm": "cad/left_metal_base.step",
+      "mesh_sha256": "304b1e58161a296f35f98c7b5d4f86775e7eb765b296766282829bf8f9403669",
+      "step_sha256": "9885b3ca490d2414f5e8c05d818035bcc2bc9fc57b733ed4ff5814e6f588dace",
+      "volume_mm3": 13787.657000424162,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_metal_base.stl",
+      "sha256": "304b1e58161a296f35f98c7b5d4f86775e7eb765b296766282829bf8f9403669",
+      "triangle_count": 31152,
+      "bounds_palm_m": [
+        [
+          -0.03149903938174248,
+          -0.028206150978803635,
+          -0.03150000050663948
+        ],
+        [
+          0.06599999964237213,
+          0.028206150978803635,
+          -0.014000000432133675
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_wrist_reference",
+      "side": "left",
+      "kind": "reference_interface",
+      "rgba": [
+        0.43,
+        0.47,
+        0.52,
+        1.0
+      ],
+      "mesh": "parts/left_wrist_reference.stl",
+      "step_mm": "cad/left_wrist_reference.step",
+      "mesh_sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "step_sha256": "9725cebc4056f8b35d37904319a5c9c63f800c28b0f3427caafa897fe339a304",
+      "volume_mm3": 13373.783774421392,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_wrist_reference.stl",
+      "sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "triangle_count": 75490,
+      "bounds_palm_m": [
+        [
+          -0.020999999716877937,
+          -0.02401668205857277,
+          -0.028999999165534973
+        ],
+        [
+          0.020999999716877937,
+          0.02401668205857277,
+          0.0020000000949949026
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_printed_carrier",
+      "side": "left",
+      "kind": "printed",
+      "rgba": [
+        0.2,
+        0.22,
+        0.25,
+        1.0
+      ],
+      "mesh": "parts/left_printed_carrier.stl",
+      "step_mm": "cad/left_printed_carrier.step",
+      "mesh_sha256": "5bb14186d5730156d103252118e54c335f013837484470e6f5f30af86b42595d",
+      "step_sha256": "73d7c586e632d8009e12f4a9f7bd5ee23a17238c516b69bebca3db41c1ee73ee",
+      "volume_mm3": 11287.79036983768,
+      "solid_valid": true,
+      "solid_count": 1,
+      "review_print_mesh_mm": "cad/left_printed_carrier_mm.stl",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_printed_carrier.stl",
+      "sha256": "5bb14186d5730156d103252118e54c335f013837484470e6f5f30af86b42595d",
+      "triangle_count": 8168,
+      "bounds_palm_m": [
+        [
+          0.03422600030899048,
+          -0.019999999552965164,
+          -0.03525463119149208
+        ],
+        [
+          0.08371628075838089,
+          0.06428106129169464,
+          -0.017338242381811142
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_D405_envelope",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.78,
+        0.79,
+        0.8,
+        1.0
+      ],
+      "mesh": "parts/left_D405_envelope.stl",
+      "step_mm": "cad/left_D405_envelope.step",
+      "mesh_sha256": "f33b22a0486d6a7758d53e8b1c1d38b228e88ccbd8cf1d7e9a97625a58fe4e3e",
+      "step_sha256": "98ddadc98ae7139c0e0738fe7b4d430b72a3897980bf347bbdec6aa0731ac41a",
+      "volume_mm3": 40077.91422828329,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_housing",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_D405_envelope.stl",
+      "sha256": "f33b22a0486d6a7758d53e8b1c1d38b228e88ccbd8cf1d7e9a97625a58fe4e3e",
+      "triangle_count": 5236,
+      "bounds_palm_m": [
+        [
+          0.03205233812332153,
+          0.00946861132979393,
+          -0.032011255621910095
+        ],
+        [
+          0.08996850252151489,
+          0.06792869418859482,
+          0.005521158222109079
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_window_0",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/left_window_0.stl",
+      "step_mm": "cad/left_window_0.step",
+      "mesh_sha256": "c526d44f63031ad41b77bbf5344e70e8e488de1dc29271ee80ba1eb01b11dbfe",
+      "step_sha256": "39a41e4e029f6a470c6b5fc2c38ab44ca43743d3210ec23a46af9fb25c569ded",
+      "volume_mm3": 22.628891883807285,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_window_0.stl",
+      "sha256": "c526d44f63031ad41b77bbf5344e70e8e488de1dc29271ee80ba1eb01b11dbfe",
+      "triangle_count": 1964,
+      "bounds_palm_m": [
+        [
+          0.050080522894859314,
+          0.035288240760564804,
+          -0.001857514725998044
+        ],
+        [
+          0.059814516454935074,
+          0.044878244400024414,
+          0.0011857522185891867
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_window_1",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/left_window_1.stl",
+      "step_mm": "cad/left_window_1.step",
+      "mesh_sha256": "b6b52694a3a7e3de619e6b87be323fbf5fa4de43c25b187ba4645be03eff8ae6",
+      "step_sha256": "4e24e0c70d437eb61f45cdd7d599557f6b68997f6481e57cbb9f66a0cd7da7b5",
+      "volume_mm3": 22.62889188380728,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_window_1.stl",
+      "sha256": "b6b52694a3a7e3de619e6b87be323fbf5fa4de43c25b187ba4645be03eff8ae6",
+      "triangle_count": 1964,
+      "bounds_palm_m": [
+        [
+          0.06555014103651047,
+          0.027215266600251198,
+          -0.006275414954870939
+        ],
+        [
+          0.07528413832187653,
+          0.03680526837706566,
+          -0.003232147777453065
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_screw_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_0.stl",
+      "step_mm": "cad/left_foot_screw_0.step",
+      "mesh_sha256": "1a7de262bd82858d8fb462825a3a3832b9272748048c41bebf381565b211e5e6",
+      "step_sha256": "0917b5a9ea2fe20bd0801fd2fb8f5501fbe5b1014f1bb6aec0f22c5845de7508",
+      "volume_mm3": 191.47292939295642,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_0.stl",
+      "sha256": "1a7de262bd82858d8fb462825a3a3832b9272748048c41bebf381565b211e5e6",
+      "triangle_count": 2036,
+      "bounds_palm_m": [
+        [
+          0.047250207513570786,
+          -0.012749947607517242,
+          -0.027499999850988388
+        ],
+        [
+          0.05274999886751175,
+          -0.007250051945447922,
+          -0.006500000134110451
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_screw_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_washer_0.stl",
+      "step_mm": "cad/left_foot_screw_washer_0.step",
+      "mesh_sha256": "1c831aa16e88399f5d8b5a1c5071a2119066548836ff123647d44e44e6af8465",
+      "step_sha256": "e3c56cac69b7bc59a48e72683968b322e9b29e7a53fcea6bd00dbb171eb08242",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_washer_0.stl",
+      "sha256": "1c831aa16e88399f5d8b5a1c5071a2119066548836ff123647d44e44e6af8465",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.04650000110268593,
+          -0.013500000350177288,
+          -0.02449999935925007
+        ],
+        [
+          0.05350000038743019,
+          -0.006500000134110451,
+          -0.024000000208616257
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_nut_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_nut_washer_0.stl",
+      "step_mm": "cad/left_foot_nut_washer_0.step",
+      "mesh_sha256": "38275d92e6cb1cd7442b3655df852fd24910bebf624750efa9317bd14b37b36c",
+      "step_sha256": "55e3fe2846f074fef50a0704d13570282c33404c1d2c75001ce85314a30dc260",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_nut_washer_0.stl",
+      "sha256": "38275d92e6cb1cd7442b3655df852fd24910bebf624750efa9317bd14b37b36c",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.04650000110268593,
+          -0.013500000350177288,
+          -0.014000000432133675
+        ],
+        [
+          0.05350000038743019,
+          -0.006500000134110451,
+          -0.013500000350177288
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_locknut_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_locknut_0.stl",
+      "step_mm": "cad/left_foot_locknut_0.step",
+      "mesh_sha256": "3b08a6fa836efd3a6e8b07a286bde00051984196aed330ac1fc48a6daf8cbb9e",
+      "step_sha256": "6f52d8271daa60a66f48c442b1b84e1607a2cda8235aedb2b8443a50703ad6c0",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_locknut_0.stl",
+      "sha256": "3b08a6fa836efd3a6e8b07a286bde00051984196aed330ac1fc48a6daf8cbb9e",
+      "triangle_count": 1116,
+      "bounds_palm_m": [
+        [
+          0.04682457447052002,
+          -0.012749999761581421,
+          -0.013500000350177288
+        ],
+        [
+          0.0531754270195961,
+          -0.007249999791383743,
+          -0.009499999694526196
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_screw_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_1.stl",
+      "step_mm": "cad/left_foot_screw_1.step",
+      "mesh_sha256": "1eaf6d28a27d17a12f29253d27dc30a8572d042c38539de7fa0cb4689cbab99d",
+      "step_sha256": "51dc7fb8a2bb196bdd849abade020f8ce5f3823da24078b31fc5f497cd265859",
+      "volume_mm3": 191.47292939295642,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_1.stl",
+      "sha256": "1eaf6d28a27d17a12f29253d27dc30a8572d042c38539de7fa0cb4689cbab99d",
+      "triangle_count": 2036,
+      "bounds_palm_m": [
+        [
+          0.047250207513570786,
+          0.007250051945447922,
+          -0.027499999850988388
+        ],
+        [
+          0.05274999886751175,
+          0.012749947607517242,
+          -0.006500000134110451
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_screw_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_washer_1.stl",
+      "step_mm": "cad/left_foot_screw_washer_1.step",
+      "mesh_sha256": "62c42389d7a49276fc7a616670010af6bf114920f3b319049718274b09408a5d",
+      "step_sha256": "7f35fa357d2b4e7d74c58fd19b6fe878533675b190ddb76dc37a27e888022b47",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_screw_washer_1.stl",
+      "sha256": "62c42389d7a49276fc7a616670010af6bf114920f3b319049718274b09408a5d",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.04650000110268593,
+          0.006500000134110451,
+          -0.02449999935925007
+        ],
+        [
+          0.05350000038743019,
+          0.013500000350177288,
+          -0.024000000208616257
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_nut_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_nut_washer_1.stl",
+      "step_mm": "cad/left_foot_nut_washer_1.step",
+      "mesh_sha256": "7e0464cf8a60d63954ac83d31dcb4eed2e5aa3acc613e4fd452004d8f9ec978b",
+      "step_sha256": "1e4d48a6de4b51e8516bac8fb1d6883eede4267a50f84a50fb3f06b91f3dab0e",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_nut_washer_1.stl",
+      "sha256": "7e0464cf8a60d63954ac83d31dcb4eed2e5aa3acc613e4fd452004d8f9ec978b",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.04650000110268593,
+          0.006500000134110451,
+          -0.014000000432133675
+        ],
+        [
+          0.05350000038743019,
+          0.013500000350177288,
+          -0.013500000350177288
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_foot_locknut_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_locknut_1.stl",
+      "step_mm": "cad/left_foot_locknut_1.step",
+      "mesh_sha256": "813a950ab0db784fa38e4e5a55fd0de99f769364614b99402f14aa2aa7a5ca65",
+      "step_sha256": "21a0712aaca20b4f055e8e5b7c70ae16fa4ab9f7efa2462130928a66474f498a",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_foot_locknut_1.stl",
+      "sha256": "813a950ab0db784fa38e4e5a55fd0de99f769364614b99402f14aa2aa7a5ca65",
+      "triangle_count": 1116,
+      "bounds_palm_m": [
+        [
+          0.04682457447052002,
+          0.007249999791383743,
+          -0.013500000350177288
+        ],
+        [
+          0.0531754270195961,
+          0.012749999761581421,
+          -0.009499999694526196
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_camera_screw_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_camera_screw_0.stl",
+      "step_mm": "cad/left_camera_screw_0.step",
+      "mesh_sha256": "09e70387b98ab77de246b9d9e9bb1db13082dc7f9f83c668be9aa648b536c778",
+      "step_sha256": "061ecb2c3d8d5858f151a8ba3320912c9d598c171fec53ebc354819de5d526bd",
+      "volume_mm3": 120.78709468718618,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_screw_0.stl",
+      "sha256": "09e70387b98ab77de246b9d9e9bb1db13082dc7f9f83c668be9aa648b536c778",
+      "triangle_count": 2384,
+      "bounds_palm_m": [
+        [
+          0.04681829363107681,
+          0.0436769537627697,
+          -0.02998931333422661
+        ],
+        [
+          0.052705954760313034,
+          0.05042121931910515,
+          -0.018238147720694542
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_camera_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_camera_washer_0.stl",
+      "step_mm": "cad/left_camera_washer_0.step",
+      "mesh_sha256": "9872de8d5d5b84fe18deaf04f8aedbb8cea1126e8b9c837c7390c7dbbc416e17",
+      "step_sha256": "33feee852a8a4a348c2b15127a7a9af9a24d32efd58f584713e52a4a2dfda207",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_washer_0.stl",
+      "sha256": "9872de8d5d5b84fe18deaf04f8aedbb8cea1126e8b9c837c7390c7dbbc416e17",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.04652661457657814,
+          0.04351821169257164,
+          -0.0273212268948555
+        ],
+        [
+          0.05352244898676872,
+          0.050436101853847504,
+          -0.0248732753098011
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_camera_screw_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_camera_screw_1.stl",
+      "step_mm": "cad/left_camera_screw_1.step",
+      "mesh_sha256": "8bf6460074de81493248b0fca3e599e459859d7d23c232971229a56ae286261e",
+      "step_sha256": "fd3b8ece2f11daa18650828dbb0d51c6b52da3d02669d2d45db0b7b2a9f81882",
+      "volume_mm3": 120.78709468718624,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_screw_1.stl",
+      "sha256": "8bf6460074de81493248b0fca3e599e459859d7d23c232971229a56ae286261e",
+      "triangle_count": 2384,
+      "bounds_palm_m": [
+        [
+          0.06400676816701889,
+          0.03470697999000549,
+          -0.03489809110760689
+        ],
+        [
+          0.06989442557096481,
+          0.04145124554634094,
+          -0.02314692549407482
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "left_camera_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_camera_washer_1.stl",
+      "step_mm": "cad/left_camera_washer_1.step",
+      "mesh_sha256": "7dfd4430de709d476b4bb8df2191e56980b521615da3aab030ddb2335660756f",
+      "step_sha256": "fb76f6a2e8ff64e60341201776edab70a1a6a21fd9ec9897a37ad3df510ebc74",
+      "volume_mm3": 15.221016406642546,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/left_camera_washer_1.stl",
+      "sha256": "7dfd4430de709d476b4bb8df2191e56980b521615da3aab030ddb2335660756f",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          0.06371508538722992,
+          0.03454824164509773,
+          -0.03223000466823578
+        ],
+        [
+          0.0707109197974205,
+          0.0414661280810833,
+          -0.02978205308318138
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_metal_base",
+      "side": "right",
+      "kind": "mount_base",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_metal_base.stl",
+      "step_mm": "cad/right_metal_base.step",
+      "mesh_sha256": "aaf3b411b9ee954c08e381a5ae213506d6836aab1e805b68c1d23ec727683b01",
+      "step_sha256": "6323eb47e333953ca25d8d2b0f3315c65727562b24e8324ff72ea374acc96e3e",
+      "volume_mm3": 14497.247076572723,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_metal_base.stl",
+      "sha256": "aaf3b411b9ee954c08e381a5ae213506d6836aab1e805b68c1d23ec727683b01",
+      "triangle_count": 32380,
+      "bounds_palm_m": [
+        [
+          -0.06599999964237213,
+          -0.028206150978803635,
+          -0.03150000050663948
+        ],
+        [
+          0.028206150978803635,
+          0.028206150978803635,
+          -0.014000000432133675
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_wrist_reference",
+      "side": "right",
+      "kind": "reference_interface",
+      "rgba": [
+        0.43,
+        0.47,
+        0.52,
+        1.0
+      ],
+      "mesh": "parts/right_wrist_reference.stl",
+      "step_mm": "cad/right_wrist_reference.step",
+      "mesh_sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "step_sha256": "48b77efc946c5a1b062d9b9c981984dc5439fb17bdd5f7c11919b46818508a57",
+      "volume_mm3": 13373.783774421392,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_wrist_reference.stl",
+      "sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "triangle_count": 75490,
+      "bounds_palm_m": [
+        [
+          -0.020999999716877937,
+          -0.02401668205857277,
+          -0.028999999165534973
+        ],
+        [
+          0.020999999716877937,
+          0.02401668205857277,
+          0.0020000000949949026
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_printed_carrier",
+      "side": "right",
+      "kind": "printed",
+      "rgba": [
+        0.2,
+        0.22,
+        0.25,
+        1.0
+      ],
+      "mesh": "parts/right_printed_carrier.stl",
+      "step_mm": "cad/right_printed_carrier.step",
+      "mesh_sha256": "cb43495e61a74158137bedcfb087bf3bb3c2621b2da0e7311da501d17466fc89",
+      "step_sha256": "9a67988b24f4a42f91b6d9e1b519fd9f08a2c6536c6004f82483ac4bb2e23e87",
+      "volume_mm3": 9660.563618984672,
+      "solid_valid": true,
+      "solid_count": 1,
+      "review_print_mesh_mm": "cad/right_printed_carrier_mm.stl",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_printed_carrier.stl",
+      "sha256": "cb43495e61a74158137bedcfb087bf3bb3c2621b2da0e7311da501d17466fc89",
+      "triangle_count": 9610,
+      "bounds_palm_m": [
+        [
+          -0.08123741298913956,
+          -0.041301995515823364,
+          -0.05044102668762207
+        ],
+        [
+          -0.034605298191308975,
+          0.017999999225139618,
+          -0.013489071279764175
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_D405_envelope",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.78,
+        0.79,
+        0.8,
+        1.0
+      ],
+      "mesh": "parts/right_D405_envelope.stl",
+      "step_mm": "cad/right_D405_envelope.step",
+      "mesh_sha256": "537d7fed97474e99ca9e4ceb21a53a10cafd89b7ccfd5201823e5a9089c89325",
+      "step_sha256": "f528c29887f0f1ee2ff8861514c00c07ae0ad0ac99f9221d7b50d71f7d1beabe",
+      "volume_mm3": 40077.914228283305,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_housing",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_D405_envelope.stl",
+      "sha256": "537d7fed97474e99ca9e4ceb21a53a10cafd89b7ccfd5201823e5a9089c89325",
+      "triangle_count": 5364,
+      "bounds_palm_m": [
+        [
+          -0.0818498283624649,
+          -0.06266428530216217,
+          -0.05206958204507828
+        ],
+        [
+          -0.029343461617827415,
+          -0.018988732248544693,
+          0.003870026906952262
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_window_0",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/right_window_0.stl",
+      "step_mm": "cad/right_window_0.step",
+      "mesh_sha256": "2574af6031eb0b8eeb93ff825f57b63b2b9bb012add847dabfe642be444bd135",
+      "step_sha256": "8b28edd30d577c7b3354b6ebe9a764cae4ca3d02ed2cce93a40026fb652be417",
+      "volume_mm3": 22.628891883807306,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_window_0.stl",
+      "sha256": "2574af6031eb0b8eeb93ff825f57b63b2b9bb012add847dabfe642be444bd135",
+      "triangle_count": 1964,
+      "bounds_palm_m": [
+        [
+          -0.04991334304213524,
+          -0.05279546231031418,
+          -0.02428658865392208
+        ],
+        [
+          -0.04020630940794945,
+          -0.046646151691675186,
+          -0.016118241474032402
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_window_1",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/right_window_1.stl",
+      "step_mm": "cad/right_window_1.step",
+      "mesh_sha256": "275971a8d87d4f8d83a23f47f4a6390a2ddabe80feafd25ad26a0afc5bf2551c",
+      "step_sha256": "e21465a448b725d06d8797a8fe15d41a4bcfc04908c46bf70100ee2e4b2edd68",
+      "volume_mm3": 22.62889188380731,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window",
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_window_1.stl",
+      "sha256": "275971a8d87d4f8d83a23f47f4a6390a2ddabe80feafd25ad26a0afc5bf2551c",
+      "triangle_count": 1964,
+      "bounds_palm_m": [
+        [
+          -0.06717513501644135,
+          -0.05279546231031418,
+          -0.019184580072760582
+        ],
+        [
+          -0.05746810510754585,
+          -0.046646151691675186,
+          -0.011016234755516052
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_screw_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_0.stl",
+      "step_mm": "cad/right_foot_screw_0.step",
+      "mesh_sha256": "0f56ec62f0c75190b5775a628b53901d54306b59c979767212471afe0873182c",
+      "step_sha256": "adad00f91d9cfb47e5d25b3b4ac2006756f5aab4ac6c4748ce56ef1fc65e9b51",
+      "volume_mm3": 191.47292939295644,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_0.stl",
+      "sha256": "0f56ec62f0c75190b5775a628b53901d54306b59c979767212471afe0873182c",
+      "triangle_count": 2036,
+      "bounds_palm_m": [
+        [
+          -0.052749790251255035,
+          0.007250051945447922,
+          -0.027499999850988388
+        ],
+        [
+          -0.04724999889731407,
+          0.012749947607517242,
+          -0.006500000134110451
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_screw_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_washer_0.stl",
+      "step_mm": "cad/right_foot_screw_washer_0.step",
+      "mesh_sha256": "4b447e211c7443c57df3d942709f5c4f5cfdccb87d9f2e8b842d7b8908703dfa",
+      "step_sha256": "703eb2a7709917ad98b38abcbb0e2c38788f80efafbcce2a27251d4db7be7103",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_washer_0.stl",
+      "sha256": "4b447e211c7443c57df3d942709f5c4f5cfdccb87d9f2e8b842d7b8908703dfa",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.05350000038743019,
+          0.006500000134110451,
+          -0.02449999935925007
+        ],
+        [
+          -0.04650000110268593,
+          0.013500000350177288,
+          -0.024000000208616257
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_nut_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_nut_washer_0.stl",
+      "step_mm": "cad/right_foot_nut_washer_0.step",
+      "mesh_sha256": "4f368d7420df66debee086c0ce1a674ac7b4e60d9d36be19ee1c7dcc44f6de69",
+      "step_sha256": "6d03ac8eab369686915cd74bde86c9b0f49975f54891d1547e27a5f82c773717",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_nut_washer_0.stl",
+      "sha256": "4f368d7420df66debee086c0ce1a674ac7b4e60d9d36be19ee1c7dcc44f6de69",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.05350000038743019,
+          0.006500000134110451,
+          -0.014000000432133675
+        ],
+        [
+          -0.04650000110268593,
+          0.013500000350177288,
+          -0.013500000350177288
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_locknut_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_locknut_0.stl",
+      "step_mm": "cad/right_foot_locknut_0.step",
+      "mesh_sha256": "e33b4c604e56b09df5a84e29f159f9328cd50a2e9904ddc11e29c977e40df675",
+      "step_sha256": "e8098bc48c7ddee7346cb987aadce33f8617704da2672b031e02a68840ffa858",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_locknut_0.stl",
+      "sha256": "e33b4c604e56b09df5a84e29f159f9328cd50a2e9904ddc11e29c977e40df675",
+      "triangle_count": 1116,
+      "bounds_palm_m": [
+        [
+          -0.0531754270195961,
+          0.007249999791383743,
+          -0.013500000350177288
+        ],
+        [
+          -0.04682457447052002,
+          0.012749999761581421,
+          -0.009499999694526196
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_screw_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_1.stl",
+      "step_mm": "cad/right_foot_screw_1.step",
+      "mesh_sha256": "e2be10874c70c9d17276f457834afba594c761b81cf042a6444fcddba6d03870",
+      "step_sha256": "aa9a1ff367a2fb24b1dde53871e03b2ece5f6ef0d989f63e4f3ce9bc9a2ac630",
+      "volume_mm3": 191.47292939295644,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_1.stl",
+      "sha256": "e2be10874c70c9d17276f457834afba594c761b81cf042a6444fcddba6d03870",
+      "triangle_count": 2036,
+      "bounds_palm_m": [
+        [
+          -0.052749790251255035,
+          -0.012749947607517242,
+          -0.027499999850988388
+        ],
+        [
+          -0.04724999889731407,
+          -0.007250051945447922,
+          -0.006500000134110451
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_screw_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_washer_1.stl",
+      "step_mm": "cad/right_foot_screw_washer_1.step",
+      "mesh_sha256": "fad6384041c3d91357e8b3fe0236d67f701d2f50e00f70bcaed933b0b9d71fcb",
+      "step_sha256": "f84ba9b8d41fac7880e549f415f811b360b3fea651cf8439c870f4c654e47f91",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_screw_washer_1.stl",
+      "sha256": "fad6384041c3d91357e8b3fe0236d67f701d2f50e00f70bcaed933b0b9d71fcb",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.05350000038743019,
+          -0.013500000350177288,
+          -0.02449999935925007
+        ],
+        [
+          -0.04650000110268593,
+          -0.006500000134110451,
+          -0.024000000208616257
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_nut_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_nut_washer_1.stl",
+      "step_mm": "cad/right_foot_nut_washer_1.step",
+      "mesh_sha256": "bc6020a713c23e72f8121d23d755dc0ce8b682f14a7f78f5132c3280d884198b",
+      "step_sha256": "4f23f44462908da0db98cc776c235b2161d9cfb09c9007fa24d9e4a5268e13dd",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_nut_washer_1.stl",
+      "sha256": "bc6020a713c23e72f8121d23d755dc0ce8b682f14a7f78f5132c3280d884198b",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.05350000038743019,
+          -0.013500000350177288,
+          -0.014000000432133675
+        ],
+        [
+          -0.04650000110268593,
+          -0.006500000134110451,
+          -0.013500000350177288
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_foot_locknut_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_locknut_1.stl",
+      "step_mm": "cad/right_foot_locknut_1.step",
+      "mesh_sha256": "4bf4309fcabd8ecfb883599029fe5280325b2f7daf41fd873b3d5edcb186512a",
+      "step_sha256": "18beeb26f62d8841e5433196f8e0266448c8eb0a02639235e995d327bb1c1ff5",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_foot_locknut_1.stl",
+      "sha256": "4bf4309fcabd8ecfb883599029fe5280325b2f7daf41fd873b3d5edcb186512a",
+      "triangle_count": 1116,
+      "bounds_palm_m": [
+        [
+          -0.0531754270195961,
+          -0.012749999761581421,
+          -0.013500000350177288
+        ],
+        [
+          -0.04682457447052002,
+          -0.007249999791383743,
+          -0.009499999694526196
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_camera_screw_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_camera_screw_0.stl",
+      "step_mm": "cad/right_camera_screw_0.step",
+      "mesh_sha256": "c98cef003226a5606c2e096e28916f0c8f5b2d750b4b209f76bac5d65c265d48",
+      "step_sha256": "f92305f9b5669a6fbba3866a1728aa912b4af5e9c066ca2ccb13bb9b41aacaf6",
+      "volume_mm3": 120.78709468718617,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_screw_0.stl",
+      "sha256": "c98cef003226a5606c2e096e28916f0c8f5b2d750b4b209f76bac5d65c265d48",
+      "triangle_count": 2428,
+      "bounds_palm_m": [
+        [
+          -0.05199811980128288,
+          -0.035189952701330185,
+          -0.04028158262372017
+        ],
+        [
+          -0.04593050107359886,
+          -0.023852365091443062,
+          -0.030452817678451538
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_camera_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_camera_washer_0.stl",
+      "step_mm": "cad/right_camera_washer_0.step",
+      "mesh_sha256": "19d39844d0a390b400cf02ce9223c879df1ab4e2b674f97f328bc4121da132a2",
+      "step_sha256": "4c2b63f16de33cf132e303c146d6e6c1ba7752057681f2412354116e8451d0b9",
+      "volume_mm3": 15.221016406642558,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_washer_0.stl",
+      "sha256": "19d39844d0a390b400cf02ce9223c879df1ab4e2b674f97f328bc4121da132a2",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.05222439020872116,
+          -0.030413387343287468,
+          -0.03915845602750778
+        ],
+        [
+          -0.04524194449186325,
+          -0.02579316310584545,
+          -0.03315868228673935
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_camera_screw_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_camera_screw_1.stl",
+      "step_mm": "cad/right_camera_screw_1.step",
+      "mesh_sha256": "57be5193f7d894049fbc4b07a4b5b4fb4bd180b3c5cb0c582205911909267964",
+      "step_sha256": "1189e2340a9b0583d30dd24dde709b521e2502f485e64634761a31e628917cbb",
+      "volume_mm3": 120.78709468718611,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_screw_1.stl",
+      "sha256": "57be5193f7d894049fbc4b07a4b5b4fb4bd180b3c5cb0c582205911909267964",
+      "triangle_count": 2428,
+      "bounds_palm_m": [
+        [
+          -0.0711778923869133,
+          -0.035189952701330185,
+          -0.034612685441970825
+        ],
+        [
+          -0.06511027365922928,
+          -0.023852365091443062,
+          -0.024783918634057045
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    },
+    {
+      "id": "right_camera_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_camera_washer_1.stl",
+      "step_mm": "cad/right_camera_washer_1.step",
+      "mesh_sha256": "ab4a609cbd5b13715d03c59f6cdcba912541e33abcac15c1e8572ace507e4c25",
+      "step_sha256": "4cfe2c17800f1c4d58f14165ce24a8a7ceb53a7db713d913ec9abea2c036acfd",
+      "volume_mm3": 15.221016406642558,
+      "solid_valid": true,
+      "solid_count": 1,
+      "resolved_mesh": "/dev/shm/spincoat-left-rectangle-20261027/mechanical_redesign/cad_candidate_14_bilateral_rectangles/parts/right_camera_washer_1.stl",
+      "sha256": "ab4a609cbd5b13715d03c59f6cdcba912541e33abcac15c1e8572ace507e4c25",
+      "triangle_count": 2788,
+      "bounds_palm_m": [
+        [
+          -0.07140415906906128,
+          -0.030413387343287468,
+          -0.03348955884575844
+        ],
+        [
+          -0.06442171335220337,
+          -0.02579316310584545,
+          -0.027489786967635155
+        ]
+      ],
+      "vertices_already_in_palm_frame": true,
+      "applied_scale": 1.0,
+      "rendering": "original STL triangles; no hull, hole markers, repair or substituted solid"
+    }
+  ],
+  "requested_times_s": [
+    24.0,
+    39.5,
+    59.5,
+    130.241
+  ],
+  "synchronized_frame_count": 4,
+  "native_image_size_wh": [
+    1280,
+    720
+  ],
+  "native_png_count": 12,
+  "standalone_png_count": 22,
+  "synchronized_frames": "frames.jsonl",
+  "standalone_views": "views.json",
+  "index_sha256": {
+    "frames.jsonl": "5833c7e2a9a7bf2406abc387066068fdc1bcd105d1de9bb8c137344c816152d9",
+    "views.json": "0fbd3d60b3aaebc64648148399bb9c5ddc3e15254bb8e90b66d693c222afb193"
+  },
+  "mounts": [
+    {
+      "id": "cam_head",
+      "native_camera": "head_stereo_left",
+      "original": {
+        "body": "head_stereo_left",
+        "position_local_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "quaternion_local_wxyz": [
+          -0.5,
+          -0.5,
+          0.5,
+          0.5
+        ],
+        "vertical_fov_deg": 81.0
+      },
+      "mount_body": "head_stereo_left",
+      "position_local_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_camera_gl_in_mount_wxyz": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "vertical_fov_deg": 81.0,
+      "fixed_relative_to_mount": true,
+      "artificial_stereo_ipd_m": 0.0
+    },
+    {
+      "id": "cam_left_wrist",
+      "native_camera": "left_wrist_rgbd",
+      "original": {
+        "body": "arm_left_tool_cam",
+        "position_local_m": [
+          0.011421,
+          0.058882,
+          0.0442601
+        ],
+        "quaternion_local_wxyz": [
+          0.7031084599982904,
+          -0.7109134651045994,
+          -0.009037425912601975,
+          -0.012604108246051036
+        ],
+        "vertical_fov_deg": 60.0
+      },
+      "mount_body": "sharpa_left/left_hand_C_MC",
+      "position_local_m": [
+        0.055,
+        0.04,
+        0.0
+      ],
+      "quaternion_camera_gl_in_mount_wxyz": [
+        -0.09773023311928532,
+        0.9592499899273706,
+        -0.2442741628224186,
+        -0.10304558086689647
+      ],
+      "vertical_fov_deg": 60.0,
+      "fixed_relative_to_mount": true,
+      "artificial_stereo_ipd_m": 0.0
+    },
+    {
+      "id": "cam_right_wrist",
+      "native_camera": "right_wrist_rgbd",
+      "original": {
+        "body": "arm_right_tool_cam",
+        "position_local_m": [
+          0.00772,
+          0.05592,
+          0.04319
+        ],
+        "quaternion_local_wxyz": [
+          -0.713060862164657,
+          0.7006908645557893,
+          0.013493697391655459,
+          0.0198604961609472
+        ],
+        "vertical_fov_deg": 60.0
+      },
+      "mount_body": "sharpa_right/right_hand_C_MC",
+      "position_local_m": [
+        -0.045,
+        -0.05,
+        -0.02
+      ],
+      "quaternion_camera_gl_in_mount_wxyz": [
+        -0.12820286713975193,
+        0.06379467684966753,
+        0.8860556642522333,
+        0.4409077272052819
+      ],
+      "vertical_fov_deg": 60.0,
+      "fixed_relative_to_mount": true,
+      "artificial_stereo_ipd_m": 0.0
+    }
+  ],
+  "original_near_clip_m": 0.10826136929710298,
+  "near_clip_m_by_camera": {
+    "cam_head": 0.10826136929710298,
+    "cam_left_wrist": 0.003,
+    "cam_right_wrist": 0.003
+  },
+  "native_optical_probes": [
+    {
+      "camera": "cam_head",
+      "source_frame_index": 1200,
+      "physical_time_s": 24.00000000000635,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        4.687428401686771e-13,
+        0.22464559374729504,
+        0.14967159552631346
+      ],
+      "maximum_error_px": 0.22464559374729504
+    },
+    {
+      "camera": "cam_left_wrist",
+      "source_frame_index": 1200,
+      "physical_time_s": 24.00000000000635,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        7.958078640513122e-13,
+        0.2277387054084147,
+        0.18711551082986927
+      ],
+      "maximum_error_px": 0.2277387054084147
+    },
+    {
+      "camera": "cam_right_wrist",
+      "source_frame_index": 1200,
+      "physical_time_s": 24.00000000000635,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        0.0,
+        0.2277387054072841,
+        0.18711551082866576
+      ],
+      "maximum_error_px": 0.2277387054072841
+    },
+    {
+      "camera": "cam_head",
+      "source_frame_index": 1975,
+      "physical_time_s": 39.49999999999864,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        0.0,
+        0.22464559374700538,
+        0.14967159552631346
+      ],
+      "maximum_error_px": 0.22464559374700538
+    },
+    {
+      "camera": "cam_left_wrist",
+      "source_frame_index": 1975,
+      "physical_time_s": 39.49999999999864,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        0.0,
+        0.22773870540713514,
+        0.1871155108292666
+      ],
+      "maximum_error_px": 0.22773870540713514
+    },
+    {
+      "camera": "cam_right_wrist",
+      "source_frame_index": 1975,
+      "physical_time_s": 39.49999999999864,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        3.410605131648481e-13,
+        0.2277387054072841,
+        0.18711551082890554
+      ],
+      "maximum_error_px": 0.2277387054072841
+    },
+    {
+      "camera": "cam_head",
+      "source_frame_index": 2975,
+      "physical_time_s": 59.49999999995203,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        4.1382633578908315e-13,
+        0.22464559374729504,
+        0.1496715955263911
+      ],
+      "maximum_error_px": 0.22464559374729504
+    },
+    {
+      "camera": "cam_left_wrist",
+      "source_frame_index": 2975,
+      "physical_time_s": 59.49999999995203,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        1.2710574864626038e-12,
+        0.22773870540681843,
+        0.1871155108292381
+      ],
+      "maximum_error_px": 0.22773870540681843
+    },
+    {
+      "camera": "cam_right_wrist",
+      "source_frame_index": 2975,
+      "physical_time_s": 59.49999999995203,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        3.410605131648481e-13,
+        0.22773870540739702,
+        0.18711551082926936
+      ],
+      "maximum_error_px": 0.22773870540739702
+    },
+    {
+      "camera": "cam_head",
+      "source_frame_index": 6521,
+      "physical_time_s": 130.24100000025783,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        2.2737367544323206e-13,
+        0.22464559374704623,
+        0.14967159552574832
+      ],
+      "maximum_error_px": 0.22464559374704623
+    },
+    {
+      "camera": "cam_left_wrist",
+      "source_frame_index": 6521,
+      "physical_time_s": 130.24100000025783,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        3.410605131648481e-13,
+        0.227738705407379,
+        0.18711551082926936
+      ],
+      "maximum_error_px": 0.227738705407379
+    },
+    {
+      "camera": "cam_right_wrist",
+      "source_frame_index": 6521,
+      "physical_time_s": 130.24100000025783,
+      "scope": "isolated_optical_targets_after_native_visual_uploads",
+      "native_marker_projection_error_px": [
+        0.0,
+        0.14388736059806573,
+        0.1871155108294292
+      ],
+      "maximum_error_px": 0.1871155108294292
+    }
+  ],
+  "native_render_preservation_checks": [
+    {
+      "camera": "cam_head",
+      "source_frame_index": 1200,
+      "scope": "full original scene before/after list allocation, no added geoms",
+      "exact_pixel_match": false,
+      "maximum_channel_error": 1,
+      "measured_native_repeat_maximum_channel_error": 1,
+      "changed_rgb_pixels": 11,
+      "exact_depth_match": true,
+      "exact_draw_geometry_match": true,
+      "native_rgb_sha256": "6bd60efabefeff3067e34085d49e1f5413922fd850ee51948ac3bef441d3c481",
+      "native_depth_sha256": "b2bb686a069679502e0e9c09a405793a8de7221afa1cc4735d3528728a492851",
+      "native_draw_geometry_sha256": "44f2d02a38f9ad9a2c2a392a031c83db0875425b33d3cd4f4c64d7c09e019b2a",
+      "optical_probe": {
+        "scope": "isolated_optical_targets_after_native_visual_uploads",
+        "native_marker_projection_error_px": [
+          4.687428401686771e-13,
+          0.22464559374729504,
+          0.14967159552631346
+        ],
+        "maximum_error_px": 0.22464559374729504
+      }
+    },
+    {
+      "camera": "cam_left_wrist",
+      "source_frame_index": 1200,
+      "scope": "full original scene before/after list allocation, no added geoms",
+      "exact_pixel_match": false,
+      "maximum_channel_error": 1,
+      "measured_native_repeat_maximum_channel_error": 1,
+      "changed_rgb_pixels": 30,
+      "exact_depth_match": true,
+      "exact_draw_geometry_match": true,
+      "native_rgb_sha256": "ea845b4591407cdeaee795ec81a472c2d682e9c9f9c33c60b6ebe9b9111c93b5",
+      "native_depth_sha256": "5a282500dcaf3df58965365b9207f18d7dc59ee19ab496952fecf02fd631e35b",
+      "native_draw_geometry_sha256": "44f2d02a38f9ad9a2c2a392a031c83db0875425b33d3cd4f4c64d7c09e019b2a",
+      "optical_probe": {
+        "scope": "isolated_optical_targets_after_native_visual_uploads",
+        "native_marker_projection_error_px": [
+          7.958078640513122e-13,
+          0.2277387054084147,
+          0.18711551082986927
+        ],
+        "maximum_error_px": 0.2277387054084147
+      }
+    },
+    {
+      "camera": "cam_right_wrist",
+      "source_frame_index": 1200,
+      "scope": "full original scene before/after list allocation, no added geoms",
+      "exact_pixel_match": false,
+      "maximum_channel_error": 1,
+      "measured_native_repeat_maximum_channel_error": 1,
+      "changed_rgb_pixels": 9,
+      "exact_depth_match": true,
+      "exact_draw_geometry_match": true,
+      "native_rgb_sha256": "ed3ddcdcbca5029caeec3c62f358f20e26149eef4165dd91cb96b6fcc3a2f511",
+      "native_depth_sha256": "0711e8223a7213ed3ce7a5631e19d4bc797f3c4c7a939fea0c29ff47ff0261ca",
+      "native_draw_geometry_sha256": "44f2d02a38f9ad9a2c2a392a031c83db0875425b33d3cd4f4c64d7c09e019b2a",
+      "optical_probe": {
+        "scope": "isolated_optical_targets_after_native_visual_uploads",
+        "native_marker_projection_error_px": [
+          0.0,
+          0.2277387054072841,
+          0.18711551082866576
+        ],
+        "maximum_error_px": 0.2277387054072841
+      }
+    }
+  ],
+  "maximum_native_optical_error_px": 0.2277387054084147,
+  "shared_native_mesh_isolation": {
+    "relocated": true,
+    "original_mesh_base": 3,
+    "mesh_list_count": 248,
+    "builtin_base": 250,
+    "new_mesh_base": 642
+  },
+  "owned_mesh_lists": {
+    "original_mesh_base": 642,
+    "native_list_count": 248,
+    "native_mesh_count": 124,
+    "added_list_count": 36,
+    "ownership": "expanded range plus originally empty native gap reservations",
+    "native_surface_and_hull_slots_preserved": true,
+    "later_liquid_uploads_use_expanded_native_prefix": true,
+    "released_before_context_destruction": true,
+    "expanded_mesh_base": 890,
+    "expanded_list_count": 284,
+    "reserved_original_gap_count": 90,
+    "part_list_offsets": {
+      "left_metal_base": 248,
+      "left_wrist_reference": 249,
+      "left_printed_carrier": 250,
+      "left_D405_envelope": 251,
+      "left_window_0": 252,
+      "left_window_1": 253,
+      "left_foot_screw_0": 254,
+      "left_foot_screw_washer_0": 255,
+      "left_foot_nut_washer_0": 256,
+      "left_foot_locknut_0": 257,
+      "left_foot_screw_1": 258,
+      "left_foot_screw_washer_1": 259,
+      "left_foot_nut_washer_1": 260,
+      "left_foot_locknut_1": 261,
+      "left_camera_screw_0": 262,
+      "left_camera_washer_0": 263,
+      "left_camera_screw_1": 264,
+      "left_camera_washer_1": 265,
+      "right_metal_base": 266,
+      "right_wrist_reference": 267,
+      "right_printed_carrier": 268,
+      "right_D405_envelope": 269,
+      "right_window_0": 270,
+      "right_window_1": 271,
+      "right_foot_screw_0": 272,
+      "right_foot_screw_washer_0": 273,
+      "right_foot_nut_washer_0": 274,
+      "right_foot_locknut_0": 275,
+      "right_foot_screw_1": 276,
+      "right_foot_screw_washer_1": 277,
+      "right_foot_nut_washer_1": 278,
+      "right_foot_locknut_1": 279,
+      "right_camera_screw_0": 280,
+      "right_camera_washer_0": 281,
+      "right_camera_screw_1": 282,
+      "right_camera_washer_1": 283
+    },
+    "preserved_other_defined_list_count": 394
+  },
+  "simulation_steps": 0,
+  "interpolation": false,
+  "source_files_unchanged": true,
+  "saved_qpos_qvel_unchanged": true,
+  "supplied_camera_specs_unchanged": true,
+  "physical_model_arrays_unchanged": true,
+  "native_scene_occluders_removed": false,
+  "static_hand_geometry": "actual source visual geoms frozen at the recorded left/right saved poses",
+  "source_visual_geom_groups": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "source_liquid_visual_adapters_retained": true,
+  "actual_t1_adapter_resolved": false,
+  "manufacturing_ready": false,
+  "hardware_fit_certified": false,
+  "clearance_certified": false,
+  "limitations": [
+    "A custom metal replacement flange with accessory ear is proposed; OEM approval and actual T1 adapter data are absent",
+    "The original arm/hand axial stack is not redesigned or certified by these parts",
+    "Printed PA12 is a material candidate; creep, fatigue, solvent compatibility and dynamic deflection are unverified",
+    "The low-profile carriers are geometric designs, not validated stiffness or manufacturing-process specifications",
+    "D405 is a documented camera candidate, not a confirmed camera selection; ideal60-degree source views are not its hardware calibration",
+    "Public CAD and URDF visual meshes differ; their model-based coordinate registration is not a measured hardware calibration",
+    "Connector keepouts are design allowances, not verified cable dimensions or full-motion cable routing",
+    "Source V31 replay/sweep and actual T1 fit must be reported separately from static CAD checks",
+    "Render STL files are in metres; CAD STEP and review-print STL files are in millimetres and are not released for manufacture",
+    "The actual T1-to-Sharpa adapter and its mating stack are unresolved; no replacement mating surface is synthesized.",
+    "Hand-side display assemblies are proposals, not validated installation on T1 or approval to modify hand hardware.",
+    "Camera envelopes are the supplied CAD candidates, not identification of the original T1 camera or physical D405 calibration.",
+    "Onboard optics are the unchanged supplied ideal simulated camera specifications, not measured hardware calibration.",
+    "The inherited head-only near-clipping approximation can bypass the original closed head shell; it is not physical clearance.",
+    "Static review views isolate the hand and supplied parts only; native onboard views retain all original Replay occluders.",
+    "No physical fit, assembly access, stiffness, load capacity, dynamics, or clearance pass is inferred from these images.",
+    "The source V31 grasp/stability acceptance is not changed by this visualization."
+  ],
+  "runtime": {
+    "mujoco": "3.6.0",
+    "numpy": "2.4.6",
+    "trimesh": "5.2.0",
+    "mujoco_gl": "egl",
+    "pyopengl_platform": "egl"
+  }
+}

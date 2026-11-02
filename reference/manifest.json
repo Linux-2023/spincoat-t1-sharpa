@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "source_episode": "walledge_native_11_layout_002",
+  "native_version_id": "r08_walledge_native_11_6f2be2a0",
+  "native_duration_s": 86.267,
+  "frame_count": 2589,
+  "timing": "Preserved native11 executed 2x/4x motion references; not a new original-time 1x run and not slowed video.",
+  "model_binaries_included": false,
+  "files": {
+    "action_manifest.json": {
+      "sha256": "c588d346fb1816525dd9f36b2264247462a2b7f4d5283d4bb57fcd4ab2565003",
+      "bytes": 4737
+    },
+    "actions_30hz.npz": {
+      "sha256": "5bd2740c51b15f82775e384bd22b649a7d46cf8cd1e9d00ba3e9c8ef1280aa57",
+      "bytes": 244659
+    },
+    "audited_display_labels.json": {
+      "sha256": "eae07d73818c1abbec8cccff3487e10720ce46094e6e4c17854a065fdfc61b24",
+      "bytes": 3722
+    },
+    "replay/aspiration.npz": {
+      "sha256": "f317fb3b16f1617b0f322efb5555daa218fd9de91323874d9449cac859384a7a",
+      "bytes": 670008
+    },
+    "replay/coating.npz": {
+      "sha256": "7f511467556cd31e0b9474e17f140574aad1247a5d1eff69b1211d29c9b26038",
+      "bytes": 4845856
+    },
+    "replay/dual_arm_overlap.json": {
+      "sha256": "c0fb449cd6675b36d6f1bc6907dcb41a5c09d48b4f12026b8c21d94b75d4efb8",
+      "bytes": 7264
+    },
+    "replay/dual_arm_overlap_trace.npz": {
+      "sha256": "3e0942b2e2e09291af079de9efc4b941eda4300f8d1b6054e48946ef729197b7",
+      "bytes": 875551
+    },
+    "replay/episode.npz": {
+      "sha256": "92386b893ded9a724a8eb242b590610f6a5f51e8437d16305199ce4e6f43523a",
+      "bytes": 16767745
+    },
+    "replay/finish.npz": {
+      "sha256": "7c103a7b54eb0a7d3fdc7d5de6898983a51843a913734c4cd8c226b3332784a1",
+      "bytes": 2770789
+    },
+    "replay/grasp.npz": {
+      "sha256": "13f6e5eb9f4d2039b9ac54b7eafcf72b8dc51e07f4f167fd52a03cc0c99df787",
+      "bytes": 966430
+    },
+    "replay/handoff_aspiration_end.npz": {
+      "sha256": "ab45be1b56b421018a350abf4ed6dc14d294f5d431256d20d5275d2dc63d5e4a",
+      "bytes": 3812
+    },
+    "replay/handoff_coat_end.npz": {
+      "sha256": "f828e9c7c80e55e8401473a1df2cd6673554799569b4b02050d57fa9209ebfb3",
+      "bytes": 3812
+    },
+    "replay/handoff_coat_start.npz": {
+      "sha256": "67edcdf363d9c95e4790297c9cfab69a63ecd9e9789637a479f6466bafe47736",
+      "bytes": 3818
+    },
+    "replay/handoff_grasp_end.npz": {
+      "sha256": "c46e9d8f32ec4c5415042c4c432661794d7c9681cfd12f107462b68cbfcc4f66",
+      "bytes": 3816
+    },
+    "replay/handoff_initial.npz": {
+      "sha256": "e19e386ff776c47f992ccf4f43226bd41110253f2c8439a23ee295086fe1a90a",
+      "bytes": 1180
+    },
+    "replay/handoff_mobile_end.npz": {
+      "sha256": "67edcdf363d9c95e4790297c9cfab69a63ecd9e9789637a479f6466bafe47736",
+      "bytes": 3818
+    },
+    "replay/handoff_reagent_preparation_end.npz": {
+      "sha256": "3c354efe4359ac561c06c472986369537640da6ded178810f1228f1763b07ed9",
+      "bytes": 3680
+    },
+    "replay/handoff_v6_right_aspiration_dock_end.npz": {
+      "sha256": "735e1abad0d1dc49d47b6325b23bbe8bbbe98ca7773e00c022375f06739cbe78",
+      "bytes": 3815
+    },
+    "replay/handoff_v6_right_direct_cup_end.npz": {
+      "sha256": "31cffd33e61d5d3eef08183d25e379c349608564b5d8f0c2e8f1e1146a06aab6",
+      "bytes": 3811
+    },
+    "replay/handoff_v6_right_grasp_dock_end.npz": {
+      "sha256": "56827f7b2f5061d5efbaa4f76d19eac16ffd235e26852ab962061c55c663f9e6",
+      "bytes": 3684
+    },
+    "replay/handoff_view_clearance_end.npz": {
+      "sha256": "67edcdf363d9c95e4790297c9cfab69a63ecd9e9789637a479f6466bafe47736",
+      "bytes": 3818
+    },
+    "replay/interior_workflow_v6_provenance.json": {
+      "sha256": "fb84ffe0f0f3019efb96dc121de6293d2fc55c6ec7b3c964bcaa9744e4bbc32c",
+      "bytes": 1017
+    },
+    "replay/mobile.npz": {
+      "sha256": "db60aeb53943986118654fe84f66725f527c3c28dd725345f73863b3ba69d904",
+      "bytes": 487430
+    },
+    "replay/reagent_preparation.npz": {
+      "sha256": "126c90971797cf194442e4f81f9dcd35cf519ce5f0baee9d5202afd733a71ab1",
+      "bytes": 6388781
+    },
+    "replay/reagent_preparation/gravity_liquid_record.json": {
+      "sha256": "1830a9a4993bd4e1b013f5f5c7300b7895741ffff790a9b6d263008b1bce4fa6",
+      "bytes": 2400374
+    },
+    "replay/reagent_preparation/preparation_config.json": {
+      "sha256": "c0cd30b13b43a673a3cd79d197b987d0ce5e47d4ef3a4792a7d2cf5f04e96b82",
+      "bytes": 1155
+    },
+    "replay/reagent_preparation/scene_handles.json": {
+      "sha256": "b755e6224cf44afa3d5eb5942d025f27c18c13cc0df66a3b331bb4b36e48548d",
+      "bytes": 3043
+    },
+    "replay/result.json": {
+      "sha256": "ac2112c0ec22e14c1c6b027582d481c716cc3b3fb6f839e543bbc3000fc62862",
+      "bytes": 423543
+    },
+    "replay/stage_recording_manifest_v7.json": {
+      "sha256": "8a74da437bed5106d01717fc027a37513371f717f739a479d77ef6f23defec41",
+      "bytes": 9583
+    },
+    "replay/v6_right_aspiration_dock.npz": {
+      "sha256": "593b412b4ecbb95b58091072f60314a3ddc505445445134902ee4ad40f865ca4",
+      "bytes": 323753
+    },
+    "replay/v6_right_direct_cup.npz": {
+      "sha256": "9ca76e27cbe21b9e0d4f8232d92a807e7a70bae187e5be4d52f30f310bcff8c6",
+      "bytes": 194011
+    },
+    "replay/v6_right_grasp_dock.npz": {
+      "sha256": "0aaf9a961e12b4ebde883a11b197f950db4d86b41e87d908a82a3ca7533f7a9a",
+      "bytes": 267416
+    },
+    "replay/view_clearance.npz": {
+      "sha256": "7776beab9634dbebb15a8b4a3ab8ea9f68e11d554675e05c14c074b86e0848d3",
+      "bytes": 4265
+    },
+    "source_manifest.json": {
+      "sha256": "3ae9ac03c6029f037c94e2123370334ac65dc21fe86eb7a6e904e9f584eb9564",
+      "bytes": 12056
+    },
+    "states_30hz.npz": {
+      "sha256": "3eed72df6f0fa8b14cf58a9d04dd8ed8fc224db8f3243c8b565141649f651123",
+      "bytes": 5990315
+    }
+  },
+  "archive": {
+    "name": "native11-successful-reference.tar.gz",
+    "bytes": 41289498,
+    "sha256": "f76ec084c27fa0cba0f752c9d18f52c7a59ee58a43c5e08d33459700a6c7bca7",
+    "url": "https://github.com/Linux-2023/spincoat-t1-sharpa/releases/download/reproducible-1x-20261102/native11-successful-reference.tar.gz"
+  }
+}

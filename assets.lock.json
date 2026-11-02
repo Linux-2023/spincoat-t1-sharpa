@@ -1,0 +1,1403 @@
+{
+  "schema_version": 1,
+  "upstreams": [
+    {
+      "repository": "Astribot-Dev/astribot_descriptions",
+      "url": "https://github.com/Astribot-Dev/astribot_descriptions.git",
+      "revision": "5ca7235afa19180f7ee5d87bfb2dd11392853143",
+      "target": "research/hardware/astribot-t1-aos",
+      "lfs_paths": [
+        "astribot_t1/mesh"
+      ]
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-urdf-usd-xml",
+      "url": "https://github.com/sharpa-robotics/sharpa-urdf-usd-xml.git",
+      "revision": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+      "target": "research/hardware/sharpa-models",
+      "lfs_paths": [
+        "wave_01"
+      ],
+      "sparse_paths": [
+        "wave_01"
+      ]
+    },
+    {
+      "repository": "CumulusAlpha/DexBioLab",
+      "url": "https://github.com/CumulusAlpha/DexBioLab.git",
+      "revision": "8f80711fad12f72aaf9c97f4d070bf6ead0d5ed5",
+      "target": "_DexBioLab",
+      "lfs_paths": [
+        "assets/meshes"
+      ],
+      "sparse_paths": [
+        "assets/mjcf/object",
+        "assets/mjcf/misc",
+        "assets/meshes/tool/pipette",
+        "assets/meshes/container/tip_200ul_vis",
+        "assets/meshes/container/tip_200ul_col"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "target": "research/hardware/grasp/probe.npz",
+      "sha256": "effe4838ef46dcb750e08bb4a36c5442a7a540c579b2eb4412a01beee359f6a0",
+      "bytes": 3913,
+      "role": "project_initialization_data",
+      "source": "assets/research/hardware/grasp/probe.npz"
+    },
+    {
+      "target": "assets/chemist_coat/button_0.obj",
+      "sha256": "edaf0f998ef141c776ab9f12b95d1584629fd48b6d5e805b4fada8578725b2ae",
+      "bytes": 3674,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/button_0.obj"
+    },
+    {
+      "target": "assets/chemist_coat/button_1.obj",
+      "sha256": "ea5256baeb93b0c9b72d296c2ad434df64b4e4dfb3d7580c0d92038b2d2a0dc8",
+      "bytes": 3674,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/button_1.obj"
+    },
+    {
+      "target": "assets/chemist_coat/button_2.obj",
+      "sha256": "f28fb08ada806d2442d1a54a6842c68cd4f055d9aa3278312bd4501b80f2a45d",
+      "bytes": 3610,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/button_2.obj"
+    },
+    {
+      "target": "assets/chemist_coat/button_3.obj",
+      "sha256": "f183660f25dc361bc98c18e66a3b07b97f1571d4095ce4434f45fe7e15d9ebc6",
+      "bytes": 3610,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/button_3.obj"
+    },
+    {
+      "target": "assets/chemist_coat/button_4.obj",
+      "sha256": "e74e0f2c2d96854736d1fe5afe3ba678a0115142587b7b8975ac3ca10e978c60",
+      "bytes": 3610,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/button_4.obj"
+    },
+    {
+      "target": "assets/chemist_coat/coat_body.obj",
+      "sha256": "890fc4c337288fdec7dc42d995d0573a3a042acbf8722c38eaf7e292ed1f3087",
+      "bytes": 728912,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/coat_body.obj"
+    },
+    {
+      "target": "assets/chemist_coat/front_seam_left.obj",
+      "sha256": "a75c78fc83ed14699518e227365ff5de04e9a9c30badd09a1cd83c611f721dbd",
+      "bytes": 50096,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/front_seam_left.obj"
+    },
+    {
+      "target": "assets/chemist_coat/front_seam_right.obj",
+      "sha256": "a84f27dea42a1c747b342098a30e2c347629bf7859c41a08c539f24308e67f3b",
+      "bytes": 50896,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/front_seam_right.obj"
+    },
+    {
+      "target": "assets/chemist_coat/hem.obj",
+      "sha256": "f4f56b82f27d6d39a08e44518a40454c6ef3fd043ad9bf96a8a4e60c6c23fa7d",
+      "bytes": 111603,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/hem.obj"
+    },
+    {
+      "target": "assets/chemist_coat/identity_tab.obj",
+      "sha256": "aedea232573bd3939d77a2029eb95428a6227d9ec7ec023f0cf8a496868ce9cb",
+      "bytes": 434,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/identity_tab.obj"
+    },
+    {
+      "target": "assets/chemist_coat/lapel_left.obj",
+      "sha256": "5b155988b12326417307a0645e73d180dd3b8e72e13cf4a40c2463e920086200",
+      "bytes": 2699,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/lapel_left.obj"
+    },
+    {
+      "target": "assets/chemist_coat/lapel_right.obj",
+      "sha256": "7c503f5cf5faa8f1eef58b8e723e74b5c28be61a35dd3bb8b904afcc8bbccbc3",
+      "bytes": 2747,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/lapel_right.obj"
+    },
+    {
+      "target": "assets/chemist_coat/lapel_stitch_left.obj",
+      "sha256": "9407816b3394c120abd99fc6b6c0f2f438dcf411c79897ed5592baa5ce085141",
+      "bytes": 3611,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/lapel_stitch_left.obj"
+    },
+    {
+      "target": "assets/chemist_coat/lapel_stitch_right.obj",
+      "sha256": "b9fe7789de4b44a88e31cdf7079d56edb20efdd089a9e38d023bf60ae5384990",
+      "bytes": 3675,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/lapel_stitch_right.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_cuff_stitch.obj",
+      "sha256": "19dec21cd907d127cf557e2498858bc64a3b136b7c4b04aa25f5f265cfb49b2a",
+      "bytes": 66145,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_cuff_stitch.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_forearm_sleeve.obj",
+      "sha256": "b4313a2c62df4f6aba9bbd4d76fd91da6477fa2c212709b0d19dfe663de46d73",
+      "bytes": 168094,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_forearm_sleeve.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_sleeve_seam.obj",
+      "sha256": "9535a79d469260679498f5a1c32b1ee7ad656f050ac2852708485c044934e10e",
+      "bytes": 20000,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_sleeve_seam.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_upper_sleeve.obj",
+      "sha256": "a4daf3bebb8fe6f8ffac49eb08f906a2462648c675c39412fdeb32d659005406",
+      "bytes": 188300,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_upper_sleeve.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_upper_stitch.obj",
+      "sha256": "f3cbbe41fb8705025c18f74d0d2caecf8414a5824fccbba6ba5b180fe7e74c27",
+      "bytes": 65971,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_upper_stitch.obj"
+    },
+    {
+      "target": "assets/chemist_coat/left_wrist_cuff.obj",
+      "sha256": "78c89dae2e75ea5a56e3bb761f04223328f339ecd0373669c089e184a11a01b8",
+      "bytes": 30074,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/left_wrist_cuff.obj"
+    },
+    {
+      "target": "assets/chemist_coat/metadata.json",
+      "sha256": "63216c1f0a0420d1f28db5fcc909bdc004f3d8bca3232ee749dd3aab210486e7",
+      "bytes": 6802,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/metadata.json"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_breast.obj",
+      "sha256": "ff20a2b89941240f3bf031652c347edf56a1731b7b9ba0069c21a500655a967e",
+      "bytes": 23551,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_breast.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_edge_breast.obj",
+      "sha256": "9e73340553b6fd9847a4e05366540f4535b47dff73315010e73fc813b7da6abd",
+      "bytes": 15488,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_edge_breast.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_edge_left_hip.obj",
+      "sha256": "187de6699ffddc3e2e82e1f9661c04c025df494b54a8b9cd57a2f1aeeaf8f4b6",
+      "bytes": 15488,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_edge_left_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_edge_right_hip.obj",
+      "sha256": "543aaf56598830637f9f91f70f6f5de9ed78fee0c449a7781077ce97efa26d35",
+      "bytes": 15744,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_edge_right_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_left_hip.obj",
+      "sha256": "fcaba27e76a328fec5cfb0ad0e92a2194ba2eea6f7f3524b2a2de395c2835723",
+      "bytes": 23723,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_left_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_right_hip.obj",
+      "sha256": "6ca032d17d8ef74f2203aa16fee4f792fd191953c7608e415b49739e42fc9c43",
+      "bytes": 24107,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_right_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_side_breast.obj",
+      "sha256": "d0959856183fa90364c50ed9a01c6ea10beb5252e83601b668606b8dfdc61257",
+      "bytes": 39680,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_side_breast.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_side_left_hip.obj",
+      "sha256": "4b67d69bd6ca866dfcbf44306c336ca1709c9223f0405420d4e3ba8a1c2a6158",
+      "bytes": 40128,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_side_left_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/pocket_side_right_hip.obj",
+      "sha256": "a8181ec1877116a1a92f201c18b3d1314bb1759ad0c8afea6e7e27b9a4aaa1f4",
+      "bytes": 40768,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/pocket_side_right_hip.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_cuff_stitch.obj",
+      "sha256": "e93a416907a7410c039a5c53f7d1c27904cbc63ba1da5daa0eb99d3f886aac94",
+      "bytes": 66161,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_cuff_stitch.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_forearm_sleeve.obj",
+      "sha256": "4426ebb4607cbcfdfbd3ab809a0c37bccccb7879f98b02a33639d592e5b6dcd3",
+      "bytes": 168189,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_forearm_sleeve.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_sleeve_seam.obj",
+      "sha256": "7b0d330e49aaad8767d4c3bfe8d43fed17f74bcf1f10eaf0188c4e427d1a3965",
+      "bytes": 19680,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_sleeve_seam.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_upper_sleeve.obj",
+      "sha256": "63b6f59a6b441fc0f0e8075bc63e2201721b6954a1935af9d63ca3ed8c4eb54a",
+      "bytes": 188407,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_upper_sleeve.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_upper_stitch.obj",
+      "sha256": "58047775ba9a07684a98b735d2a8b5037128af6360fbb6a89b0d25d8e18c9bbe",
+      "bytes": 65987,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_upper_stitch.obj"
+    },
+    {
+      "target": "assets/chemist_coat/right_wrist_cuff.obj",
+      "sha256": "009e806dbd692e62b6454866ffb6b09b87b9af036d1145d0ef05d1ae72591308",
+      "bytes": 30084,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/right_wrist_cuff.obj"
+    },
+    {
+      "target": "assets/chemist_coat/standing_collar.obj",
+      "sha256": "b24461c60d99beebd808617c807929e33066124c7bf13fd33fee7302ff4451cd",
+      "bytes": 13452,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/chemist_coat/standing_collar.obj"
+    },
+    {
+      "target": "assets/lab_context/balance_display.png",
+      "sha256": "78a34acbafe3d7301292a11032db58cc0747e68d5399270769f803fc6447e7cd",
+      "bytes": 7842,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/balance_display.png"
+    },
+    {
+      "target": "assets/lab_context/coating_solution.obj",
+      "sha256": "4eed1fa2439d1c1f2dff737b6712cc560e34a3bea8e307bfa656a2d8d4c63b03",
+      "bytes": 23833,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/coating_solution.obj"
+    },
+    {
+      "target": "assets/lab_context/coating_solution.png",
+      "sha256": "d96684b6aa48a9eceda7cd70ee261a879fbb46bb87938df77d8c98bbb5143b7a",
+      "bytes": 10742,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/coating_solution.png"
+    },
+    {
+      "target": "assets/lab_context/door_sign.png",
+      "sha256": "479705bf3d8863dd1d75642a2d3069a3fc2e0466f540e47b5f437d48166596ff",
+      "bytes": 12134,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/door_sign.png"
+    },
+    {
+      "target": "assets/lab_context/hood_status.png",
+      "sha256": "22a5318cdc86cf1e0d79de42d3e4811f2a5e40e05f4e8fc4e956394f8dfb8779",
+      "bytes": 8041,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/hood_status.png"
+    },
+    {
+      "target": "assets/lab_context/hotplate_display.png",
+      "sha256": "0afaebab3b51e914f2ade98bdd0c68dda9fa85f4e3d7eb19067d7b74d4ef23a2",
+      "bytes": 4951,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/hotplate_display.png"
+    },
+    {
+      "target": "assets/lab_context/inspection_station.png",
+      "sha256": "38786b505a82b7dc61ab596d7b9cd33e92201d837b783912537d44af7af8fca6",
+      "bytes": 11167,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/inspection_station.png"
+    },
+    {
+      "target": "assets/lab_context/preview_views.jpg",
+      "sha256": "e118dfe3a8faff4e5685b87a5606acae7764e43a0a379a8a19fd4320f3aaa378",
+      "bytes": 180569,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/preview_views.jpg"
+    },
+    {
+      "target": "assets/lab_context/provenance.json",
+      "sha256": "a939fbffe87aceaed93ca640e15873ae34b885a339fb818219cfd1d5407390ec",
+      "bytes": 1685,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/provenance.json"
+    },
+    {
+      "target": "assets/lab_context/rinse_solution.obj",
+      "sha256": "70534fb446e65b4515bec43c46612f04eaffa20305c4867fd8467ad9bfefe563",
+      "bytes": 23833,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/rinse_solution.obj"
+    },
+    {
+      "target": "assets/lab_context/rinse_solution.png",
+      "sha256": "54d1e0579df1a494b802ead025e7fcb02a25f4e7d0696c26fa72f054a88900bb",
+      "bytes": 9254,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/rinse_solution.png"
+    },
+    {
+      "target": "assets/lab_context/sample_storage.png",
+      "sha256": "aee3022588c8322323aaadc154c779595068d0e4549cb4bcc8592255a0d3b713",
+      "bytes": 10963,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/sample_storage.png"
+    },
+    {
+      "target": "assets/lab_context/solvent_waste.obj",
+      "sha256": "bd8335eb854375706b2dde935a475c30f63b32afd5bb8c7a604669c356433fa5",
+      "bytes": 23833,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/solvent_waste.obj"
+    },
+    {
+      "target": "assets/lab_context/solvent_waste.png",
+      "sha256": "a244a4e1a6be84f3a0619def2a6a39cb081cac6cea9490c5508d5526c7a969fe",
+      "bytes": 10622,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/solvent_waste.png"
+    },
+    {
+      "target": "assets/lab_context/station.png",
+      "sha256": "c00fdd527d2ee9fbecdf16b515d926f334f85547377bc3b8b39915d777cee28e",
+      "bytes": 14742,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/station.png"
+    },
+    {
+      "target": "assets/lab_context/substrates.png",
+      "sha256": "b668af6d571ff498f8e0dde0cf595a0c8e073b866fbf1118b45382718e345945",
+      "bytes": 5078,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/substrates.png"
+    },
+    {
+      "target": "assets/lab_context/tip_rack.png",
+      "sha256": "8965c84bd8d5b75c09b9a7b91165b14f263884e8fb09bf9c4e4cd824ae875e35",
+      "bytes": 5599,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/tip_rack.png"
+    },
+    {
+      "target": "assets/lab_context/wipes.png",
+      "sha256": "621cf5784cc35eee5e84f62cd3a91a663004b7e3cb59e6a34f554d582aab9d22",
+      "bytes": 5357,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/lab_context/wipes.png"
+    },
+    {
+      "target": "assets/reagent_preparation/catalog_glass_25x150.obj",
+      "sha256": "96d887b0a66999fc3710d31658a4b6f158a0a5ecf8eba126d2cab64a260304a3",
+      "bytes": 147209,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/reagent_preparation/catalog_glass_25x150.obj"
+    },
+    {
+      "target": "assets/reagent_preparation/catalog_griffin50.obj",
+      "sha256": "0f8799f0345f95425e3e8dc972e48ca7d67b8b4814916e2c3ec171b41506c33d",
+      "bytes": 33611,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/reagent_preparation/catalog_griffin50.obj"
+    },
+    {
+      "target": "assets/third_party/lab_bench/ATTRIBUTION.txt",
+      "sha256": "3e2e73537e538be4c53519ddbaec5cadd5d514f8c094620b0c0157cee735c37c",
+      "bytes": 336,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/ATTRIBUTION.txt"
+    },
+    {
+      "target": "assets/third_party/lab_bench/cabinet.obj",
+      "sha256": "d0b634e792bded1cfba799686320fa50e59b8ef875a15077089be5f12909c1bd",
+      "bytes": 8302,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/cabinet.obj"
+    },
+    {
+      "target": "assets/third_party/lab_bench/handles.obj",
+      "sha256": "061eb35b7f3a5e01617f5ff305c4235af2745156d457cf1ec6ee347925399413",
+      "bytes": 16570,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/handles.obj"
+    },
+    {
+      "target": "assets/third_party/lab_bench/lab_bench.xml",
+      "sha256": "4c6b3a073c587bb655e7775c9e68ad692596eb1eda9154e0c886953082382040",
+      "bytes": 1973,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/lab_bench.xml"
+    },
+    {
+      "target": "assets/third_party/lab_bench/material.mtl",
+      "sha256": "7048084720af46901f981e1282a98536e3e93f399978ab15a7b5e24cf76c0c0b",
+      "bytes": 178,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/material.mtl"
+    },
+    {
+      "target": "assets/third_party/lab_bench/provenance.json",
+      "sha256": "5bfc2f567a5793f2a7f327f61a4f3e94ad6dc3402b99b3326aad0677f0f90240",
+      "bytes": 2140,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/provenance.json"
+    },
+    {
+      "target": "assets/third_party/lab_bench/worktop.obj",
+      "sha256": "fc0b12cb48b1b7aeb72a637eca78602a76df97bbf7d354b9e157d2ea0898288e",
+      "bytes": 2282,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/assets/third_party/lab_bench/worktop.obj"
+    },
+    {
+      "target": "_DexBioLab/assets/mjcf/object/spincoater_prototype.xml",
+      "sha256": "3127c4cab808d9888ffd467612a8dc78173e7429caf07fdb4fa1e4817aab3846",
+      "bytes": 248484,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/_DexBioLab/assets/mjcf/object/spincoater_prototype.xml"
+    },
+    {
+      "target": "_system/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+      "sha256": "690243adfefe0ce154b547db6205794bd30ac4277275179517a90994f4980648",
+      "bytes": 757076,
+      "role": "project_generated_or_licensed_scene_data",
+      "source": "assets/_system/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    },
+    {
+      "source": "assets/inputs/ready_pose.npz",
+      "target": "inputs/ready_pose.npz",
+      "sha256": "9dcb4d3c35c13f09d2c2e1b27aac0637efd8a7dac6fa480b7cb14eebc5d3c39a",
+      "bytes": 711,
+      "role": "exact_first_reset_pose_only"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/chassis_0.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/chassis_0.stl",
+      "sha256": "a53e389ecccea1f6957ccc78b7f33df4f02914d56aec1138b1636ef1f3c5afa8",
+      "bytes": 340684,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/chassis_3.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/chassis_3.stl",
+      "sha256": "0d64570550c86331dd619747b64833f2be268375eed092fa3215d606f339ca01",
+      "bytes": 334384,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/chassis_1.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/chassis_1.stl",
+      "sha256": "0ef80efdea2ff543d62774f25c409c3a42491a3563634e3b6225a1e8383af5e0",
+      "bytes": 221284,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/spray catcher.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/spray%20catcher.stl",
+      "sha256": "3960cc0e25e11cad13f29c1580ece7d0d0b1e441c23085f9654c2d1c9e783643",
+      "bytes": 357284,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/hub.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/hub.stl",
+      "sha256": "ccf06e27c5661fbb6242e40c3de16132f97f18adebc2e6aba0b74b2748123f4d",
+      "bytes": 200384,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/sample holder example.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/sample%20holder%20example.stl",
+      "sha256": "21ea27632cab43c4b2811a58e49085673f948c48a8e6ef84773f59a48dbd960a",
+      "bytes": 109484,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/Hardware/stl/mount.stl",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/Hardware/stl/mount.stl",
+      "sha256": "a996bdf2ee1db893cdc3438634991ef1bed4090f2b2133a17a9bb90aa2a67dec",
+      "bytes": 98484,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/third_party/birdbrain_spin_coater/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/BirdbrainEngineer/Spin-coater-v1/3fbf81766061f0dafb3619357c7b72338ffb439c/LICENSE.txt",
+      "sha256": "a87e75d23aec1766ddd1da97bbbbf91fc99893f3b84f3eee494eb08135df26ec",
+      "bytes": 1052,
+      "role": "MIT_spincoater_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/textures/head_link_2.png",
+      "sha256": "f97acfd46a9080bcde6bf6cc1779ea83882f7e822f355a87da260e7b5d41f68f",
+      "bytes": 821504,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/textures/astribot_torso_base_link.png",
+      "sha256": "79101bd7709ea66e1b69a86db11a81e1ad0c2de190a12fc16690eace2a82c805",
+      "bytes": 157,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/textures/astribot_torso_link_2.png",
+      "sha256": "f1f0a6249fa1a1efd4f5c7cd2bc43e005ef7d50412fc49b7765f8112da998a2d",
+      "bytes": 96,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/textures/astribot_torso_link_4.png",
+      "sha256": "db9b4670238e77e7e03b2886881bef1ea8777351d4d3e5318b5909cd675f0066",
+      "bytes": 126,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_chassis/astribot_torso_base_link.obj",
+      "sha256": "c496e904f96e19bd6857fde00b355079c78c46817411553113c80b86c2ce3d52",
+      "bytes": 3930625,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_torso/astribot_torso_link_1.obj",
+      "sha256": "52bd30ace2551b9c89f4180930315a0206f8af0a45de0c9d6890a8c8c00b5644",
+      "bytes": 1220039,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_torso/astribot_torso_link_2.obj",
+      "sha256": "ecf689de8158f5d2c253ae8b4e1ee7599e5cb62be7497a2647f7d30570ba04ba",
+      "bytes": 4347325,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_torso/astribot_torso_link_3.obj",
+      "sha256": "32d65f66d6640d784a047ec0964324dbb362152960d7f40c978f0b00cadcdf24",
+      "bytes": 769335,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_torso/astribot_torso_link_4.obj",
+      "sha256": "b4368cc1e40ab8f3016b1de337d228ce7beae3b671238eb323375fe4ba3f56ab",
+      "bytes": 15895352,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_RF_Link.STL",
+      "sha256": "a807f96a192e6a9d684f32bdd87ac3fddf84b48b845a3f0f394abbacc13c987b",
+      "bytes": 1874784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_RF_Link_wr.STL",
+      "sha256": "b74bc4058473cc64afd88b7cf83b04264710d3e07f29d52dcc775040f6d98769",
+      "bytes": 6946284,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_LF_Link.STL",
+      "sha256": "a807f96a192e6a9d684f32bdd87ac3fddf84b48b845a3f0f394abbacc13c987b",
+      "bytes": 1874784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_LF_Link_wr.STL",
+      "sha256": "b74bc4058473cc64afd88b7cf83b04264710d3e07f29d52dcc775040f6d98769",
+      "bytes": 6946284,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_RR_Link.STL",
+      "sha256": "a807f96a192e6a9d684f32bdd87ac3fddf84b48b845a3f0f394abbacc13c987b",
+      "bytes": 1874784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_RR_Link_wr.STL",
+      "sha256": "b74bc4058473cc64afd88b7cf83b04264710d3e07f29d52dcc775040f6d98769",
+      "bytes": 6946284,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_LR_Link.STL",
+      "sha256": "a807f96a192e6a9d684f32bdd87ac3fddf84b48b845a3f0f394abbacc13c987b",
+      "bytes": 1874784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_LR_Link_wr.STL",
+      "sha256": "b74bc4058473cc64afd88b7cf83b04264710d3e07f29d52dcc775040f6d98769",
+      "bytes": 6946284,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_roller.stl",
+      "sha256": "db9e4267cb2469854e82e73fa1a3cdf13af82870a9c01076cbaf96c7970e017e",
+      "bytes": 56884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/stl/t1_chassis/wheel_roller_canonical.stl",
+      "sha256": "e3725cace8e6a41ba0e38542e35965f317578e78bb91f4defe7a2f6193b3bfb5",
+      "bytes": 56884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_head/astribot_head_base_link.obj",
+      "sha256": "3f10d9858d37c205649ad409ba9492ba8eacc33fbfcebb0c843683f21307a66f",
+      "bytes": 290702,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_head/astribot_head_link_1.obj",
+      "sha256": "b4809d3b9619b40b7edcc3ea97401eec2e3c5078b0bed4e6c69a29ec5602b2a5",
+      "bytes": 78692,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_head/astribot_head_link_2.obj",
+      "sha256": "1784446f17ae6ee8dc8a90533da59c05648e11f1bb8c82bff1d04f02259d3b19",
+      "bytes": 9246070,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_base_link.obj",
+      "sha256": "6b1fdf2d7ac112e7afb6ebc10752f8de1119c1169d03eae845b31235adf3b1b2",
+      "bytes": 232032,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_1.obj",
+      "sha256": "61e0dad1413d6c72efaf434d856f828f61799302a89f6e67567d803b6df56c14",
+      "bytes": 334716,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_2.obj",
+      "sha256": "a4bfecacc3333c6bbba16e412b26654447f4e9cfb926b0ca52185b6851f0f09f",
+      "bytes": 960764,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_3.obj",
+      "sha256": "2a9ee334d548ff50887d53161ae5840a7840dddce85fc11eb9dbb959b4f74b72",
+      "bytes": 681674,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_4.obj",
+      "sha256": "1257ac539d82e705fc5cf6771fae5c393e012e5b6483dc019f5eae0c118450a6",
+      "bytes": 337610,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_5.obj",
+      "sha256": "0d84503cd375777bd134be13bbde8508932274375cb7870291891bcfc619b6f4",
+      "bytes": 1632480,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_6.obj",
+      "sha256": "27e0f8c0bac767929d2d4adcc8455a5e262f44faa2511ff3ea1e6c1513e23f6a",
+      "bytes": 433338,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/mesh/obj/t1_arm/astribot_arm_link_7.obj",
+      "sha256": "3ecd0dba4aa41efe9968dfa13662ffcab1d158b4d017798746236d62ad6ab1ec",
+      "bytes": 144633,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_hand_C_MC_visual_.STL",
+      "sha256": "41301682f7da6d9b9f16d2c9248169a8d257c3c816d4ae8df0258187d06fa54b",
+      "bytes": 689384,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_hand_C_MC.STL",
+      "sha256": "01e17ed8392d99e76d1c00a849749610c3f7715f18ea12b107ba56eba3541fee",
+      "bytes": 174184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_CMC_VL.STL",
+      "sha256": "9c862ce10c4958ef967ed46fed837fafb20dd2c84a23ef9ee4f793576ef1fb93",
+      "bytes": 317984,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_MC_visual.STL",
+      "sha256": "da4fb47f6126ca3b653689aea6d958e08dde7d0c232a3043773e18f447aa121a",
+      "bytes": 580084,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_MC.STL",
+      "sha256": "3f15b81f22feec350ae2f60a7c69ca36028bd580d6cf4722d4f759d401ea02f9",
+      "bytes": 171084,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_MCP_VL_visual.STL",
+      "sha256": "47f990c04f09174666773687f9e4e1b4031dd150481c1d26719bbba874ae0709",
+      "bytes": 300784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_PP_visual.STL",
+      "sha256": "7f4a561b611af82e27bb5c8d6838d574e71e2ede42d25edf1f57c2b54ebde072",
+      "bytes": 772184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_thumb_PP.STL",
+      "sha256": "2847673ad531a6d1fe3d12b3433d080358727def9acade9f0319c18579676b13",
+      "bytes": 83784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/DP_Visual_HB1_TH.STL",
+      "sha256": "16584576da037618d311cee65a7a459adeae36ae854d0c974c225ceb3c0f145a",
+      "bytes": 336184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "sha256": "df2dcfc770ecf81e893a65d28994ff608556156f4e9a0b447086ab6de485cd75",
+      "bytes": 189684,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/thumb_elastomer_surface.STL",
+      "sha256": "1b25efc390f9db9eca87ed167e7baa2e3220a417bbd49924beb077da458c6241",
+      "bytes": 506484,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "sha256": "437f363ca7a40b6e9b9152ebb81db249c51de71565cdb44b7df6e2cdf0da3312",
+      "bytes": 211384,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_MCP_VL_visual.STL",
+      "sha256": "0e8b15c4d8426a26cb222b8c1592f5e913c079aebdc0abaecda273b7d8ed0f3a",
+      "bytes": 322584,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/MCP_VL.STL",
+      "sha256": "587e34505de3b4f5b7131e6554e0ab92a18a3c28d250ea46eaf728c4539bf77d",
+      "bytes": 75184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_PP_visual.STL",
+      "sha256": "881e6eeeaecbf0a8bd6b11fa7f41a5aa139900635fe82b765586460c9a9c1580",
+      "bytes": 559934,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_PP.STL",
+      "sha256": "6e4434712a5c668dbeda169e727629e95d4a9492fca431126543109451e2484f",
+      "bytes": 82484,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_MP_visual.STL",
+      "sha256": "0e9ac7a8208ab2478cdff8ae40036b93e040a05f89ae0c43ece83a62fdf15293",
+      "bytes": 369384,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_MP.STL",
+      "sha256": "1f0a96877af9ec35f20941ae696e9e22cedc6e341703657b0c6d0ebc982897a9",
+      "bytes": 37084,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/DP_visual_HB1_4F.STL",
+      "sha256": "5123fd1776cfc82895f9f0b6ba4098522baaad9ebaaa3110ff1246775cfbd737",
+      "bytes": 398784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "sha256": "b28a529aadb4a084912f3697b117ba43fd13c6f3136e48166b5dd1616d9f3eef",
+      "bytes": 191684,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/elastomer_surface.STL",
+      "sha256": "7f88a20e862895e3bf97d35c600b9eb5c2f2e49f8918ef9fe07bd82e6572fae8",
+      "bytes": 362534,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "sha256": "88b214c5c614b4b5f0c7cf195a90825b41e20745b1b65442854b371ff065e858",
+      "bytes": 149884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_pinky_MC_visual.STL",
+      "sha256": "d49c63f5adeca6b1f6e329d7e541b09fdc48259d88aec3ff4c5ac371648cb881",
+      "bytes": 193684,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/meshes/left_pinky_MC.STL",
+      "sha256": "f7a7192ae246a6b88f9096332216013c8f6be507ee0dc9bfd4444518453b0c13",
+      "bytes": 41984,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_hand_C_MC_visual_.STL",
+      "sha256": "9234e513974246de38de76ce5f2a48078ebb014e890083219e2bd93caef55b60",
+      "bytes": 692184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_hand_C_MC.STL",
+      "sha256": "8c52941db271e9331f0b32ec581c078af7f8cb372fb97f021d5b1dec2d2426ae",
+      "bytes": 174184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_CMC_VL_visual.STL",
+      "sha256": "ebaf499965a51e4b539b7ec5481efbddaf2003b69d0e5e72425a430cecd187b0",
+      "bytes": 317984,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_MC_visual.STL",
+      "sha256": "81f4bf8c39117b7bf7a4f0fdeb577948056139a84927adc55e9b049434a41a3b",
+      "bytes": 625334,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_MC.STL",
+      "sha256": "deb6d97eb2d7223d72c23ebb32f874644dcf78848389f14dcabe3016aae5dd6c",
+      "bytes": 149584,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_MCP_VL_visual.STL",
+      "sha256": "30d656738130093b7023100c73fac065a173aaba2e4314034c050c984005d634",
+      "bytes": 300784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_PP_visual.STL",
+      "sha256": "1024905f9af3ad14160ce55d2e1d98fb7028274f7b267bee8b057754eb165faa",
+      "bytes": 719834,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_thumb_PP.STL",
+      "sha256": "795b35f943c4272314d5e72497aaea2ef998458b0259a6609577d3694aeff869",
+      "bytes": 85884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/DP_Visual_HB1_TH.STL",
+      "sha256": "db4e895306f51b7cc369b01b705d276b6d69c773033d7e01c8bafbf2d1ecd7e8",
+      "bytes": 336184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "sha256": "df2dcfc770ecf81e893a65d28994ff608556156f4e9a0b447086ab6de485cd75",
+      "bytes": 189684,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "sha256": "437f363ca7a40b6e9b9152ebb81db249c51de71565cdb44b7df6e2cdf0da3312",
+      "bytes": 211384,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_MCP_VL_visual.STL",
+      "sha256": "ec48548aaafa6589112e9b609ed58f1b5e7ec0157ca15e0e4e8c93bff706a9d0",
+      "bytes": 322584,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "sha256": "350f66d656fef760a7f4f0c4a026951e9d831ca65a9c5e4e34825b694ed6b11a",
+      "bytes": 75184,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_PP_visual.STL",
+      "sha256": "aa8b0ac6b6a7769033daa149416035712b23b79af0a7ddeb83d62142f8ff8a14",
+      "bytes": 560734,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "sha256": "ed975b59e2569759ff28a397dab71d84667161d3b90b41d625bc5e1f5ac6536c",
+      "bytes": 81784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_MP_visual.STL",
+      "sha256": "af867d754ae0f3d5c38610f72cf4699789c82bb0391c2a406e6924f76e850ec6",
+      "bytes": 369384,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "sha256": "98ad7e6e990f61857d6ad28860bba7e0dcba78761a513d60fdc527e9d56bbe8e",
+      "bytes": 37084,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/DP_visual_HB1_4F.STL",
+      "sha256": "5123fd1776cfc82895f9f0b6ba4098522baaad9ebaaa3110ff1246775cfbd737",
+      "bytes": 398784,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "sha256": "b28a529aadb4a084912f3697b117ba43fd13c6f3136e48166b5dd1616d9f3eef",
+      "bytes": 191684,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "sha256": "88b214c5c614b4b5f0c7cf195a90825b41e20745b1b65442854b371ff065e858",
+      "bytes": 149884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_pinky_MC_visual.STL",
+      "sha256": "5ae38bab4f573bd147e5a5e231eb399e2396575884cd36e574235258a048e53b",
+      "bytes": 218284,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/meshes/right_pinky_MC.STL",
+      "sha256": "1f8207aff0f2f6ca2f1de1a8bbbbcd4183300bc3778d55821c2aae9b490b7dd3",
+      "bytes": 41884,
+      "role": "direct_upstream_robot_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/mjcf/object/pipette.gen.xml",
+      "sha256": "baca824a135bbd5e9eb3e4804e80505ab708e7ce5fda72b53a6beffb3424af21",
+      "bytes": 5448,
+      "role": "direct_upstream_apparatus_xml"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/connector_visual.obj",
+      "sha256": "d8e62384a4e9249475e2349730ab54f886456d47ca89e0b591d9655becc22cfb",
+      "bytes": 9299,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/knob_visual.obj",
+      "sha256": "c6701b73aa5574c2dfacb27bf3fc34e6a7180dab85cba7c9f2fe3c5e49f6426b",
+      "bytes": 7788,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/tube_visual.obj",
+      "sha256": "1ecbb7929876b0a0c415c735e091373ca9522e0aa1175434172237f586747b07",
+      "bytes": 36057,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/tube_collision_0.obj",
+      "sha256": "8ab8228d9a92deaa7a60856159eeb9775673c4e07aad7cb60448300ac0322dec",
+      "bytes": 9139,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/tube_collision_1.obj",
+      "sha256": "5919eb3b256cfc9f644e265f9cafd9827a20d59ef536dc0d6fb17aad86ce7d15",
+      "bytes": 6826,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right1_visual.obj",
+      "sha256": "d11304f96ead8f2adc3631376689e519ff9a09c51ed8c38374a8cb1c1253251e",
+      "bytes": 7610,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right1_collision_0.obj",
+      "sha256": "028e5d262f94a9987b0f0d1861e6b0134ae7843c9f48f8b7f919ad0e48533521",
+      "bytes": 6967,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right2_visual.obj",
+      "sha256": "de425473336f257a33d461b1dded170798cfdbc473bb8909544489d05ee374ee",
+      "bytes": 17464,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right2_collision_0.obj",
+      "sha256": "4d8186a09864bc0a56ec53253622f4e91deb21f720e080228a8fa5064969d5d2",
+      "bytes": 6846,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/body_visual.obj",
+      "sha256": "7e3513d760a469869cb1b64ad9770fc2bab532c08f01946997b738fc4844cee6",
+      "bytes": 161094,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/body_collision_0.obj",
+      "sha256": "ebed0fc8e5038c123db0e09e63719a245de3d9c26a495f42f89b03d4c505b1c9",
+      "bytes": 6196,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/body_collision_1.obj",
+      "sha256": "1a58b032c517a7088858adcb7274a344488c5af3d78c0a782b34a1821625f691",
+      "bytes": 23265,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/body_collision_2.obj",
+      "sha256": "be3947ba5c2323e960fd7981b7fca7b24ce5a27a5b704cda581a1728a8d9fb47",
+      "bytes": 33657,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/body_collision_3.obj",
+      "sha256": "9e101c1b05177dfd73abd05b08a65c66b67ec0c124007666d32859eb1c6c07e7",
+      "bytes": 31626,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_mid_visual.obj",
+      "sha256": "8677395bc2b0067a28779f4f154a0170b24b946ca1b4187318e7ae293c644d62",
+      "bytes": 7151,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right3_visual.obj",
+      "sha256": "b53c22b48a658aa782b382820b2f2327dfab1d88e8bad1d37c4452ee9691e12c",
+      "bytes": 15093,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right3_collision_0.obj",
+      "sha256": "64abc631417683ab6bfd64ba377714cbc68d9625d8990cdb525923c40288dca2",
+      "bytes": 8643,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/tool/pipette/pusher_right3_collision_1.obj",
+      "sha256": "123b1d6b44e66a0ee3210e1d76a8fec74a2ea6ffc791211cb03da11c6ab72831",
+      "bytes": 9630,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/mjcf/object/pipette_tip.gen.xml",
+      "sha256": "46c27d11c436ecab5de1949095c8cc7c5b25bf861afff9d921674eb0079a78a5",
+      "bytes": 725,
+      "role": "direct_upstream_apparatus_xml"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/container/tip_200ul_vis/visual.obj",
+      "sha256": "1dca4aeffce6fe943cb9701e017e9576682da2411ed09f7159ab7dfbb7c6b93d",
+      "bytes": 7915,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/meshes/container/tip_200ul_col/tip_collision_0.obj",
+      "sha256": "25a9c3a8027e1f5effdab88f20113ab12466c70b75ccc3ee157ae36d1c282b0c",
+      "bytes": 2082,
+      "role": "direct_upstream_apparatus_asset"
+    },
+    {
+      "target": "_DexBioLab/assets/mjcf/misc/pipette_stand.xml",
+      "sha256": "5a55b69018522ccc516483eeb7f78ab7fa99dc1e11ea195ca284e2a8366c1ecc",
+      "bytes": 2595,
+      "role": "direct_upstream_apparatus_xml"
+    }
+  ],
+  "bootstrap_files": [
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/actuator_base.xml",
+      "sha256": "599cc5ff4b745589cb34777bcf2f618d4fcb5d4ccb51104529c0cdc09300923e"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/actuator_chassis.xml",
+      "sha256": "9974d9319fc80640f160e705b0c5acfa188f1c24a6c6fde9cbbe0f65cb8c4f39"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/actuator_chassis_kinematic.xml",
+      "sha256": "5412c8d7a4fdace70c32df529f3f8d13a688c3a0f6ea185a61d15f10ca9b8f26"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/assets.xml",
+      "sha256": "e0400e46298080c67cbcf0efd2a049dc093309976879b3072170365158310bce"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/kinematic.xml",
+      "sha256": "9d7e2c3310a2ca7b237e0f3eae38549fbddab0116091fa6b6d98b1d8f0013779"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/kinematic_visual.xml",
+      "sha256": "9b043ab3f9e3007ec53d0975cec56ac042dc9a52270ace6c146691651099f9ce"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/chassis_rear_d405.xml",
+      "sha256": "2d3d2ebb07ad940a413d717e49e6ad3db5fe2cccda9918ced93085e3ab7c6b05"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/head_stereo_left.xml",
+      "sha256": "ec41f6f06f68ff0c446e26838e275df56cbcc6876a7d926064f1cddd6bcf880e"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/head_stereo_right.xml",
+      "sha256": "d334e26ab51baf678ee3bfb80521749de3ba22c317064a1c14769478e2f1b9c7"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/imu_chassis.xml",
+      "sha256": "25eacff309f646a9d67f53d2df2c02aec51c84e5f40357c2d70ee29731c761a2"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/imu_front.xml",
+      "sha256": "1adf18b322e12a99baf2c0b212e9344f850e0d766f705fed1c3336777fa1714e"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/sensors/lidar_mid360_front.xml",
+      "sha256": "a320b1265c4a86aa38acc1fad835fa47e088b0b135db1e0157c329f48308547d"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/t1.xml",
+      "sha256": "305cc8189d26f5b7db777b354f93f3bf87320ec49a3c985853acf73c11cd66fd"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/t1_kinematic.xml",
+      "sha256": "c65b5a6a1fb2cdc4a0e3790314b77385b0e48eee5b3feddf116ef18037a28e23"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_arm_left.urdf",
+      "sha256": "f4fea9bc55a13c90b27cd45cf7a777e9ce4a74843e269a35c08f3f398000c260"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_arm_right.urdf",
+      "sha256": "d63f942f00ba50f538bbbb55dc51ea609045d89d5054a1e835585e61423320e4"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_chassis.urdf",
+      "sha256": "a90636e483a1ce363b8ddfdb829ead378f2214c125d4ca8503b14857e5e7c961"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_head.urdf",
+      "sha256": "7ff53c6cb9cb352d1b9a8f5e80e4609cfa084b06253c672303ad2aa7f2574053"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_torso.urdf",
+      "sha256": "d703768fe7909664af4417567cfacb80fe2e2a990f2a7573e40c6ee9bde108c5"
+    },
+    {
+      "target": "research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_whole_body.urdf",
+      "sha256": "e23033d7915b016a12e4f30153392a55beb1ef83c04ba49aef1f0d9fefa45f73"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave.urdf",
+      "sha256": "aae7a2392d6c446bd025d27c40bda49cd0e7a2e206ba52cfbc41eba8cd9a414e"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave.xml",
+      "sha256": "f436e049ca87f34244bcf42fb4a9337a71e678bfe751c4de551a747ed4e638d0"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange.urdf",
+      "sha256": "c645d6867747ee6d113163c55f999cc4115aa6fc3190b847463b0629083be804"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange.xml",
+      "sha256": "b3df861b18133dd7ae39a44b9e6598258ebeb8ed4dd46ac3589610ed450f7d36"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist.urdf",
+      "sha256": "41cd5f9f870d4e2b00ee09a8a743458b75e5ecd9a6b7ff3e2895e0317774c734"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist.xml",
+      "sha256": "9ff4ea088a6f6994e8acd94cf7aa69010e66a017f223bbcd7e17b033fd5642b0"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/dual_sharpa_wave/package.xml",
+      "sha256": "1cce307cd7bb0196f373f14aaf15aecbb55a1b5964af59e454d2da5a26d29086"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave.urdf",
+      "sha256": "4cf9fcf07a4545b538995c6c17aaf1a5768e61541b11b1cc385026da3626bad8"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave.xml",
+      "sha256": "3cbeb46259d4ba63cbdb83085255d1a8f8031c51e0101a6622f6e7e81a64dc11"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave_with_flange.urdf",
+      "sha256": "6ea8d2c563c6d4ba56f5f4b04aa7d339f5b703ac8e5ec02404ca5f632d7c28a2"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave_with_flange.xml",
+      "sha256": "8041d8ec725ad0aad0c14fc92b34641d4c0168e5a32833d53dc6dd34570fc62e"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist.urdf",
+      "sha256": "8bf9155894c0a71f0cde7462df6cf6fa4ff70ab8ff745ee372b7b2d339323fff"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist.xml",
+      "sha256": "7588f0401f58d2b7702e85e066fc1d72e14805b8ad5899857a6119aa20ddbf11"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/left_sharpa_wave/package.xml",
+      "sha256": "f3965c79b20f54d0d52fc608d461828010fb59a5886531e4c8359b813d3492dd"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/package.xml",
+      "sha256": "33e79a9fa1952508842909ecf76f6f3c6925327aa3e248f6b974d13baa9b841d"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave.urdf",
+      "sha256": "7a9ab7f824482d23765b2da40b7e96fc605e7e70eda4615a5ca51fea88afb845"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave.xml",
+      "sha256": "43d9cb63d724889b69574a5e0981aee4a2f30d825c85f3098988e3a7a3bb9980"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.urdf",
+      "sha256": "261c1a5284e04bc9690e0f5ac39d7a7cace0a16d335d663a1d3c7fcf4e4daf31"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.xml",
+      "sha256": "8b1dd21a7ab1217b7fd78789b455f3f03029b21bfdee25b5fa9381c8e5b5e643"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.urdf",
+      "sha256": "3b0f5834aba2afe4901be4bba23d4a748ccd6a6785ad1db5028ae80f5ae49f9d"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.xml",
+      "sha256": "94cb03fb918c1f0b2735dc655c9fb902f468a4f08c3e89e9ad6c8f3ed8b4c205"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.urdf",
+      "sha256": "3808c8f7349ed9eb633a589ba6e8002e82d4b1df07e760acb42dbae2aa65d7b7"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.xml",
+      "sha256": "8b5e9bf30c6aec503d09dd48a7bbf0191767e71317a43de2d5542e22d3b86a43"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange.urdf",
+      "sha256": "90586470e1d0b41c5fd8dce011ba9bd3113a651ae9ebe8b90a12d0421ede6e4a"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange.xml",
+      "sha256": "7988e323bbb38ead047d1f2ab928af4c2173d70605afa7a507d80584bc0eb4fa"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist.urdf",
+      "sha256": "93f8bd306e9f954dc2aab2056d16fcae7ad99bcffec3e365b1aac4c3893d7aa8"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist.xml",
+      "sha256": "19539f132a4d0d22e8e9082c4c540c2b6f4aeae01119e683a8d999b21a7a4d09"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.urdf",
+      "sha256": "6a98c572314fa037b9c958854de2eb711c9e1f992f9bca4b5a8277f34fd9a412"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.xml",
+      "sha256": "4918e510c72ffd55f0168fadb21e27230ee97dda46642f5b69132c6be263f0f8"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange.urdf",
+      "sha256": "d3b581741d2c0357fefc0dc9ebc7a31330c45c8adb5a66dd9b4cf98db72a91db"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange.xml",
+      "sha256": "65fce569c374c32b64426457dda7785e0b6c099564fb18edcf191f1841feb7d0"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist.urdf",
+      "sha256": "f0bf50ce04e12fa655d6dee82f2d379e09569d87caa485ed2cc3d2e253aae321"
+    },
+    {
+      "target": "research/hardware/sharpa-models/wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist.xml",
+      "sha256": "d1ef029d9e4417aae89f78808eb564128b60d7097b89fb78913c62164642a549"
+    }
+  ],
+  "builder": {
+    "source": "bootstrap/build_scene.py",
+    "sha256": "4a68fb3ebd16ac9114125a68ba51b6d9b3b07c04e5b76064e81e3d5847f21f86"
+  },
+  "generated": [
+    {
+      "target": "research/hardware/generated/t1_sharpa_preview.xml",
+      "canonical_prefix": "__SPINCOAT_ROOT__",
+      "normalized_sha256": "91eac6765f6fb21c6054e9be1c4cac7acf9882fd52d5c06bfc498faa4598554f",
+      "normalization": "exact XML structure/values, path prefix, redundant STL MIME annotations only",
+      "original_validated_sha256": "ed6f2d1eecf971b00a7e3a0e58bc1d6e528a1120eb3796f3feb27bdb599a6c0b"
+    }
+  ],
+  "compiled_equivalence": {
+    "array_count": 452,
+    "all_arrays_and_options_equal": true,
+    "physics_steps": 0
+  },
+  "vendor_models_bundled": false
+}

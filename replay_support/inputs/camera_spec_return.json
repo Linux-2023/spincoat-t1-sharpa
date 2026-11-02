@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "camera_policy": "Fixed palm-local wrist cameras; left orientation revised for pre-insertion rack-hole feedback. Head and right camera unchanged; no target tracking or motion edits.",
+  "hardware_mechanical_installation_certified": false,
+  "source_spec_sha256": {
+    "head": "ee3f8ebbb3f33ab56e30a89082de1d67db0195e955f4f0a3b5fcb60b03327e58",
+    "left": "3b82808990d055091366c14a5612ee36704166fc6b20e6bf6420040e10126751",
+    "right": "8a6df6448b50f85bc1e5328f097f2379f026179494721513efa237ad0831b067"
+  },
+  "cameras": [
+    {
+      "id": "cam_head",
+      "native_camera": "head_stereo_left",
+      "near_clip_m": 0.10826136929710298,
+      "role": "Native moving-head monocular RGB context for the unchanged V31 left preparation and right pipette/coating workflow; not a guaranteed close-up or complete action-visibility stream.",
+      "provenance": "Retain the original head_stereo_left sensor body and camera from astribot-t1-aos/astribot_t1/model/mjcf/robot/t1.xml -> kinematic.xml -> sensors/head_stereo_left.xml, under astribot_head_link_2. The frozen build_t1_sharpa_preview.py expands the official model and replaces grippers, not this head camera. No mount, FOV, or recorded head-pose override. Model lens: native fovy=81 degrees; hardware RGB format and optical calibration are unverified. Explicit head-only near clip inherits the original V31 value 0.10826136929710298m: the unchanged head visual mesh obstructs the optical axis at 0.006672997m and the 3mm wrist clip produces self-occluded head RGB. This declared simulator clipping approximation removes nearby head visual surfaces; it is not a measured lens focus limit or proof of hardware clearance. Keep all hands and environment geometry."
+    },
+    {
+      "id": "cam_left_wrist",
+      "native_camera": "left_wrist_rgbd",
+      "role": "Rigid under-left-hand tube pickup, shake, pour and return observation",
+      "mount": {
+        "body": "sharpa_left/left_hand_C_MC",
+        "position_local_m": [
+          0.055,
+          0.04,
+          0.0
+        ],
+        "lookat_local_m": [
+          0.08064488319377586,
+          -0.0006765899802309364,
+          0.16412725244016538
+        ],
+        "up_local": [
+          -0.4887813137339117,
+          -0.8615578698237134,
+          -0.13715270427292617
+        ]
+      },
+      "vertical_fov_deg": 60,
+      "provenance": "Candidate08 return-feedback orientation: same palm-local optical centre as candidate07, 5-degree downward pitch and -27.5-degree sensor roll. Fixed throughout the episode. Optical feasibility checked against saved V31 states; hardware calibration and installation are not certified."
+    },
+    {
+      "id": "cam_right_wrist",
+      "native_camera": "right_wrist_rgbd",
+      "role": "Rigid below-right-hand oblique RGB of lower pipette/nozzle, incoming alignment and spincoat substrate; aspiration and transport context",
+      "mount": {
+        "body": "sharpa_right/right_hand_C_MC",
+        "position_local_m": [
+          -0.045,
+          -0.05,
+          -0.02
+        ],
+        "lookat_local_m": [
+          -0.015,
+          -0.19,
+          0.0815
+        ],
+        "up_local": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "vertical_fov_deg": 60,
+      "provenance": "Low-profile layout candidate with documented D405 envelope; fixed palm-local position and aim. No real camera calibration or T1 adapter fit claimed.",
+      "near_clip_m": 0.003
+    }
+  ],
+  "optical_goal_source_episode": "integrated_human_v31_08_preturn_margin",
+  "upstream_optical_goal_spec_sha256": "45accf806972166e2018abfc9f0b8167cd91abbd38b465ba7aebf2ba1a4db9df",
+  "mechanical_revision_reason": "Keep the left optical centre fixed; pitch its optical axis down 5 degrees and roll the sensor -27.5 degrees to include the tube bottom and rack opening before insertion, without changing the ideal 60-degree FOV.",
+  "parent_camera_spec_sha256": "54fed7a84c80558e431ef571c1a0cc6adbab17903076fb2873f982d02d07038b"
+}

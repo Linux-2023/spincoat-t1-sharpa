@@ -1,0 +1,2052 @@
+{
+  "status": "CANDIDATE_RIGHT04_PASSED_AWAITING_NEW_LEFT_AND_FRESH_INTEGRATED_RUN",
+  "source_model_sha256": "982f17f5085ff89c0919b0439fa9c990376eeda57939e8398c36f59c2427c40d",
+  "reference_model": "logs/spincoat/t1/integrated_human_v5_04_geometry/model.mjb",
+  "main_asset_targets_world_xy_m": {
+    "rack_and_tubes": [
+      0.5857706477542469,
+      0.5075805675759745
+    ],
+    "shared_beaker": [
+      0.535403007880263,
+      0.19356075896062788
+    ],
+    "pipette_stand_tool": [
+      0.6755720962956568,
+      0.010308108948508195
+    ],
+    "spincoater": [
+      0.5663408283466298,
+      -0.3366934589676108
+    ]
+  },
+  "decor_exact_geom_translations": [
+    {
+      "asset": "stock_tray_bottles",
+      "source_reference_world_xy_m": [
+        0.84,
+        0.24
+      ],
+      "target_reference_world_xy_m": [
+        0.81,
+        0.75
+      ],
+      "delta_world_m": [
+        -0.029999999999999916,
+        0.51,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_chemical_secondary_tray_floor",
+        "lab_context_chemical_secondary_tray_side_y-1",
+        "lab_context_chemical_secondary_tray_side_x-1",
+        "lab_context_chemical_secondary_tray_side_y1",
+        "lab_context_chemical_secondary_tray_side_x1",
+        "lab_context_coating_solution",
+        "lab_context_coating_solution_collision",
+        "lab_context_coating_solution_cap",
+        "lab_context_coating_solution_cap_ridge_0",
+        "lab_context_coating_solution_cap_ridge_1",
+        "lab_context_coating_solution_cap_ridge_2",
+        "lab_context_coating_solution_cap_ridge_3",
+        "lab_context_coating_solution_cap_ridge_4",
+        "lab_context_coating_solution_cap_ridge_5",
+        "lab_context_coating_solution_cap_ridge_6",
+        "lab_context_coating_solution_cap_ridge_7",
+        "lab_context_coating_solution_cap_ridge_8",
+        "lab_context_coating_solution_cap_ridge_9",
+        "lab_context_coating_solution_cap_ridge_10",
+        "lab_context_coating_solution_cap_ridge_11",
+        "lab_context_coating_solution_cap_ridge_12",
+        "lab_context_coating_solution_cap_ridge_13",
+        "lab_context_coating_solution_cap_ridge_14",
+        "lab_context_coating_solution_cap_ridge_15",
+        "lab_context_coating_solution_cap_ridge_16",
+        "lab_context_coating_solution_cap_ridge_17",
+        "lab_context_coating_solution_cap_ridge_18",
+        "lab_context_coating_solution_cap_ridge_19",
+        "lab_context_coating_solution_cap_ridge_20",
+        "lab_context_coating_solution_cap_ridge_21",
+        "lab_context_coating_solution_cap_ridge_22",
+        "lab_context_coating_solution_cap_ridge_23",
+        "lab_context_label_coating_solution",
+        "lab_context_rinse_solution",
+        "lab_context_rinse_solution_collision",
+        "lab_context_rinse_solution_cap",
+        "lab_context_rinse_solution_cap_ridge_0",
+        "lab_context_rinse_solution_cap_ridge_1",
+        "lab_context_rinse_solution_cap_ridge_2",
+        "lab_context_rinse_solution_cap_ridge_3",
+        "lab_context_rinse_solution_cap_ridge_4",
+        "lab_context_rinse_solution_cap_ridge_5",
+        "lab_context_rinse_solution_cap_ridge_6",
+        "lab_context_rinse_solution_cap_ridge_7",
+        "lab_context_rinse_solution_cap_ridge_8",
+        "lab_context_rinse_solution_cap_ridge_9",
+        "lab_context_rinse_solution_cap_ridge_10",
+        "lab_context_rinse_solution_cap_ridge_11",
+        "lab_context_rinse_solution_cap_ridge_12",
+        "lab_context_rinse_solution_cap_ridge_13",
+        "lab_context_rinse_solution_cap_ridge_14",
+        "lab_context_rinse_solution_cap_ridge_15",
+        "lab_context_rinse_solution_cap_ridge_16",
+        "lab_context_rinse_solution_cap_ridge_17",
+        "lab_context_rinse_solution_cap_ridge_18",
+        "lab_context_rinse_solution_cap_ridge_19",
+        "lab_context_rinse_solution_cap_ridge_20",
+        "lab_context_rinse_solution_cap_ridge_21",
+        "lab_context_rinse_solution_cap_ridge_22",
+        "lab_context_rinse_solution_cap_ridge_23",
+        "lab_context_label_rinse_solution"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_chemical_secondary_tray_floor": [
+          0.84,
+          0.24,
+          0.803
+        ],
+        "lab_context_chemical_secondary_tray_side_y-1": [
+          0.84,
+          0.098,
+          0.818
+        ],
+        "lab_context_chemical_secondary_tray_side_x-1": [
+          0.733,
+          0.24,
+          0.818
+        ],
+        "lab_context_chemical_secondary_tray_side_y1": [
+          0.84,
+          0.382,
+          0.818
+        ],
+        "lab_context_chemical_secondary_tray_side_x1": [
+          0.947,
+          0.24,
+          0.818
+        ],
+        "lab_context_coating_solution": [
+          0.82,
+          0.17,
+          0.8677331936639736
+        ],
+        "lab_context_coating_solution_collision": [
+          0.82,
+          0.17,
+          0.8751500000000001
+        ],
+        "lab_context_coating_solution_cap": [
+          0.82,
+          0.17,
+          0.9462
+        ],
+        "lab_context_coating_solution_cap_ridge_0": [
+          0.83375,
+          0.17,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_1": [
+          0.8332814801114746,
+          0.17355876187015967,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_2": [
+          0.831907849302036,
+          0.176875,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_3": [
+          0.8297227182413149,
+          0.17972271824131503,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_4": [
+          0.8268749999999999,
+          0.18190784930203605,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_5": [
+          0.8235587618701596,
+          0.18328148011147471,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_6": [
+          0.82,
+          0.18375000000000002,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_7": [
+          0.8164412381298403,
+          0.18328148011147471,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_8": [
+          0.813125,
+          0.18190784930203605,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_9": [
+          0.810277281758685,
+          0.17972271824131505,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_10": [
+          0.8080921506979639,
+          0.176875,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_11": [
+          0.8067185198885253,
+          0.17355876187015967,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_12": [
+          0.8062499999999999,
+          0.17,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_13": [
+          0.8067185198885253,
+          0.16644123812984035,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_14": [
+          0.8080921506979639,
+          0.16312500000000002,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_15": [
+          0.810277281758685,
+          0.160277281758685,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_16": [
+          0.813125,
+          0.15809215069796398,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_17": [
+          0.8164412381298403,
+          0.1567185198885253,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_18": [
+          0.82,
+          0.15625,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_19": [
+          0.8235587618701596,
+          0.1567185198885253,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_20": [
+          0.8268749999999999,
+          0.15809215069796398,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_21": [
+          0.8297227182413149,
+          0.16027728175868497,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_22": [
+          0.831907849302036,
+          0.163125,
+          0.9465625
+        ],
+        "lab_context_coating_solution_cap_ridge_23": [
+          0.8332814801114746,
+          0.16644123812984035,
+          0.9465625
+        ],
+        "lab_context_label_coating_solution": [
+          0.7945,
+          0.17,
+          0.865
+        ],
+        "lab_context_rinse_solution": [
+          0.87,
+          0.3,
+          0.8593967763890562
+        ],
+        "lab_context_rinse_solution_collision": [
+          0.87,
+          0.3,
+          0.86575
+        ],
+        "lab_context_rinse_solution_cap": [
+          0.87,
+          0.3,
+          0.927
+        ],
+        "lab_context_rinse_solution_cap_ridge_0": [
+          0.8832,
+          0.3,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_1": [
+          0.8827502209070157,
+          0.30341641139535325,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_2": [
+          0.8814315353299546,
+          0.3066,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_3": [
+          0.8793338095116624,
+          0.3093338095116624,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_4": [
+          0.8766,
+          0.3114315353299546,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_5": [
+          0.8734164113953533,
+          0.3127502209070157,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_6": [
+          0.87,
+          0.3132,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_7": [
+          0.8665835886046467,
+          0.3127502209070157,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_8": [
+          0.8634,
+          0.3114315353299546,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_9": [
+          0.8606661904883376,
+          0.3093338095116624,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_10": [
+          0.8585684646700454,
+          0.3066,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_11": [
+          0.8572497790929843,
+          0.30341641139535325,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_12": [
+          0.8568,
+          0.3,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_13": [
+          0.8572497790929843,
+          0.29658358860464673,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_14": [
+          0.8585684646700454,
+          0.2934,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_15": [
+          0.8606661904883376,
+          0.2906661904883376,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_16": [
+          0.8634,
+          0.2885684646700454,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_17": [
+          0.8665835886046467,
+          0.28724977909298427,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_18": [
+          0.87,
+          0.2868,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_19": [
+          0.8734164113953533,
+          0.28724977909298427,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_20": [
+          0.8766,
+          0.2885684646700454,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_21": [
+          0.8793338095116624,
+          0.2906661904883376,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_22": [
+          0.8814315353299546,
+          0.2934,
+          0.9273125
+        ],
+        "lab_context_rinse_solution_cap_ridge_23": [
+          0.8827502209070157,
+          0.29658358860464673,
+          0.9273125
+        ],
+        "lab_context_label_rinse_solution": [
+          0.8455,
+          0.3,
+          0.8570000000000001
+        ]
+      }
+    },
+    {
+      "asset": "hotplate",
+      "source_reference_world_xy_m": [
+        0.8,
+        0.49
+      ],
+      "target_reference_world_xy_m": [
+        0.81,
+        -0.812
+      ],
+      "delta_world_m": [
+        0.010000000000000009,
+        -1.302,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_hotplate_case",
+        "lab_context_hotplate_ceramic",
+        "lab_context_label_hotplate_display",
+        "lab_context_hotplate_knob_0.43",
+        "lab_context_hotplate_knob_0.55"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_hotplate_case": [
+          0.8,
+          0.49,
+          0.832
+        ],
+        "lab_context_hotplate_ceramic": [
+          0.8,
+          0.49,
+          0.869
+        ],
+        "lab_context_label_hotplate_display": [
+          0.704,
+          0.49,
+          0.833
+        ],
+        "lab_context_hotplate_knob_0.43": [
+          0.69,
+          0.43,
+          0.824
+        ],
+        "lab_context_hotplate_knob_0.55": [
+          0.69,
+          0.55,
+          0.824
+        ]
+      }
+    },
+    {
+      "asset": "solvent_waste",
+      "source_reference_world_xy_m": [
+        0.83,
+        0.74
+      ],
+      "target_reference_world_xy_m": [
+        0.81,
+        -0.552
+      ],
+      "delta_world_m": [
+        -0.019999999999999907,
+        -1.292,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_waste_tray_floor",
+        "lab_context_waste_tray_side_y-1",
+        "lab_context_waste_tray_side_x-1",
+        "lab_context_waste_tray_side_y1",
+        "lab_context_waste_tray_side_x1",
+        "lab_context_solvent_waste",
+        "lab_context_solvent_waste_collision",
+        "lab_context_solvent_waste_cap",
+        "lab_context_solvent_waste_cap_ridge_0",
+        "lab_context_solvent_waste_cap_ridge_1",
+        "lab_context_solvent_waste_cap_ridge_2",
+        "lab_context_solvent_waste_cap_ridge_3",
+        "lab_context_solvent_waste_cap_ridge_4",
+        "lab_context_solvent_waste_cap_ridge_5",
+        "lab_context_solvent_waste_cap_ridge_6",
+        "lab_context_solvent_waste_cap_ridge_7",
+        "lab_context_solvent_waste_cap_ridge_8",
+        "lab_context_solvent_waste_cap_ridge_9",
+        "lab_context_solvent_waste_cap_ridge_10",
+        "lab_context_solvent_waste_cap_ridge_11",
+        "lab_context_solvent_waste_cap_ridge_12",
+        "lab_context_solvent_waste_cap_ridge_13",
+        "lab_context_solvent_waste_cap_ridge_14",
+        "lab_context_solvent_waste_cap_ridge_15",
+        "lab_context_solvent_waste_cap_ridge_16",
+        "lab_context_solvent_waste_cap_ridge_17",
+        "lab_context_solvent_waste_cap_ridge_18",
+        "lab_context_solvent_waste_cap_ridge_19",
+        "lab_context_solvent_waste_cap_ridge_20",
+        "lab_context_solvent_waste_cap_ridge_21",
+        "lab_context_solvent_waste_cap_ridge_22",
+        "lab_context_solvent_waste_cap_ridge_23",
+        "lab_context_label_solvent_waste"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_waste_tray_floor": [
+          0.83,
+          0.74,
+          0.803
+        ],
+        "lab_context_waste_tray_side_y-1": [
+          0.83,
+          0.643,
+          0.818
+        ],
+        "lab_context_waste_tray_side_x-1": [
+          0.723,
+          0.74,
+          0.818
+        ],
+        "lab_context_waste_tray_side_y1": [
+          0.83,
+          0.837,
+          0.818
+        ],
+        "lab_context_waste_tray_side_x1": [
+          0.9369999999999999,
+          0.74,
+          0.818
+        ],
+        "lab_context_solvent_waste": [
+          0.83,
+          0.74,
+          0.8969093979126685
+        ],
+        "lab_context_solvent_waste_collision": [
+          0.83,
+          0.74,
+          0.90805
+        ],
+        "lab_context_solvent_waste_cap": [
+          0.83,
+          0.74,
+          1.0134
+        ],
+        "lab_context_solvent_waste_cap_ridge_0": [
+          0.85585,
+          0.74,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_1": [
+          0.8549691826095723,
+          0.7466904723159001,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_2": [
+          0.8523867566878277,
+          0.752925,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_3": [
+          0.8482787102936722,
+          0.7582787102936722,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_4": [
+          0.8429249999999999,
+          0.7623867566878277,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_5": [
+          0.8366904723159001,
+          0.7649691826095724,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_6": [
+          0.83,
+          0.76585,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_7": [
+          0.8233095276840998,
+          0.7649691826095724,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_8": [
+          0.817075,
+          0.7623867566878277,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_9": [
+          0.8117212897063277,
+          0.7582787102936722,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_10": [
+          0.8076132433121722,
+          0.752925,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_11": [
+          0.8050308173904276,
+          0.7466904723159001,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_12": [
+          0.8041499999999999,
+          0.74,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_13": [
+          0.8050308173904276,
+          0.7333095276840998,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_14": [
+          0.8076132433121722,
+          0.727075,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_15": [
+          0.8117212897063277,
+          0.7217212897063278,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_16": [
+          0.817075,
+          0.7176132433121722,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_17": [
+          0.8233095276840998,
+          0.7150308173904276,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_18": [
+          0.83,
+          0.71415,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_19": [
+          0.8366904723159001,
+          0.7150308173904276,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_20": [
+          0.8429249999999999,
+          0.7176132433121722,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_21": [
+          0.8482787102936722,
+          0.7217212897063278,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_22": [
+          0.8523867566878277,
+          0.727075,
+          1.0139375
+        ],
+        "lab_context_solvent_waste_cap_ridge_23": [
+          0.8549691826095723,
+          0.7333095276840998,
+          1.0139375
+        ],
+        "lab_context_label_solvent_waste": [
+          0.7825,
+          0.74,
+          0.893
+        ]
+      }
+    },
+    {
+      "asset": "tip_rack",
+      "source_reference_world_xy_m": [
+        0.78,
+        -0.035
+      ],
+      "target_reference_world_xy_m": [
+        0.84,
+        0.49
+      ],
+      "delta_world_m": [
+        0.05999999999999994,
+        0.525,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_tip_rack_base",
+        "lab_context_tip_rack_insert",
+        "lab_context_tip_well_0_0",
+        "lab_context_tip_0_0",
+        "lab_context_tip_well_0_1",
+        "lab_context_tip_0_1",
+        "lab_context_tip_well_0_2",
+        "lab_context_tip_0_2",
+        "lab_context_tip_well_0_3",
+        "lab_context_tip_0_3",
+        "lab_context_tip_well_0_4",
+        "lab_context_tip_0_4",
+        "lab_context_tip_well_0_5",
+        "lab_context_tip_0_5",
+        "lab_context_tip_well_0_6",
+        "lab_context_tip_0_6",
+        "lab_context_tip_well_0_7",
+        "lab_context_tip_0_7",
+        "lab_context_tip_well_1_0",
+        "lab_context_tip_1_0",
+        "lab_context_tip_well_1_1",
+        "lab_context_tip_1_1",
+        "lab_context_tip_well_1_2",
+        "lab_context_tip_1_2",
+        "lab_context_tip_well_1_3",
+        "lab_context_tip_1_3",
+        "lab_context_tip_well_1_4",
+        "lab_context_tip_1_4",
+        "lab_context_tip_well_1_5",
+        "lab_context_tip_1_5",
+        "lab_context_tip_well_1_6",
+        "lab_context_tip_1_6",
+        "lab_context_tip_well_1_7",
+        "lab_context_tip_1_7",
+        "lab_context_tip_well_2_0",
+        "lab_context_tip_2_0",
+        "lab_context_tip_well_2_1",
+        "lab_context_tip_2_1",
+        "lab_context_tip_well_2_2",
+        "lab_context_tip_2_2",
+        "lab_context_tip_well_2_3",
+        "lab_context_tip_2_3",
+        "lab_context_tip_well_2_4",
+        "lab_context_tip_2_4",
+        "lab_context_tip_well_2_5",
+        "lab_context_tip_2_5",
+        "lab_context_tip_well_2_6",
+        "lab_context_tip_2_6",
+        "lab_context_tip_well_2_7",
+        "lab_context_tip_2_7",
+        "lab_context_tip_well_3_0",
+        "lab_context_tip_3_0",
+        "lab_context_tip_well_3_1",
+        "lab_context_tip_3_1",
+        "lab_context_tip_well_3_2",
+        "lab_context_tip_3_2",
+        "lab_context_tip_well_3_3",
+        "lab_context_tip_3_3",
+        "lab_context_tip_well_3_4",
+        "lab_context_tip_3_4",
+        "lab_context_tip_well_3_5",
+        "lab_context_tip_3_5",
+        "lab_context_tip_well_3_6",
+        "lab_context_tip_3_6",
+        "lab_context_tip_well_3_7",
+        "lab_context_tip_3_7",
+        "lab_context_tip_well_4_0",
+        "lab_context_tip_4_0",
+        "lab_context_tip_well_4_1",
+        "lab_context_tip_4_1",
+        "lab_context_tip_well_4_2",
+        "lab_context_tip_4_2",
+        "lab_context_tip_well_4_3",
+        "lab_context_tip_4_3",
+        "lab_context_tip_well_4_4",
+        "lab_context_tip_4_4",
+        "lab_context_tip_well_4_5",
+        "lab_context_tip_4_5",
+        "lab_context_tip_well_4_6",
+        "lab_context_tip_4_6",
+        "lab_context_tip_well_4_7",
+        "lab_context_tip_4_7",
+        "lab_context_tip_well_5_0",
+        "lab_context_tip_5_0",
+        "lab_context_tip_well_5_1",
+        "lab_context_tip_5_1",
+        "lab_context_tip_well_5_2",
+        "lab_context_tip_5_2",
+        "lab_context_tip_well_5_3",
+        "lab_context_tip_5_3",
+        "lab_context_tip_well_5_4",
+        "lab_context_tip_5_4",
+        "lab_context_tip_well_5_5",
+        "lab_context_tip_5_5",
+        "lab_context_tip_well_5_6",
+        "lab_context_tip_5_6",
+        "lab_context_tip_well_5_7",
+        "lab_context_tip_5_7",
+        "lab_context_tip_well_6_0",
+        "lab_context_tip_6_0",
+        "lab_context_tip_well_6_1",
+        "lab_context_tip_6_1",
+        "lab_context_tip_well_6_2",
+        "lab_context_tip_6_2",
+        "lab_context_tip_well_6_3",
+        "lab_context_tip_6_3",
+        "lab_context_tip_well_6_4",
+        "lab_context_tip_6_4",
+        "lab_context_tip_well_6_5",
+        "lab_context_tip_6_5",
+        "lab_context_tip_well_6_6",
+        "lab_context_tip_6_6",
+        "lab_context_tip_well_6_7",
+        "lab_context_tip_6_7",
+        "lab_context_tip_well_7_0",
+        "lab_context_tip_7_0",
+        "lab_context_tip_well_7_1",
+        "lab_context_tip_7_1",
+        "lab_context_tip_well_7_2",
+        "lab_context_tip_7_2",
+        "lab_context_tip_well_7_3",
+        "lab_context_tip_7_3",
+        "lab_context_tip_well_7_4",
+        "lab_context_tip_7_4",
+        "lab_context_tip_well_7_5",
+        "lab_context_tip_7_5",
+        "lab_context_tip_well_7_6",
+        "lab_context_tip_7_6",
+        "lab_context_tip_well_7_7",
+        "lab_context_tip_7_7",
+        "lab_context_tip_well_8_0",
+        "lab_context_tip_well_8_1",
+        "lab_context_tip_well_8_2",
+        "lab_context_tip_well_8_3",
+        "lab_context_tip_well_8_4",
+        "lab_context_tip_well_8_5",
+        "lab_context_tip_well_8_6",
+        "lab_context_tip_well_8_7",
+        "lab_context_tip_well_9_0",
+        "lab_context_tip_well_9_1",
+        "lab_context_tip_well_9_2",
+        "lab_context_tip_well_9_3",
+        "lab_context_tip_well_9_4",
+        "lab_context_tip_well_9_5",
+        "lab_context_tip_well_9_6",
+        "lab_context_tip_well_9_7",
+        "lab_context_tip_well_10_0",
+        "lab_context_tip_well_10_1",
+        "lab_context_tip_well_10_2",
+        "lab_context_tip_well_10_3",
+        "lab_context_tip_well_10_4",
+        "lab_context_tip_well_10_5",
+        "lab_context_tip_well_10_6",
+        "lab_context_tip_well_10_7",
+        "lab_context_tip_well_11_0",
+        "lab_context_tip_well_11_1",
+        "lab_context_tip_well_11_2",
+        "lab_context_tip_well_11_3",
+        "lab_context_tip_well_11_4",
+        "lab_context_tip_well_11_5",
+        "lab_context_tip_well_11_6",
+        "lab_context_tip_well_11_7",
+        "lab_context_tip_rack_lid",
+        "lab_context_label_tip_rack"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_tip_rack_base": [
+          0.78,
+          -0.035,
+          0.823
+        ],
+        "lab_context_tip_rack_insert": [
+          0.78,
+          -0.035,
+          0.85
+        ],
+        "lab_context_tip_well_0_0": [
+          0.731,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_0_0": [
+          0.731,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_0_1": [
+          0.731,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_0_1": [
+          0.731,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_0_2": [
+          0.731,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_0_2": [
+          0.731,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_0_3": [
+          0.731,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_0_3": [
+          0.731,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_0_4": [
+          0.731,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_0_4": [
+          0.731,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_0_5": [
+          0.731,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_0_5": [
+          0.731,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_0_6": [
+          0.731,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_0_6": [
+          0.731,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_0_7": [
+          0.731,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_0_7": [
+          0.731,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_1_0": [
+          0.7398,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_1_0": [
+          0.7398,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_1_1": [
+          0.7398,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_1_1": [
+          0.7398,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_1_2": [
+          0.7398,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_1_2": [
+          0.7398,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_1_3": [
+          0.7398,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_1_3": [
+          0.7398,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_1_4": [
+          0.7398,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_1_4": [
+          0.7398,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_1_5": [
+          0.7398,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_1_5": [
+          0.7398,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_1_6": [
+          0.7398,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_1_6": [
+          0.7398,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_1_7": [
+          0.7398,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_1_7": [
+          0.7398,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_2_0": [
+          0.7485999999999999,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_2_0": [
+          0.7485999999999999,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_2_1": [
+          0.7485999999999999,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_2_1": [
+          0.7485999999999999,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_2_2": [
+          0.7485999999999999,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_2_2": [
+          0.7485999999999999,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_2_3": [
+          0.7485999999999999,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_2_3": [
+          0.7485999999999999,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_2_4": [
+          0.7485999999999999,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_2_4": [
+          0.7485999999999999,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_2_5": [
+          0.7485999999999999,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_2_5": [
+          0.7485999999999999,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_2_6": [
+          0.7485999999999999,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_2_6": [
+          0.7485999999999999,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_2_7": [
+          0.7485999999999999,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_2_7": [
+          0.7485999999999999,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_3_0": [
+          0.7574,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_3_0": [
+          0.7574,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_3_1": [
+          0.7574,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_3_1": [
+          0.7574,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_3_2": [
+          0.7574,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_3_2": [
+          0.7574,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_3_3": [
+          0.7574,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_3_3": [
+          0.7574,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_3_4": [
+          0.7574,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_3_4": [
+          0.7574,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_3_5": [
+          0.7574,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_3_5": [
+          0.7574,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_3_6": [
+          0.7574,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_3_6": [
+          0.7574,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_3_7": [
+          0.7574,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_3_7": [
+          0.7574,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_4_0": [
+          0.7662,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_4_0": [
+          0.7662,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_4_1": [
+          0.7662,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_4_1": [
+          0.7662,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_4_2": [
+          0.7662,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_4_2": [
+          0.7662,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_4_3": [
+          0.7662,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_4_3": [
+          0.7662,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_4_4": [
+          0.7662,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_4_4": [
+          0.7662,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_4_5": [
+          0.7662,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_4_5": [
+          0.7662,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_4_6": [
+          0.7662,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_4_6": [
+          0.7662,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_4_7": [
+          0.7662,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_4_7": [
+          0.7662,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_5_0": [
+          0.775,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_5_0": [
+          0.775,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_5_1": [
+          0.775,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_5_1": [
+          0.775,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_5_2": [
+          0.775,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_5_2": [
+          0.775,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_5_3": [
+          0.775,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_5_3": [
+          0.775,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_5_4": [
+          0.775,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_5_4": [
+          0.775,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_5_5": [
+          0.775,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_5_5": [
+          0.775,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_5_6": [
+          0.775,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_5_6": [
+          0.775,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_5_7": [
+          0.775,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_5_7": [
+          0.775,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_6_0": [
+          0.7837999999999999,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_6_0": [
+          0.7837999999999999,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_6_1": [
+          0.7837999999999999,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_6_1": [
+          0.7837999999999999,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_6_2": [
+          0.7837999999999999,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_6_2": [
+          0.7837999999999999,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_6_3": [
+          0.7837999999999999,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_6_3": [
+          0.7837999999999999,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_6_4": [
+          0.7837999999999999,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_6_4": [
+          0.7837999999999999,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_6_5": [
+          0.7837999999999999,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_6_5": [
+          0.7837999999999999,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_6_6": [
+          0.7837999999999999,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_6_6": [
+          0.7837999999999999,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_6_7": [
+          0.7837999999999999,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_6_7": [
+          0.7837999999999999,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_7_0": [
+          0.7926,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_7_0": [
+          0.7926,
+          -0.067,
+          0.86
+        ],
+        "lab_context_tip_well_7_1": [
+          0.7926,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_7_1": [
+          0.7926,
+          -0.057800000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_7_2": [
+          0.7926,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_7_2": [
+          0.7926,
+          -0.048600000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_7_3": [
+          0.7926,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_7_3": [
+          0.7926,
+          -0.039400000000000004,
+          0.86
+        ],
+        "lab_context_tip_well_7_4": [
+          0.7926,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_7_4": [
+          0.7926,
+          -0.030200000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_7_5": [
+          0.7926,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_7_5": [
+          0.7926,
+          -0.021000000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_7_6": [
+          0.7926,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_7_6": [
+          0.7926,
+          -0.011800000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_7_7": [
+          0.7926,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_7_7": [
+          0.7926,
+          -0.002600000000000005,
+          0.86
+        ],
+        "lab_context_tip_well_8_0": [
+          0.8014,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_well_8_1": [
+          0.8014,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_8_2": [
+          0.8014,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_8_3": [
+          0.8014,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_8_4": [
+          0.8014,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_8_5": [
+          0.8014,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_8_6": [
+          0.8014,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_8_7": [
+          0.8014,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_9_0": [
+          0.8102,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_well_9_1": [
+          0.8102,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_9_2": [
+          0.8102,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_9_3": [
+          0.8102,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_9_4": [
+          0.8102,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_9_5": [
+          0.8102,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_9_6": [
+          0.8102,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_9_7": [
+          0.8102,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_10_0": [
+          0.819,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_well_10_1": [
+          0.819,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_10_2": [
+          0.819,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_10_3": [
+          0.819,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_10_4": [
+          0.819,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_10_5": [
+          0.819,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_10_6": [
+          0.819,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_10_7": [
+          0.819,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_11_0": [
+          0.8278,
+          -0.067,
+          0.8547
+        ],
+        "lab_context_tip_well_11_1": [
+          0.8278,
+          -0.057800000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_11_2": [
+          0.8278,
+          -0.048600000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_11_3": [
+          0.8278,
+          -0.039400000000000004,
+          0.8547
+        ],
+        "lab_context_tip_well_11_4": [
+          0.8278,
+          -0.030200000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_11_5": [
+          0.8278,
+          -0.021000000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_11_6": [
+          0.8278,
+          -0.011800000000000005,
+          0.8547
+        ],
+        "lab_context_tip_well_11_7": [
+          0.8278,
+          -0.002600000000000005,
+          0.8547
+        ],
+        "lab_context_tip_rack_lid": [
+          0.844,
+          -0.035,
+          0.893
+        ],
+        "lab_context_label_tip_rack": [
+          0.719,
+          -0.035,
+          0.824
+        ]
+      }
+    },
+    {
+      "asset": "wafer_box",
+      "source_reference_world_xy_m": [
+        0.61,
+        0.16
+      ],
+      "target_reference_world_xy_m": [
+        0.54,
+        -0.58
+      ],
+      "delta_world_m": [
+        -0.06999999999999995,
+        -0.74,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_wafer_box",
+        "lab_context_wafer_box_lid",
+        "lab_context_label_substrates"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_wafer_box": [
+          0.61,
+          0.16,
+          0.812
+        ],
+        "lab_context_wafer_box_lid": [
+          0.61,
+          0.16,
+          0.828
+        ],
+        "lab_context_label_substrates": [
+          0.61,
+          0.16,
+          0.833
+        ]
+      }
+    },
+    {
+      "asset": "tweezers_tray",
+      "source_reference_world_xy_m": [
+        0.48,
+        0.29
+      ],
+      "target_reference_world_xy_m": [
+        0.5,
+        0.8
+      ],
+      "delta_world_m": [
+        0.020000000000000018,
+        0.51,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_tweezers_tray_floor",
+        "lab_context_tweezers_tray_side_y-1",
+        "lab_context_tweezers_tray_side_x-1",
+        "lab_context_tweezers_tray_side_y1",
+        "lab_context_tweezers_tray_side_x1",
+        "lab_context_tweezer_a_0.26",
+        "lab_context_tweezer_b_0.26",
+        "lab_context_tweezer_a_0.31",
+        "lab_context_tweezer_b_0.31"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_tweezers_tray_floor": [
+          0.48,
+          0.29,
+          0.803
+        ],
+        "lab_context_tweezers_tray_side_y-1": [
+          0.48,
+          0.20299999999999999,
+          0.818
+        ],
+        "lab_context_tweezers_tray_side_x-1": [
+          0.433,
+          0.29,
+          0.818
+        ],
+        "lab_context_tweezers_tray_side_y1": [
+          0.48,
+          0.377,
+          0.818
+        ],
+        "lab_context_tweezers_tray_side_x1": [
+          0.527,
+          0.29,
+          0.818
+        ],
+        "lab_context_tweezer_a_0.26": [
+          0.475,
+          0.26,
+          0.813
+        ],
+        "lab_context_tweezer_b_0.26": [
+          0.485,
+          0.26,
+          0.813
+        ],
+        "lab_context_tweezer_a_0.31": [
+          0.475,
+          0.31,
+          0.813
+        ],
+        "lab_context_tweezer_b_0.31": [
+          0.485,
+          0.31,
+          0.813
+        ]
+      }
+    },
+    {
+      "asset": "wipes_box",
+      "source_reference_world_xy_m": [
+        0.82,
+        -0.18
+      ],
+      "target_reference_world_xy_m": [
+        0.54,
+        -0.85
+      ],
+      "delta_world_m": [
+        -0.2799999999999999,
+        -0.6699999999999999,
+        0.0
+      ],
+      "geom_names": [
+        "lab_context_wipes_box",
+        "lab_context_wipes_slot",
+        "lab_context_protruding_wipe",
+        "lab_context_label_wipes"
+      ],
+      "source_geom_world_centers_m": {
+        "lab_context_wipes_box": [
+          0.82,
+          -0.18,
+          0.832
+        ],
+        "lab_context_wipes_slot": [
+          0.82,
+          -0.18,
+          0.865
+        ],
+        "lab_context_protruding_wipe": [
+          0.82,
+          -0.18,
+          0.877
+        ],
+        "lab_context_label_wipes": [
+          0.754,
+          -0.18,
+          0.833
+        ]
+      }
+    }
+  ],
+  "spinner_service_hoses": [
+    {
+      "geom_name": "lab_context_spinner_service_-0.008",
+      "new_center_world_m": [
+        0.88,
+        -0.34800000000000003,
+        0.808
+      ],
+      "new_half_length_m": 0.13,
+      "world_endpoints_m": [
+        [
+          0.75,
+          -0.34800000000000003,
+          0.808
+        ],
+        [
+          1.01,
+          -0.34800000000000003,
+          0.808
+        ]
+      ],
+      "scope": "Connected visual service hose reroute, not a rigid translation; native contact flags/gains untouched"
+    },
+    {
+      "geom_name": "lab_context_spinner_service_0.008",
+      "new_center_world_m": [
+        0.88,
+        -0.332,
+        0.808
+      ],
+      "new_half_length_m": 0.13,
+      "world_endpoints_m": [
+        [
+          0.75,
+          -0.332,
+          0.808
+        ],
+        [
+          1.01,
+          -0.332,
+          0.808
+        ]
+      ],
+      "scope": "Connected visual service hose reroute, not a rigid translation; native contact flags/gains untouched"
+    }
+  ],
+  "standing_station_candidates": {
+    "base_x_m": [
+      0,
+      0.02
+    ],
+    "rejected_base_x_m": [
+      0.08,
+      0.16,
+      0.24
+    ],
+    "base_y_m": [
+      0.2,
+      0.25,
+      0.3,
+      0.4
+    ],
+    "torso_q_rad": [
+      [
+        0,
+        0,
+        0.0,
+        0
+      ],
+      [
+        0,
+        0,
+        0.17453292519943295,
+        0
+      ],
+      [
+        0,
+        0,
+        0.2617993877991494,
+        0
+      ]
+    ]
+  },
+  "scope": "Shared proposal for independent STATIC layout/IK checks only. Original scenario and all task gates unchanged.",
+  "working_postures": {
+    "left_base_xy_m": [
+      0.0,
+      0.3
+    ],
+    "right_grasp_base_xy_m": [
+      0.02,
+      0.2
+    ],
+    "right_aspiration_base_xy_m": [
+      0.0,
+      0.3
+    ],
+    "right_coating_base_xy_m": [
+      0.0,
+      -0.1
+    ],
+    "standing_torso_q_rad": [
+      0.0,
+      0.0,
+      0.20943951023931956,
+      0.0
+    ],
+    "leg_crouch_enabled": false
+  },
+  "user_intent": "Move apparatus into the bench to support natural extended-arm pouring; place stand out of direct cup-to-coater route, remove extra forward bypass; no forced squat",
+  "known_pending": [
+    "Fresh combined75mm LEFT grip+stand75 single episode",
+    "Own full-flow grip, liquid completion, original task and geometry checks",
+    "Full video rendering from same actual episode"
+  ],
+  "right_runtime_config": {
+    "cup_xy_m": [
+      0.535403007880263,
+      0.19356075896062788
+    ],
+    "tube_xy_m": [
+      0.5857706477542469,
+      0.5075805675759745
+    ],
+    "stand_center_xy_m": [
+      0.6755720962956568,
+      0.010308108948508195
+    ],
+    "grasp_verticalize_extra_lift_m": 0.0,
+    "skip_camera_clearance_motion": true,
+    "stand_yaw_deg": 75.0,
+    "station_already_prepared": true,
+    "coating_target_xy_m": [
+      0.5663408283466298,
+      -0.3366934589676108
+    ],
+    "grasp_base_xy_m": [
+      0.02,
+      0.2
+    ],
+    "aspiration_base_xy_m": [
+      0.0,
+      0.3
+    ],
+    "coating_base_xy_m": [
+      0.0,
+      -0.1
+    ],
+    "standing_torso_q_rad": [
+      0.0,
+      0.0,
+      0.20943951023931953,
+      0.0
+    ],
+    "aspiration_tool_world_yaw_delta_deg": 15.0,
+    "minimum_table_edge_margin_m": 0.05
+  },
+  "right_independent_readiness": {
+    "source": "research/hardware/right_wrist_natural_v7/actual_right_chain_04_stand75_turn15",
+    "scope": "Independent RIGHT actual original gates and own native/FCL review passed; not integrated LEFT+RIGHT success. Original stand seating/exit contacts retained.",
+    "maximum_actual_wrist_angle_deg": 27.73071,
+    "geometry_review": "research/hardware/right_wrist_natural_v7/actual_right_chain_04_stand75_turn15/independent_actual_right_geometry_review_v7.json"
+  },
+  "left_profile": "research/hardware/human_workflow_v7/safe_empty_ready_50/profile.json",
+  "v7_left_initial_coarse_base_xy_m": [
+    0.0,
+    0.15
+  ],
+  "v7_task_scope": "Shared beaker at (.55,.20), provisional mirrored LEFT mount, RIGHT stand yaw75 with free turn15; no main fixture translations beyond layout03.",
+  "updated_utc": "2026-10-21T11:33:34.874635+00:00",
+  "right_runtime_config_source": "research/hardware/right_wrist_natural_v7/frozen_stand75_turn15_03/right_runtime_config.json",
+  "left_hand_mount_convention": "RIGHT_anatomical_mirror_Rz180_provisional",
+  "left_mount_quaternion_wxyz": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "hardware_mount_calibrated": false,
+  "left_mount_proof": {
+    "path": "research/hardware/human_workflow_v7/independent_mount_symmetry_01/mirror_algebra_proof.json",
+    "sha256": "12ada139b01e1ab85300f95319a1f961c3a2f14389e69fd072aa40e1905e9ef7"
+  },
+  "old_left_grasp_certificates_applicable": false,
+  "initial_left_ready_convention": "LEFT arm mirror of RIGHT arm under original source-joint sign map",
+  "anatomical_ready_joint_sign_map": [
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "new_scene_builder_source_sha256": "c789641bc8c363da9f5cc75cbc52446dd6670e823fb2220174f2f0123d05c527",
+  "left_grasp_geometry_candidate": {
+    "controller_grasp_height_m": 0.075,
+    "plan": "research/hardware/human_workflow_v7/fresh_com_grip75_43/used_tube_grasp_plan.json",
+    "entry_and_lift_path": "constant-palm Cartesian, opt-in original helper",
+    "independent_actual_held_gate": "passed in fresh43; full run must revalidate"
+  },
+  "return_motion_candidate": {
+    "actual_return_entry_geometry_read": true,
+    "axial_yaw_free_insertion": true,
+    "corner_deviation_limit_m": 0.012,
+    "scope": "GT upper bound; conditional branch held on thumb/index, nonpad acceptance unresolved; fresh whole outcome unknown"
+  },
+  "empty_ready_clearance_candidate": {
+    "palm_retreat_world_x_m": -0.1,
+    "duration_s": 1.5,
+    "hand_abduction_spread_during_empty_ready": true,
+    "scope": "Conditional native/FCL clear; fresh original task/fine checks required"
+  }
+}

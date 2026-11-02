@@ -1,0 +1,93 @@
+{
+  "source_url": "https://sketchfab.com/3d-models/lab-bench-1ac2a62c52a848bbaf746146dc7253f8",
+  "mirror_url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-085/1ac2a62c52a848bbaf746146dc7253f8.glb",
+  "source_sha256": "b9cfd22d25af004f05104ada49eade5878b6949a49507d44a01efc7f4a2a6661",
+  "author": "Konstantin_Keller",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "dimension_reference": "User specified 2000 x 750 x 800 mm on 2026-10-18",
+  "width_m": 2.0,
+  "depth_m": 0.75,
+  "worktop_height_m": 0.8,
+  "worktop_thickness_m": 0.03309696185937278,
+  "source_to_bench_transform": [
+    [
+      0.0,
+      0.0,
+      -0.8790745026615018,
+      0.39829987702442077
+    ],
+    [
+      -0.7632218858120666,
+      0.0,
+      0.0,
+      -0.006537002046438249
+    ],
+    [
+      0.0,
+      0.7686247362997565,
+      0.0,
+      0.38817088153735796
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "retained_meshes": [
+    {
+      "node": "Torus.000_0",
+      "name": "cabinet",
+      "bounds_m": [
+        [
+          0.011805970000665467,
+          -0.976561469687034,
+          0.0
+        ],
+        [
+          0.7499296833287139,
+          0.976561469687034,
+          0.7731365974991957
+        ]
+      ],
+      "faces": 264
+    },
+    {
+      "node": "Torus.003_0",
+      "name": "handles",
+      "bounds_m": [
+        [
+          -0.05286755262877979,
+          -0.7251256534010976,
+          0.4551334659102687
+        ],
+        [
+          0.024833862454932187,
+          0.5672913796432961,
+          0.692407918377566
+        ]
+      ],
+      "faces": 490
+    },
+    {
+      "node": "Torus.004_0",
+      "name": "worktop",
+      "bounds_m": [
+        [
+          0.0,
+          -1.0,
+          0.7669030381406272
+        ],
+        [
+          0.75,
+          1.0000000000000002,
+          0.8
+        ]
+      ],
+      "faces": 76
+    }
+  ],
+  "modifications": "Removed source shelf and apparatus; scaled axes to 2000 x 750 x 800 mm; recolored cabinet/worktop; added collision envelopes. Not manufacturer CAD or measured real hardware."
+}

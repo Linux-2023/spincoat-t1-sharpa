@@ -1,0 +1,1036 @@
+{
+  "schema_version": 1,
+  "entrypoint": "run_t1_full_workflow_v28",
+  "plugins": [
+    {
+      "module": "v34_v34pourclosure",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_v34pourreference",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_v34returnoffsetaware",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_v34rightstation",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_speedpour",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_smoothtubereturn",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_speedrightpickup",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_smoothrightwithdrawal",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_speedtransport",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_smoothrightenvelope",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_toppwholeflow",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_dualarmoverlap",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_nolimits2x",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_heldsupporttolerance",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_nativewristtiming",
+      "entrypoint": "install"
+    },
+    {
+      "module": "v34_localizedspeed",
+      "entrypoint": "install"
+    }
+  ],
+  "files": [
+    {
+      "source": "inputs/research/hardware/releases/v10_09_accepted_grasp/run_t1_human_workflow_v10.py",
+      "target": "research/hardware/releases/v10_09_accepted_grasp/run_t1_human_workflow_v10.py",
+      "sha256": "e6094178a4955bc24614e1db3e49db767c8372baff015ead3ac766e0b953d28c"
+    },
+    {
+      "source": "inputs/research/hardware/releases/v10_09_accepted_grasp/t1_single_grasp_v10.py",
+      "target": "research/hardware/releases/v10_09_accepted_grasp/t1_single_grasp_v10.py",
+      "sha256": "c9576ba6f1d243b5f5bf3b1916728c3d644df13a3f2a7ab637d5de3b8866b2b3"
+    },
+    {
+      "source": "inputs/research/hardware/task_ready_natural_01_pinky_010mm.json",
+      "target": "research/hardware/task_ready_natural_01_pinky_010mm.json",
+      "sha256": "73876b19dd00b26968074382c15c9c104c381374359162dba9c4665332b057fe"
+    },
+    {
+      "source": "inputs/research/hardware/task_ready_natural_01_pinky_010mm_profile.json",
+      "target": "research/hardware/task_ready_natural_01_pinky_010mm_profile.json",
+      "sha256": "8555239ba537d60fd94f8eb3e3c5b3c4cba0788661b284941781fe16f475ec17"
+    },
+    {
+      "source": "inputs/research/hardware/task_ready_natural_01.json",
+      "target": "research/hardware/task_ready_natural_01.json",
+      "sha256": "3c8c26a1114f620d5fc7944a46daa3a8702f0fd080a93c3ce34679e57d7d5c03"
+    },
+    {
+      "source": "inputs/research/hardware/grasp/grasp_fit.json",
+      "target": "research/hardware/grasp/grasp_fit.json",
+      "sha256": "40fa210b05354c4a807323114c8f1d5f9b591c8e64f021f87661db7a86c3aa42"
+    },
+    {
+      "source": "inputs/research/hardware/neutral_wrist/station_orientation_B01/yaw60/report.json",
+      "target": "research/hardware/neutral_wrist/station_orientation_B01/yaw60/report.json",
+      "sha256": "8b8c039b76107544e1d103a5796f7141ed2f2e49a219f7b2fd8d3d98b8c24747"
+    },
+    {
+      "source": "inputs/research/hardware/grasp_azimuth/support_staged_04/executed_aspiration_adapter.py",
+      "target": "research/hardware/grasp_azimuth/support_staged_04/executed_aspiration_adapter.py",
+      "sha256": "8d13344f5d8ac4a4cd856e81f4a2e6758c061b32383804ae75043a870e31bd66"
+    },
+    {
+      "source": "inputs/research/hardware/direct_grasp/direct_oblique_07/executed_clearance_adapter.py",
+      "target": "research/hardware/direct_grasp/direct_oblique_07/executed_clearance_adapter.py",
+      "sha256": "af07abf54dd1c62005cddf8104cc31f2bf62cde8a8ea43760eec4d949b0ee54b"
+    },
+    {
+      "source": "inputs/research/hardware/pinky_wrap_20261019/pinky_wrap07_contact_plan.json",
+      "target": "research/hardware/pinky_wrap_20261019/pinky_wrap07_contact_plan.json",
+      "sha256": "baab7b83503119760a46fe87f292865b521d6c6fc1a5e5c0f6e8b5b5ef02238f"
+    },
+    {
+      "source": "inputs/research/hardware/human_workflow_v5/integrated_human_v5_04_geometry/preparation_config.json",
+      "target": "research/hardware/human_workflow_v5/integrated_human_v5_04_geometry/preparation_config.json",
+      "sha256": "6b07a9d9ca7725b728b1688251891e702f7937e0b1501807ed7bf4077ddb5b63"
+    },
+    {
+      "source": "inputs/research/hardware/human_workflow_v7/independent_mount_symmetry_01/mirror_algebra_proof.json",
+      "target": "research/hardware/human_workflow_v7/independent_mount_symmetry_01/mirror_algebra_proof.json",
+      "sha256": "12ada139b01e1ab85300f95319a1f961c3a2f14389e69fd072aa40e1905e9ef7"
+    },
+    {
+      "source": "native_fluid/fluid_render.py",
+      "target": "src/tasks/config/shadow_spincoat_dispense/fluid_render.py",
+      "sha256": "ae8977aeef2c85859dda86496b90e813bb3adae67a0dcaeb5d709169a724eaa7"
+    },
+    {
+      "source": "native_fluid/fluid_v2.py",
+      "target": "src/tasks/config/shadow_spincoat_dispense/fluid_v2.py",
+      "sha256": "71a578f26a9474d470f749afff09771242370de95bea63c758ab62daca9d1f4b"
+    },
+    {
+      "source": "native_fluid/impact.py",
+      "target": "src/tasks/config/shadow_spincoat_dispense/impact.py",
+      "sha256": "958753267f804adff849dc99757537db5d324325981a165905224ba5a2e8fd7b"
+    },
+    {
+      "source": "native_fluid/thin_film.py",
+      "target": "src/tasks/config/shadow_spincoat_dispense/thin_film.py",
+      "sha256": "708dd7703a97e076ea7a5dee0c085da352ab5ceeab1252c6a86735ceaeaeb2e0"
+    },
+    {
+      "source": "inputs/chassis_kinematics.py",
+      "target": "inputs/chassis_kinematics.py",
+      "sha256": "430264390c318572592f4b344c3184c1d9faf7347ed07d991967bb9f29ad81fc"
+    },
+    {
+      "source": "inputs/reference/layout.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/layout.json",
+      "sha256": "da52fbb33a1629b44a200907b9d36870f34ff17d8f6b4f24e7845d38f034a12a"
+    },
+    {
+      "source": "inputs/reference/preparation_config.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/preparation_config.json",
+      "sha256": "0c7b32c6c10397e986e8422154f2aa15224f5c67774f476f4c06b148a949567b"
+    },
+    {
+      "source": "inputs/reference/tube_grasp_plan.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/tube_grasp_plan.json",
+      "sha256": "8de6d2fe28c71d34b13ac6a6118b41d0b58d107f153c49518fd84f9740b77da3"
+    },
+    {
+      "source": "inputs/reference/pour_profile.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/pour_profile.json",
+      "sha256": "c4ef62fb9e4210fb9f23076b7eda3524b0b1bf4c909bf71017fc8056794cc874"
+    },
+    {
+      "source": "inputs/reference/case.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/case.json",
+      "sha256": "f31f47096c022b132bb85a9cd632d7246f33f1f24d25d785a471d64478a7d0bd"
+    },
+    {
+      "source": "inputs/reference/hold_profile.json",
+      "target": "research/hardware/human_workflow_v7/frozen_inputs/{run_id}/hold_profile.json",
+      "sha256": "88a89f9008de3fc32126ef341b6108a30e4f96b745d4ed218a9b437c7f64d59c"
+    },
+    {
+      "source": "native/action_capture.py",
+      "target": "scripts/action_capture.py",
+      "sha256": "dabd1b01e1ba80b8a51812a58dddc4452c4fd9e1378e9cb96c4569df7fa9507e"
+    },
+    {
+      "source": "native/assemble_t1_human_workflow_v6.py",
+      "target": "scripts/assemble_t1_human_workflow_v6.py",
+      "sha256": "3cf672d66dc69cace3e1cddaf56bc8a38cb8ee0bda466e1358d7c6a7c9ad8641"
+    },
+    {
+      "source": "native/assemble_t1_human_workflow_v7.py",
+      "target": "scripts/assemble_t1_human_workflow_v7.py",
+      "sha256": "d975f5077054c44f68d688913e2b929df655c45c65d929346202be9422c3ab83"
+    },
+    {
+      "source": "native/audit_t1_primary_saved_geometry_v4.py",
+      "target": "scripts/audit_t1_primary_saved_geometry_v4.py",
+      "sha256": "9ae4c44aded4bacc045958197ff972ed2acd4c4dfa609c59784b3ce02fa0097e"
+    },
+    {
+      "source": "native/audit_t1_workstation_support_v4.py",
+      "target": "scripts/audit_t1_workstation_support_v4.py",
+      "sha256": "a129c2d53e89a318ba7eba649829313b3f0f47677aa447a3a8cf929d31275635"
+    },
+    {
+      "source": "native/lab_room_facilities.py",
+      "target": "scripts/lab_room_facilities.py",
+      "sha256": "1c6786beb9f56ba0ea0f777ceabea4026d9d63a42adc85fdfbbd4894a98542dc"
+    },
+    {
+      "source": "native/preview_lab_materials_v2.py",
+      "target": "scripts/preview_lab_materials_v2.py",
+      "sha256": "16a6453140cf19881d2db7d881ddecdae16c93a1a019a5190c6db48ce02750b3"
+    },
+    {
+      "source": "native/preview_t1_reagent_preparation.py",
+      "target": "scripts/preview_t1_reagent_preparation.py",
+      "sha256": "5e9cedf4364c34354691de845cda06dfe0d7f4bfae24ae84ec3090e8230ecfd5"
+    },
+    {
+      "source": "native/probe_t1_reagent_reach.py",
+      "target": "scripts/probe_t1_reagent_reach.py",
+      "sha256": "3bf2d882dcc743b4ab4e3a5384443abfeea4b9a791ff72da35f39a1469523fec"
+    },
+    {
+      "source": "native/probe_t1_station_orientation_chain.py",
+      "target": "scripts/probe_t1_station_orientation_chain.py",
+      "sha256": "0f6787aaa445634c8658ac3c621e1a3c993bb07c74cbeccb126a9463e7f8afd3"
+    },
+    {
+      "source": "native/probe_t1_support_grasp.py",
+      "target": "scripts/probe_t1_support_grasp.py",
+      "sha256": "ed19f234d31de6604f141bfaf9cd292d68291a3269964f3b5c43a570449844f1"
+    },
+    {
+      "source": "native/recording_adapter.py",
+      "target": "scripts/recording_adapter.py",
+      "sha256": "5343f0b9be8231b955aee4e81263c5cd2d58a6e97827a3fe8b4cc06adece9725"
+    },
+    {
+      "source": "native/render_t1_spincoat_episode.py",
+      "target": "scripts/render_t1_spincoat_episode.py",
+      "sha256": "2878d3a13993801ced1eb1a84130ca33fda84f1dab806fa3ab71775ab3315047"
+    },
+    {
+      "source": "native/run_t1_aspiration_probe.py",
+      "target": "scripts/run_t1_aspiration_probe.py",
+      "sha256": "123dd37f83bf9ccd1b85c394ea662acd7c32b42646c8cb8e67c5cee77f5d0b95"
+    },
+    {
+      "source": "native/run_t1_front_workflow.py",
+      "target": "scripts/run_t1_front_workflow.py",
+      "sha256": "781dc1e287336aa01c2ab83866be99f5e09d3fd9f98134735a5aa345397e0049"
+    },
+    {
+      "source": "native/run_t1_full_workflow_v28.py",
+      "target": "scripts/run_t1_full_workflow_v28.py",
+      "sha256": "a6e708f658980526ab6e466189768dd28b47ab243551fd6f26a2ca0eab1a7164"
+    },
+    {
+      "source": "native/run_t1_human_workflow_v10.py",
+      "target": "scripts/run_t1_human_workflow_v10.py",
+      "sha256": "e6094178a4955bc24614e1db3e49db767c8372baff015ead3ac766e0b953d28c"
+    },
+    {
+      "source": "native/run_t1_human_workflow_v2.py",
+      "target": "scripts/run_t1_human_workflow_v2.py",
+      "sha256": "bde4485131b6f2162b18737d49ce6ace10be111aa16c93dca35d9610ed818a1c"
+    },
+    {
+      "source": "native/run_t1_human_workflow_v3.py",
+      "target": "scripts/run_t1_human_workflow_v3.py",
+      "sha256": "16e3c18afc18346d4d5e5d7a346199c227e33be06214aae132e7265a8b129843"
+    },
+    {
+      "source": "native/run_t1_human_workflow_v4.py",
+      "target": "scripts/run_t1_human_workflow_v4.py",
+      "sha256": "bc266ecc4df0556cb0f91f4d07417f6e79f004a3304a35418cab0b6149202c63"
+    },
+    {
+      "source": "native/run_t1_integrated_workflow.py",
+      "target": "scripts/run_t1_integrated_workflow.py",
+      "sha256": "53121578fade64f5889aaaa7011402d30e018c2bea4d0ca807bb45b38e534f7b"
+    },
+    {
+      "source": "native/run_t1_neutral_integrated_workflow.py",
+      "target": "scripts/run_t1_neutral_integrated_workflow.py",
+      "sha256": "af333a30aa73f021e670a7c802494307109d438a4f6d1d358d202cf70e9c0621"
+    },
+    {
+      "source": "native/run_t1_spincoat_episode.py",
+      "target": "scripts/run_t1_spincoat_episode.py",
+      "sha256": "8becd8000a464171342ad8e9c46d1273581c3145aa3bd92f45c859fef0a3b905"
+    },
+    {
+      "source": "native/settle_t1_glass_reset.py",
+      "target": "scripts/settle_t1_glass_reset.py",
+      "sha256": "4e5f03a395a8bd01b8ba289696bb53978d1a10600030ab181a44a25173a671b6"
+    },
+    {
+      "source": "native/spincoat_lab_context.py",
+      "target": "scripts/spincoat_lab_context.py",
+      "sha256": "e6432c4fcd25fc5041837142db199f9f7248ebe1a6a45dcce04e59de6ca32409"
+    },
+    {
+      "source": "native/t1_actual_frame_return_v7.py",
+      "target": "scripts/t1_actual_frame_return_v7.py",
+      "sha256": "8a88d26317fbb486c33bab2777bba381fec80952d0cda91cbc8a4752bf1dcd63"
+    },
+    {
+      "source": "native/t1_actual_record_clock_v6.py",
+      "target": "scripts/t1_actual_record_clock_v6.py",
+      "sha256": "3f85a6493e208ac850e19a17a4ea8f887f4ab118010201ced11f12e989e41aa8"
+    },
+    {
+      "source": "native/t1_adaptive_return_corner_v7.py",
+      "target": "scripts/t1_adaptive_return_corner_v7.py",
+      "sha256": "4441e743dd5bb6cec1aab1f27a151e9b982e1bc4af37dd7112e058dba3df63d2"
+    },
+    {
+      "source": "native/t1_anatomical_mount_scene_v7.py",
+      "target": "scripts/t1_anatomical_mount_scene_v7.py",
+      "sha256": "c789641bc8c363da9f5cc75cbc52446dd6670e823fb2220174f2f0123d05c527"
+    },
+    {
+      "source": "native/t1_aspiration_stage.py",
+      "target": "scripts/t1_aspiration_stage.py",
+      "sha256": "4dfff5b67323117fa3f59d9d19e23d464eb83b179260d80b99a67eeac18e1233"
+    },
+    {
+      "source": "native/t1_balanced_pinch_v30.py",
+      "target": "scripts/t1_balanced_pinch_v30.py",
+      "sha256": "282f222cb9cca8015efa0e36248919d6b56d3f527603ad7ecb65b19c740a0e50"
+    },
+    {
+      "source": "native/t1_bimanual_glass_preparation.py",
+      "target": "scripts/t1_bimanual_glass_preparation.py",
+      "sha256": "83c12322a94794877b3c81908df46fa9f6a16149c6b6ba09b18cc90cf0010506"
+    },
+    {
+      "source": "native/t1_bimanual_head_view.py",
+      "target": "scripts/t1_bimanual_head_view.py",
+      "sha256": "20da7b32b36b616e14a9e627ed16cf3b501996c1e810d17d12ec3e74d31838a8"
+    },
+    {
+      "source": "native/t1_chemist_coat.py",
+      "target": "scripts/t1_chemist_coat.py",
+      "sha256": "669ac5e9652dd0ae8a800a4a2e21b2d111f439a3837c8a1b47f69ce702aa3b0f"
+    },
+    {
+      "source": "native/t1_clearance05_grasp.py",
+      "target": "scripts/t1_clearance05_grasp.py",
+      "sha256": "453e910875cad3526407b0c032b06e7722669b652204d86c1c3b84c39b8b8da8"
+    },
+    {
+      "source": "native/t1_coarse_fine_motion_v3.py",
+      "target": "scripts/t1_coarse_fine_motion_v3.py",
+      "sha256": "fbb0e6d580a93334bc37f1a38ac68a4061aff09453d8f085f4a532c957f38527"
+    },
+    {
+      "source": "native/t1_coarse_stop.py",
+      "target": "scripts/t1_coarse_stop.py",
+      "sha256": "4d55e71e6175a36e1d3ee3929a29d7f45a241c858906b5bd9e82ac76a7a8e775"
+    },
+    {
+      "source": "native/t1_continuous_approach.py",
+      "target": "scripts/t1_continuous_approach.py",
+      "sha256": "bbdc771eb85acc4777902469bfe5b6e4bcf5df12646d8fab4251c26571629a1d"
+    },
+    {
+      "source": "native/t1_deferred_idle_restore_v5.py",
+      "target": "scripts/t1_deferred_idle_restore_v5.py",
+      "sha256": "b6aa289a665dcdfae8be873e9727e2046c82e8818d53212b3840c6141ecdd88e"
+    },
+    {
+      "source": "native/t1_empty_hand_ready_v7.py",
+      "target": "scripts/t1_empty_hand_ready_v7.py",
+      "sha256": "506c6e13ca25e1eedbcd3b224714f844dea5452eb9c9d0b58973912753e0ad51"
+    },
+    {
+      "source": "native/t1_five_pad_hold_v31.py",
+      "target": "scripts/t1_five_pad_hold_v31.py",
+      "sha256": "18ac29a361fab4da6fa0fc010707f54b1562c853e2d4762d3148a7d3fc774145"
+    },
+    {
+      "source": "native/t1_frozen_transport_hold_v31.py",
+      "target": "scripts/t1_frozen_transport_hold_v31.py",
+      "sha256": "c750cd134c74e7082c9c690f0330f3e23a2d82103d70eb22930b5d52c45edcbb"
+    },
+    {
+      "source": "native/t1_fullhand_preload_v31.py",
+      "target": "scripts/t1_fullhand_preload_v31.py",
+      "sha256": "a5188547c95bca426e79ff52aa45c0bda396bff86667a94c3074ec0b19de587c"
+    },
+    {
+      "source": "native/t1_glass_pour_trajectory.py",
+      "target": "scripts/t1_glass_pour_trajectory.py",
+      "sha256": "be23e0aa59774756a7c93e2897ad79639b1d166ba846740d49a31a358ea7492e"
+    },
+    {
+      "source": "native/t1_glass_preparation_stage.py",
+      "target": "scripts/t1_glass_preparation_stage.py",
+      "sha256": "b03af9c2f44bce5d2c29f5929628f29b0bbd8a0f283efba039ec50d2f2f1f584"
+    },
+    {
+      "source": "native/t1_glass_rack_clearance.py",
+      "target": "scripts/t1_glass_rack_clearance.py",
+      "sha256": "4b16febd7ca003666bcfc6e1d9bb03764c10c0007ac3e5248da153dcae179521"
+    },
+    {
+      "source": "native/t1_glass_testtube_preparation.py",
+      "target": "scripts/t1_glass_testtube_preparation.py",
+      "sha256": "f5d1db5e8eeb4920adf23641f14da9bf1373742c902b0b29fbb6e79a71f08ff0"
+    },
+    {
+      "source": "native/t1_gravity_liquid_render_v2.py",
+      "target": "scripts/t1_gravity_liquid_render_v2.py",
+      "sha256": "237ac748e98ea76dda01745d923ade25b80761fd188c5ea73c6a7e59adaded16"
+    },
+    {
+      "source": "native/t1_gravity_pour_liquid_v2.py",
+      "target": "scripts/t1_gravity_pour_liquid_v2.py",
+      "sha256": "fe625d61cc75b644b368edda0efc39e04247d361bbd7597e62d0248bebd495de"
+    },
+    {
+      "source": "native/t1_human_pour_profile_v2.py",
+      "target": "scripts/t1_human_pour_profile_v2.py",
+      "sha256": "5b19abc7b83b83309347805aacc1b4530d948ee60a4f474c732a3a6f003aae2c"
+    },
+    {
+      "source": "native/t1_human_pour_profile_v4.py",
+      "target": "scripts/t1_human_pour_profile_v4.py",
+      "sha256": "c6e77afe2ac717f75dceda258f80bd07605270e511c8675f81aa25138f760b9a"
+    },
+    {
+      "source": "native/t1_human_pour_v4_arclength.py",
+      "target": "scripts/t1_human_pour_v4_arclength.py",
+      "sha256": "b6aa7ab707b3569fe4a4e73b6b52d97739ce55799ef903a504d6d1307eb50a9b"
+    },
+    {
+      "source": "native/t1_human_pour_v4_geometric_ik.py",
+      "target": "scripts/t1_human_pour_v4_geometric_ik.py",
+      "sha256": "e83fd7b0d099d2d142b287777a0a813ba297fcfe86340f9f3bd7e731a9d4bc4d"
+    },
+    {
+      "source": "native/t1_human_pour_v4_joint_reference.py",
+      "target": "scripts/t1_human_pour_v4_joint_reference.py",
+      "sha256": "0626d4443ef4b95c44056393789773b442f1ca59e2bd950ac60ce0e05cf4eeaa"
+    },
+    {
+      "source": "native/t1_human_tube_mixing.py",
+      "target": "scripts/t1_human_tube_mixing.py",
+      "sha256": "98f69c5c35e6c8b960cc7ad10b87b57aef09d4ffb13c569992bbe9c3cd8bac03"
+    },
+    {
+      "source": "native/t1_human_tube_mixing_v2.py",
+      "target": "scripts/t1_human_tube_mixing_v2.py",
+      "sha256": "5aff9151d68c07d8a9ccd126ffd3befb527ee3d66728ff759c60388d24c35fe4"
+    },
+    {
+      "source": "native/t1_human_tube_mixing_v3.py",
+      "target": "scripts/t1_human_tube_mixing_v3.py",
+      "sha256": "52bd2e00d89add30c9f5afb38975c0909c9713351ef2cb58e2d50fb93b153f4d"
+    },
+    {
+      "source": "native/t1_interior_layout_launch_v6.py",
+      "target": "scripts/t1_interior_layout_launch_v6.py",
+      "sha256": "b926f13b1aa7ffc250bb5bab82c97f43c89abbe7e1377dfe5d12ec6e0c05c938"
+    },
+    {
+      "source": "native/t1_interior_scene_v6.py",
+      "target": "scripts/t1_interior_scene_v6.py",
+      "sha256": "b7d23eabfd27d9ed701962f5dd80fef4a00c43c9333edf644da96b6ecdede677"
+    },
+    {
+      "source": "native/t1_left_anatomical_forward_v7.py",
+      "target": "scripts/t1_left_anatomical_forward_v7.py",
+      "sha256": "3e5e22584e3b9aa5579718507a2f029feb54c779aa71da19ddaabfbd0f9aea06"
+    },
+    {
+      "source": "native/t1_left_cartesian_segment.py",
+      "target": "scripts/t1_left_cartesian_segment.py",
+      "sha256": "e6e588e6656d9986d1d60f25e4e95fb615b4934fbce19766bf9c44761d99d3c7"
+    },
+    {
+      "source": "native/t1_left_com_grip_stage_v7.py",
+      "target": "scripts/t1_left_com_grip_stage_v7.py",
+      "sha256": "7e2d6eed3a53b988b6b54bd1b8f66711ad01897e704e8e0ccf37aadb691a76a3"
+    },
+    {
+      "source": "native/t1_left_continuous_ik.py",
+      "target": "scripts/t1_left_continuous_ik.py",
+      "sha256": "539ab4dc837c2f8fbddf23624fc9e41ac0145d7b0a3dd994a7b07077a683ae57"
+    },
+    {
+      "source": "native/t1_left_glass_preparation_stage.py",
+      "target": "scripts/t1_left_glass_preparation_stage.py",
+      "sha256": "96a5c588e766bca573f1f803fc5c3e7532f46f0243abcc6e2e8501a40b5409f2"
+    },
+    {
+      "source": "native/t1_left_grip_human_v3.py",
+      "target": "scripts/t1_left_grip_human_v3.py",
+      "sha256": "e72e69791c80de330bf1d726a550af4f51a718986ebdd169c180f51a4579065f"
+    },
+    {
+      "source": "native/t1_left_hand_encoder_tracking.py",
+      "target": "scripts/t1_left_hand_encoder_tracking.py",
+      "sha256": "fdfbd15b9115bce7dbcf798cd68f61be17ecef1a8eb9888c23ef28c60d8089f1"
+    },
+    {
+      "source": "native/t1_left_index_clearance_overlay.py",
+      "target": "scripts/t1_left_index_clearance_overlay.py",
+      "sha256": "253432e02cdff2a8502d03d21db93d9c8e7ad107ac59218d565c135c9bb465aa"
+    },
+    {
+      "source": "native/t1_left_loaded_continuous_neutral_v3.py",
+      "target": "scripts/t1_left_loaded_continuous_neutral_v3.py",
+      "sha256": "b72cd1225fefc4c5807010ec70da10849ac932b1974901fc11905fbc6e57a35a"
+    },
+    {
+      "source": "native/t1_left_opposite_workflow_v7.py",
+      "target": "scripts/t1_left_opposite_workflow_v7.py",
+      "sha256": "2f44de9fa535b144251a7ef9a12f6c9a9977d861a67335c9ca8c00d5340a3ca8"
+    },
+    {
+      "source": "native/t1_left_standing_body_v6.py",
+      "target": "scripts/t1_left_standing_body_v6.py",
+      "sha256": "156b862f8dfde28bb70dcebb99143a0678c77d7321eb203a556c8d59b835784e"
+    },
+    {
+      "source": "native/t1_left_standing_workflow_v6.py",
+      "target": "scripts/t1_left_standing_workflow_v6.py",
+      "sha256": "554e35b4adb035f625ee7804d8d3484f5b855570124ec0b5ffb852c836971b73"
+    },
+    {
+      "source": "native/t1_liquid_palette.py",
+      "target": "scripts/t1_liquid_palette.py",
+      "sha256": "2c71b68d99ff44e439ea2f769381b71e04c9f05f06ffd45a4f6174beefa62383"
+    },
+    {
+      "source": "native/t1_loaded_crouch_v4.py",
+      "target": "scripts/t1_loaded_crouch_v4.py",
+      "sha256": "d90ed834e260e94d487c05785da6284edf2ad2e1e6377992d72a063ee7545fd0"
+    },
+    {
+      "source": "native/t1_loaded_mouth_transport_v4.py",
+      "target": "scripts/t1_loaded_mouth_transport_v4.py",
+      "sha256": "ffeb98976755c92f84ca5cb641d8aefd2630d044af11bcf44278915301b5158d"
+    },
+    {
+      "source": "native/t1_mobile_grasp_profile.py",
+      "target": "scripts/t1_mobile_grasp_profile.py",
+      "sha256": "111f6612dabcec6b4a2fcfd26abaf46feedf4b6b8c351077676349b9ec749722"
+    },
+    {
+      "source": "native/t1_mobile_stage.py",
+      "target": "scripts/t1_mobile_stage.py",
+      "sha256": "fa1cfd258e25cc527be9363923ffc7d6b4b6c818e01d0539b8481cdd3f987d17"
+    },
+    {
+      "source": "native/t1_natural_layout_launch_v7.py",
+      "target": "scripts/t1_natural_layout_launch_v7.py",
+      "sha256": "a166e458bc620d57001cc30996ca18f69d557e9b862d59916887ce7a517a2798"
+    },
+    {
+      "source": "native/t1_neutral_view_clearance.py",
+      "target": "scripts/t1_neutral_view_clearance.py",
+      "sha256": "b5bf276435a9766c1556accdb37745f79b890ddafe00b072ca2b97e09d39c249"
+    },
+    {
+      "source": "native/t1_object_wrench_v30.py",
+      "target": "scripts/t1_object_wrench_v30.py",
+      "sha256": "49cdd961dd0a1f6ecb20c04f8a5fb1244fd99632abed0f08f451e73c58760dab"
+    },
+    {
+      "source": "native/t1_preturn_route_v31.py",
+      "target": "scripts/t1_preturn_route_v31.py",
+      "sha256": "99332b5f2db6ab17dc799d1c7a657e424d6d76f89df7b7d6abe28da0397d0758"
+    },
+    {
+      "source": "native/t1_radial_preload_v30.py",
+      "target": "scripts/t1_radial_preload_v30.py",
+      "sha256": "e3aaef35b45eea52b9708476abbea7033ebce771570aa3ded98c3d4acef9c945"
+    },
+    {
+      "source": "native/t1_rapid_docking.py",
+      "target": "scripts/t1_rapid_docking.py",
+      "sha256": "4b2d676736fc63efc69ea10bbebf40b1a5f748b48425db5d99f53aac53da0a31"
+    },
+    {
+      "source": "native/t1_reagent_preparation.py",
+      "target": "scripts/t1_reagent_preparation.py",
+      "sha256": "e70b66631f116eecfde9dd9552a47eef3413bfafffaafc7c6dbb34bf9c4dca00"
+    },
+    {
+      "source": "native/t1_reagent_preparation_stage.py",
+      "target": "scripts/t1_reagent_preparation_stage.py",
+      "sha256": "de608729f190d7e9a0452393965be85ae033a5dfc636fc6e6fd04fd25e0ecea9"
+    },
+    {
+      "source": "native/t1_reagent_workflow_adapter.py",
+      "target": "scripts/t1_reagent_workflow_adapter.py",
+      "sha256": "3020b73375a9ac7205234e4e92ca975d79f0ea55a234c227cebaf0e96584d15d"
+    },
+    {
+      "source": "native/t1_right_approach_v3.py",
+      "target": "scripts/t1_right_approach_v3.py",
+      "sha256": "2ed9441204016423919fdb3ffbd995f64f82ab804b092ec8dc39cec372807b97"
+    },
+    {
+      "source": "native/t1_right_boundary_recorder_v6.py",
+      "target": "scripts/t1_right_boundary_recorder_v6.py",
+      "sha256": "1f5b1a9a5adcc7353236a6e678cef43fde4b0e086935ab2ac4e98caae2836373"
+    },
+    {
+      "source": "native/t1_right_direct_coating_v6.py",
+      "target": "scripts/t1_right_direct_coating_v6.py",
+      "sha256": "0bffcc333ea005074302f94c4d9113fc605d635b5f209594fb9c1ec9e08118a4"
+    },
+    {
+      "source": "native/t1_right_interior_workstation_v6.py",
+      "target": "scripts/t1_right_interior_workstation_v6.py",
+      "sha256": "7d874a4dd72589ca7c257dde6c5279559d5d0bcc45bc6a90dfeea086d7509d58"
+    },
+    {
+      "source": "native/t1_right_passive_settle_v5.py",
+      "target": "scripts/t1_right_passive_settle_v5.py",
+      "sha256": "d6fbef1331547bc1038249f78da7c228a907197c4024f7aafc4297b81dce8d30"
+    },
+    {
+      "source": "native/t1_right_seat_alignment_v5.py",
+      "target": "scripts/t1_right_seat_alignment_v5.py",
+      "sha256": "f392b39986b4a2b0794a7e582ee24727b50c435879f68a09e6ccafcab716221c"
+    },
+    {
+      "source": "native/t1_right_slot_exit_v5.py",
+      "target": "scripts/t1_right_slot_exit_v5.py",
+      "sha256": "49eda29bc4cbba2f413a4a635b2295bd14cd237ad5a235db60f12fa836ddc748"
+    },
+    {
+      "source": "native/t1_right_standing_motion_v6.py",
+      "target": "scripts/t1_right_standing_motion_v6.py",
+      "sha256": "a0b627ec6c8fdb4dd3bf0e53ea173c9a50705c64e6f9c9692e57364f015e66ca"
+    },
+    {
+      "source": "native/t1_right_station_yaw_candidate_v7.py",
+      "target": "scripts/t1_right_station_yaw_candidate_v7.py",
+      "sha256": "3d39459b249bd5fe5b5f518a735ec62307a6a0dd5ab396ff9b7647387088c1c6"
+    },
+    {
+      "source": "native/t1_right_station_yaw_launch_v7.py",
+      "target": "scripts/t1_right_station_yaw_launch_v7.py",
+      "sha256": "510fd12ad2ae6474155d03740bc1cee8940a3ac961220ce9cc0cde759795e007"
+    },
+    {
+      "source": "native/t1_right_transport_layout_v3.py",
+      "target": "scripts/t1_right_transport_layout_v3.py",
+      "sha256": "64f71de3547fc1a55ad51f944ba955b6f74372f4d591561c534b295331df7342"
+    },
+    {
+      "source": "native/t1_right_transport_low_v3.py",
+      "target": "scripts/t1_right_transport_low_v3.py",
+      "sha256": "9e09100e5cd0c6e29c1760b6717b7af9715406a0e64ef1e6f948d1f6b34643b9"
+    },
+    {
+      "source": "native/t1_right_workstation_v4.py",
+      "target": "scripts/t1_right_workstation_v4.py",
+      "sha256": "21e992efe60f1cf479d8130dcfc80059c3e3096f4923971fbae6b9eff415cf10"
+    },
+    {
+      "source": "native/t1_single_grasp_v10.py",
+      "target": "scripts/t1_single_grasp_v10.py",
+      "sha256": "c9576ba6f1d243b5f5bf3b1916728c3d644df13a3f2a7ab637d5de3b8866b2b3"
+    },
+    {
+      "source": "native/t1_spincoat_scene.py",
+      "target": "scripts/t1_spincoat_scene.py",
+      "sha256": "8cbe40df8c4426eeca3b9592d20359127f822bfdd8b71cd7506df6652874b039"
+    },
+    {
+      "source": "native/t1_support_grasp.py",
+      "target": "scripts/t1_support_grasp.py",
+      "sha256": "365e07351d89ecdf16324953b2c7bc6a5786c6c03680ca4bd69c02ab075e5fa7"
+    },
+    {
+      "source": "native/t1_swirl_postheld_ik_buffer.py",
+      "target": "scripts/t1_swirl_postheld_ik_buffer.py",
+      "sha256": "91e89cb6a9bd32521edc290c2d878db6fec2aa01fc975a1f4abbe830808fa8b3"
+    },
+    {
+      "source": "native/t1_tabletop_decor_reset_v6.py",
+      "target": "scripts/t1_tabletop_decor_reset_v6.py",
+      "sha256": "81099881b6152171c7dd62d299bc3a054a72e8bc4b373994cd0a75fbe28f3c1a"
+    },
+    {
+      "source": "native/t1_torso_crouch_v4.py",
+      "target": "scripts/t1_torso_crouch_v4.py",
+      "sha256": "bd9ff74620446fd4393414b376eeb78a299a8ca6caa3da7898cc3f21b0aaff47"
+    },
+    {
+      "source": "native/t1_transition_flow_v8.py",
+      "target": "scripts/t1_transition_flow_v8.py",
+      "sha256": "784aaac14465fe7155229a8228a55d305b977e7f2c6afe1f08c6a56faecb09ef"
+    },
+    {
+      "source": "native/t1_v10_v27_stage_v28.py",
+      "target": "scripts/t1_v10_v27_stage_v28.py",
+      "sha256": "4446765422a11449841209bb6a71ba4312c8b782ccbea57bdfdef001d99daeb2"
+    },
+    {
+      "source": "native/t1_visible_view_clearance.py",
+      "target": "scripts/t1_visible_view_clearance.py",
+      "sha256": "c2a362671c80637bb35a627d30455ec4a17ac3256d24964232f16508bfbb7f24"
+    },
+    {
+      "source": "native/t1_visual_relocalization.py",
+      "target": "scripts/t1_visual_relocalization.py",
+      "sha256": "fc2b4d76672dc4645844f7c8d8bb0e21325c346d9e3cf31ce1df5abb5f9407fa"
+    },
+    {
+      "source": "native/t1_workflow_ik.py",
+      "target": "scripts/t1_workflow_ik.py",
+      "sha256": "a626c5d7a2e206613afe49d1cdd0e295bc356c5832e7a917490e56c254bc588f"
+    },
+    {
+      "source": "native/t1_wrist_mixing_v26.py",
+      "target": "scripts/t1_wrist_mixing_v26.py",
+      "sha256": "8f0acd0c6f07603b0156ae2b4c5f790f4272c25979fcb769f1443fb45693f4c0"
+    },
+    {
+      "source": "native/t1_wrist_mixing_v27.py",
+      "target": "scripts/t1_wrist_mixing_v27.py",
+      "sha256": "fe970b01d9dadea86b7908c031b1cb0ca84a1c3d4c166b9305482ece3e9b3bd1"
+    },
+    {
+      "source": "native/t1_yaw_motion_candidate.py",
+      "target": "scripts/t1_yaw_motion_candidate.py",
+      "sha256": "ffc9a6406df1f46fc2b0b8d15ba635c26d45533be2b0e746c416a0db5697aed8"
+    },
+    {
+      "source": "native/v34_dualarmoverlap.py",
+      "target": "scripts/v34_dualarmoverlap.py",
+      "sha256": "334a1de05924f1822caec525fef37461183536c2fba6f03e0f0aa9a27a3bdb17"
+    },
+    {
+      "source": "native/v34_edge_center.py",
+      "target": "scripts/v34_edge_center.py",
+      "sha256": "b3466d5690ec4b6962523d0df1d5448efdfc1bfa085dbc864ce625b22ffe1d29"
+    },
+    {
+      "source": "native/v34_heldsupporttolerance.py",
+      "target": "scripts/v34_heldsupporttolerance.py",
+      "sha256": "977afb7454c466cffb4b966c82be15c754ec03babb3581abc2b8164075ad3cae"
+    },
+    {
+      "source": "native/v34_local_speed_policy.py",
+      "target": "scripts/v34_local_speed_policy.py",
+      "sha256": "b8f9ef5f16fcc38889b2006d971d8aa71236f6244cba610483ee178314eea327"
+    },
+    {
+      "source": "native/v34_localizedspeed.py",
+      "target": "scripts/v34_localizedspeed.py",
+      "sha256": "1254f9bb796426be38b9c8f21306a6d4af592dc26d817ee00686db183e8346e1"
+    },
+    {
+      "source": "native/v34_nativefailurepropagation.py",
+      "target": "scripts/v34_nativefailurepropagation.py",
+      "sha256": "59ccc1a4d5e31eefb5f8edf5c432c49a14fdc2d272e67cbf874e20d143d62a37"
+    },
+    {
+      "source": "native/v34_nativewristtiming.py",
+      "target": "scripts/v34_nativewristtiming.py",
+      "sha256": "3aac2a6f3a9b4f62b81bf14f26d5370ea4c76a558d9d8719a00607ac0c04d95c"
+    },
+    {
+      "source": "native/v34_nolimits2x.py",
+      "target": "scripts/v34_nolimits2x.py",
+      "sha256": "aceeaf3b9bb46a86058d9a08e4cc7e4e08da592fd1b6c9ca1629eb21636ab32c"
+    },
+    {
+      "source": "native/v34_overlap_control.py",
+      "target": "scripts/v34_overlap_control.py",
+      "sha256": "6839d187f94fb85586733e762ba92391c24af593638a1ca0174557ccc8aebcf9"
+    },
+    {
+      "source": "native/v34_overlap_timeline.py",
+      "target": "scripts/v34_overlap_timeline.py",
+      "sha256": "4170dffc939a40abfe6d724ca556b787c2d8da95892fe5699281fbed33c710e3"
+    },
+    {
+      "source": "native/v34_rate_consumers.py",
+      "target": "scripts/v34_rate_consumers.py",
+      "sha256": "53992dc6cdb1aef72c185ad7f9bee7710ef95902f1c71be04ef074b5e9d4e75a"
+    },
+    {
+      "source": "native/v34_right_pickup_schedule.py",
+      "target": "scripts/v34_right_pickup_schedule.py",
+      "sha256": "0fceee04aee33d7f8ef61a76082b5d308dbd2581756dd4116e3eb26f3d17cfcb"
+    },
+    {
+      "source": "native/v34_smoothrightenvelope.py",
+      "target": "scripts/v34_smoothrightenvelope.py",
+      "sha256": "0ef0a7b954f38741ca57d3f3126e8698fa625f78c609d1c6929ab74bc37b9ef9"
+    },
+    {
+      "source": "native/v34_smoothrightwithdrawal.py",
+      "target": "scripts/v34_smoothrightwithdrawal.py",
+      "sha256": "0f9b65cb311ba5c66f21ee7bb1cc3de80407d84375ccfe143dd2de80a9b88c2b"
+    },
+    {
+      "source": "native/v34_smoothtubereturn.py",
+      "target": "scripts/v34_smoothtubereturn.py",
+      "sha256": "699ecdebba22dd5b7f0b00bbca74aebb4bc844b85d7a700d1b4006959c78cb0a"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_bounds.py",
+      "target": "scripts/v34_smoothtubereturn_bounds.py",
+      "sha256": "d1bf7386e1340f00c337ca243cc046827366401ebbfdfd04402fce53d5098d60"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_distance.py",
+      "target": "scripts/v34_smoothtubereturn_distance.py",
+      "sha256": "9f702e2598fd1c25c054f9d9b45b0d9ede0003ac537c51ad206095b5d5de2bb0"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_distance_binary.py",
+      "target": "scripts/v34_smoothtubereturn_distance_binary.py",
+      "sha256": "0b183aef286fff57bd89aa26fe9f64a8a53998c684d87bcbcc247e2b49fe0e42"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_geometry.py",
+      "target": "scripts/v34_smoothtubereturn_geometry.py",
+      "sha256": "1f7aebd5e58f5241c18817beb633af02681e19bc0a6c0c97bec12e7ce39b6a1a"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_profile.py",
+      "target": "scripts/v34_smoothtubereturn_profile.py",
+      "sha256": "52aab40b87f6fcab95fdad2a0eb2efa531119d9730d3a1cb15f82647b9b809cc"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_reference.py",
+      "target": "scripts/v34_smoothtubereturn_reference.py",
+      "sha256": "e4f1af5011979f0ab16cbabfbf3600a6e38f34e7d0660c249f53bb39a013fc5f"
+    },
+    {
+      "source": "native/v34_smoothtubereturn_sweep.py",
+      "target": "scripts/v34_smoothtubereturn_sweep.py",
+      "sha256": "f9d2e6ac000e946380755d4b0f6c31b59eddbf3ea7fce04990c7d4060b6477a4"
+    },
+    {
+      "source": "native/v34_speedaspiration.py",
+      "target": "scripts/v34_speedaspiration.py",
+      "sha256": "091865c2195d40f719484575a45f28a9c37aea9ac55740b1574f3d4d615b1b44"
+    },
+    {
+      "source": "native/v34_speedaspiration_profile.py",
+      "target": "scripts/v34_speedaspiration_profile.py",
+      "sha256": "4074b59a45c0020a2dfce85188e1359f8af1e2076472e02e569a0113dbec8e21"
+    },
+    {
+      "source": "native/v34_speedpour.py",
+      "target": "scripts/v34_speedpour.py",
+      "sha256": "6d37ddbf0af67e2ff1f4508ec8161f399ebfe125855fbae7d4dd94f8f1099dd2"
+    },
+    {
+      "source": "native/v34_speedpour_profile.py",
+      "target": "scripts/v34_speedpour_profile.py",
+      "sha256": "b694217521b02053cf5db4d443561af7d80339b2d985998a21108edca070d61c"
+    },
+    {
+      "source": "native/v34_speedrightpickup.py",
+      "target": "scripts/v34_speedrightpickup.py",
+      "sha256": "ea3003f481de5ec26b0efd7e79b306dba6f7d635dc0176e5ab4cb11112e64543"
+    },
+    {
+      "source": "native/v34_speedtransport.py",
+      "target": "scripts/v34_speedtransport.py",
+      "sha256": "1e1f48a46b0c914f7783f54de5fde7fcf86cb50abc80994d3690baa0267b181a"
+    },
+    {
+      "source": "native/v34_topp_core.py",
+      "target": "scripts/v34_topp_core.py",
+      "sha256": "3fcbfa93a5a1a2ae223c7d652e7b5eeba81ec99438962aeba9221865a58801e5"
+    },
+    {
+      "source": "native/v34_topp_left.py",
+      "target": "scripts/v34_topp_left.py",
+      "sha256": "f8f10377c1aa1b3371efd1d6a81f7742d1c6f669bd02c38f9ebcc9793a5bbda8"
+    },
+    {
+      "source": "native/v34_topp_left_paths.py",
+      "target": "scripts/v34_topp_left_paths.py",
+      "sha256": "51caff93586c7e4e0eafda469aabb39a0eea62980ec318a7be345024a3ba4b56"
+    },
+    {
+      "source": "native/v34_topp_right.py",
+      "target": "scripts/v34_topp_right.py",
+      "sha256": "74fe4198b8aecfec90476a4a1fc363a014d25bb011275bdaeb4e1915bb21b34f"
+    },
+    {
+      "source": "native/v34_topp_right_paths.py",
+      "target": "scripts/v34_topp_right_paths.py",
+      "sha256": "02ef91ad212d6e22cc42184307a8d8a2b3158c64335cdfdfbe31047f5857a10d"
+    },
+    {
+      "source": "native/v34_toppwholeflow.py",
+      "target": "scripts/v34_toppwholeflow.py",
+      "sha256": "9b5097c788d1255950a2037a0e11554db910a8e0c6f7fa23d39bf7a2467e049d"
+    },
+    {
+      "source": "native/v34_uncapped_clock.py",
+      "target": "scripts/v34_uncapped_clock.py",
+      "sha256": "293b955b486fa8af822f335d7d19bdf2e8961176d4be561718155d66c65e4382"
+    },
+    {
+      "source": "native/v34_uncapped_left.py",
+      "target": "scripts/v34_uncapped_left.py",
+      "sha256": "80fd8fe7ecf8f8e2aa63d60d4a50fe738b3f7b23458032bdc77943f8b1d14691"
+    },
+    {
+      "source": "native/v34_uncapped_right.py",
+      "target": "scripts/v34_uncapped_right.py",
+      "sha256": "7022b2125e0ce08fac78908de4d027c55fab7faeb3558ada230f3932abddbe37"
+    },
+    {
+      "source": "native/v34_uncapped_wrist_base.py",
+      "target": "scripts/v34_uncapped_wrist_base.py",
+      "sha256": "db8991e03f387cceb1de24b4dbdcd45e99794609b7b0558fa1d79c1e200808c3"
+    },
+    {
+      "source": "native/v34_v34pourclosure.py",
+      "target": "scripts/v34_v34pourclosure.py",
+      "sha256": "48325669920639b2a6f3c9303fd3c318114a70d7f2fd2f6b295906071c528672"
+    },
+    {
+      "source": "native/v34_v34pourreference.py",
+      "target": "scripts/v34_v34pourreference.py",
+      "sha256": "a398bf1d6fc010a2189b3006d40a1e2f9787b514acab45be48176dc389cb6348"
+    },
+    {
+      "source": "native/v34_v34returnoffsetaware.py",
+      "target": "scripts/v34_v34returnoffsetaware.py",
+      "sha256": "25c02cda4fa991d41f5ed676ec80fa8682a6880f9914cec89baa3de5276e8573"
+    },
+    {
+      "source": "native/v34_v34rightstation.py",
+      "target": "scripts/v34_v34rightstation.py",
+      "sha256": "c5db99ef8045330eef52bdf1ae995eb345eaf219a69ad60558be43b751324b58"
+    },
+    {
+      "source": "native/v34_wall_pour.py",
+      "target": "scripts/v34_wall_pour.py",
+      "sha256": "0d524767b6c4cf339b5e46897e5dfd73375d86985cdaf1e27cb16d673f497710"
+    },
+    {
+      "source": "native/v34_window_clock.py",
+      "target": "scripts/v34_window_clock.py",
+      "sha256": "d92e0fb70e194221c145a96291c4afa3b549f9bbe54566292c93b5ae9e8e6c18"
+    }
+  ],
+  "argv": [
+    "{workspace}/scripts/run_t1_full_workflow_v28.py",
+    "--v7-layout",
+    "{workspace}/research/hardware/human_workflow_v7/frozen_inputs/{run_id}/layout.json",
+    "--tag",
+    "{run_id}",
+    "--v4-pour-profile",
+    "{workspace}/research/hardware/human_workflow_v7/frozen_inputs/{run_id}/pour_profile.json",
+    "--fast-transfer",
+    "--rapid-dispense",
+    "--coarse-stop",
+    "--hold-gain-scale",
+    "32",
+    "--absolute-mcp-overlay",
+    "--smooth-approach",
+    "--contact-plan",
+    "research/hardware/pinky_wrap_20261019/pinky_wrap07_contact_plan.json",
+    "--reagent-preparation",
+    "--traditional-test-tube",
+    "--bimanual-preparation",
+    "--settled-tube-reset",
+    "--reset-tube-tilt-deg",
+    ".3",
+    "--reset-tube-tilt-axis",
+    "x",
+    "--tube-grasp-plan",
+    "{workspace}/research/hardware/human_workflow_v7/frozen_inputs/{run_id}/tube_grasp_plan.json",
+    "--reagent-config",
+    "{workspace}/research/hardware/human_workflow_v7/frozen_inputs/{run_id}/preparation_config.json",
+    "--record-actual-clock"
+  ],
+  "path_prefixes": [
+    {
+      "old": "/home/agilex/spincoat-t1-sharpa",
+      "new": "{workspace}"
+    },
+    {
+      "old": "/home/agilex/DexBioLab",
+      "new": "{workspace}/_DexBioLab"
+    },
+    {
+      "old": "/usr/share/fonts/truetype/dejavu",
+      "new": "{workspace}/_system/usr/share/fonts/truetype/dejavu"
+    }
+  ],
+  "runtime_versions": {
+    "mujoco": "3.6.0",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "Pillow": "11.3.0",
+    "trimesh": "4.11.3",
+    "PyOpenGL": "3.1.10",
+    "matplotlib": "3.10.8",
+    "glfw": "2.10.0",
+    "toppra": "0.6.10"
+  },
+  "assets_manifest": "assets.lock.json",
+  "source_identity": {
+    "canonical_parent_commit": "334fbef4a69fea2489b7f8c41afc8140964421cc",
+    "planner_parent_input_lock_sha256": "4a22646cd64d2ae08178839d412d3e68a08e91cf69251bdbca57273e2428b987",
+    "original_time_validated_input_lock_sha256": "da3ea406bc77eb0ed1d7bca3333d12a40a12564c2a2f637983a8ed75f8c305ea",
+    "original_time_episode": "publication_native_01_layout_002",
+    "reference_layout": "layout_002",
+    "motion_reference_factor": 1.0,
+    "physical_timestep_s": 0.001,
+    "native_functional_success": true,
+    "original_functional_gate_count": 35,
+    "strict_geometry_accepted": false
+  }
+}

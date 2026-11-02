@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "kind": "original parametric segmented visual lab coat",
+  "creator": "T1 spin-coating research project",
+  "source": "authored for the official T1 kinematics; no third-party garment geometry copied",
+  "appearance_reference": "https://www.innerscene.com/tools/library/3d-parts/laboratory-researcher-3d-person-healthcare-7a3ceb81",
+  "limitations": [
+    "No cloth dynamics or cloth/environment contact",
+    "No protective-equipment validation",
+    "Sleeves are segmented rigid visual surfaces attached to arm links"
+  ],
+  "collision": false,
+  "geom_mass_kg": 0,
+  "parts": [
+    {
+      "name": "chemist_coat/coat_body",
+      "body": "astribot_torso_link_4",
+      "vertices": 10400,
+      "triangles": 20796,
+      "material": "fabric"
+    },
+    {
+      "name": "chemist_coat/hem",
+      "body": "astribot_torso_link_4",
+      "vertices": 1664,
+      "triangles": 3324,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/front_seam_left",
+      "body": "astribot_torso_link_4",
+      "vertices": 800,
+      "triangles": 1596,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/front_seam_right",
+      "body": "astribot_torso_link_4",
+      "vertices": 800,
+      "triangles": 1596,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/lapel_left",
+      "body": "astribot_torso_link_4",
+      "vertices": 48,
+      "triangles": 92,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/lapel_stitch_left",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/lapel_right",
+      "body": "astribot_torso_link_4",
+      "vertices": 48,
+      "triangles": 92,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/lapel_stitch_right",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/standing_collar",
+      "body": "astribot_torso_link_4",
+      "vertices": 220,
+      "triangles": 436,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/pocket_left_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 384,
+      "triangles": 764,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/pocket_edge_left_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 256,
+      "triangles": 508,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/pocket_side_left_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 640,
+      "triangles": 1276,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/pocket_right_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 384,
+      "triangles": 764,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/pocket_edge_right_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 256,
+      "triangles": 508,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/pocket_side_right_hip",
+      "body": "astribot_torso_link_4",
+      "vertices": 640,
+      "triangles": 1276,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/pocket_breast",
+      "body": "astribot_torso_link_4",
+      "vertices": 384,
+      "triangles": 764,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/pocket_edge_breast",
+      "body": "astribot_torso_link_4",
+      "vertices": 256,
+      "triangles": 508,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/pocket_side_breast",
+      "body": "astribot_torso_link_4",
+      "vertices": 640,
+      "triangles": 1276,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/identity_tab",
+      "body": "astribot_torso_link_4",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "badge"
+    },
+    {
+      "name": "chemist_coat/button_0",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "button"
+    },
+    {
+      "name": "chemist_coat/button_1",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "button"
+    },
+    {
+      "name": "chemist_coat/button_2",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "button"
+    },
+    {
+      "name": "chemist_coat/button_3",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "button"
+    },
+    {
+      "name": "chemist_coat/button_4",
+      "body": "astribot_torso_link_4",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "button"
+    },
+    {
+      "name": "chemist_coat/left_upper_sleeve",
+      "body": "astribot_arm_left_link_3",
+      "vertices": 2784,
+      "triangles": 5564,
+      "material": "fabric"
+    },
+    {
+      "name": "chemist_coat/left_forearm_sleeve",
+      "body": "astribot_arm_left_link_5",
+      "vertices": 2496,
+      "triangles": 4988,
+      "material": "fabric"
+    },
+    {
+      "name": "chemist_coat/left_wrist_cuff",
+      "body": "astribot_arm_left_link_5",
+      "vertices": 480,
+      "triangles": 956,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/left_upper_stitch",
+      "body": "astribot_arm_left_link_3",
+      "vertices": 1040,
+      "triangles": 2076,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/left_cuff_stitch",
+      "body": "astribot_arm_left_link_5",
+      "vertices": 1040,
+      "triangles": 2076,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/left_sleeve_seam",
+      "body": "astribot_arm_left_link_5",
+      "vertices": 320,
+      "triangles": 636,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/right_upper_sleeve",
+      "body": "astribot_arm_right_link_3",
+      "vertices": 2784,
+      "triangles": 5564,
+      "material": "fabric"
+    },
+    {
+      "name": "chemist_coat/right_forearm_sleeve",
+      "body": "astribot_arm_right_link_5",
+      "vertices": 2496,
+      "triangles": 4988,
+      "material": "fabric"
+    },
+    {
+      "name": "chemist_coat/right_wrist_cuff",
+      "body": "astribot_arm_right_link_5",
+      "vertices": 480,
+      "triangles": 956,
+      "material": "fold"
+    },
+    {
+      "name": "chemist_coat/right_upper_stitch",
+      "body": "astribot_arm_right_link_3",
+      "vertices": 1040,
+      "triangles": 2076,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/right_cuff_stitch",
+      "body": "astribot_arm_right_link_5",
+      "vertices": 1040,
+      "triangles": 2076,
+      "material": "seam"
+    },
+    {
+      "name": "chemist_coat/right_sleeve_seam",
+      "body": "astribot_arm_right_link_5",
+      "vertices": 320,
+      "triangles": 636,
+      "material": "seam"
+    }
+  ]
+}

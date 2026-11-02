@@ -1,0 +1,42 @@
+{
+  "layout_references": [
+    "https://snsf.stanford.edu/facilities/fab/npc/wetbench",
+    "https://mitnano.mit.edu/photo-gallery-mitnano-iap-courses",
+    "https://www.nanofab.ualberta.ca/capabilities/wet-chemical-processing/"
+  ],
+  "modeling": "Original geometry inspired by documented facility photographs; no claim of exact reconstruction or manufacturer CAD. Public bench mesh attribution remains in third_party/lab_bench.",
+  "bench_dimensions_m": [
+    2.0,
+    0.75,
+    0.8
+  ],
+  "objects": [
+    "exhaust hood/plenum",
+    "raised transparent sash",
+    "stainless worktop and perforated rear strip",
+    "secondary-containment reagent tray",
+    "capped coating and rinse bottles",
+    "contained solvent waste bottle",
+    "hotplate (off, no thermal simulation)",
+    "96-well tip rack",
+    "substrate box",
+    "tweezers in clean tray",
+    "lint-free wipes"
+  ],
+  "task_geometry": "Pipette, active rack, spinner, robot and fluid parameters preserved.",
+  "limitations": "No airflow, chemical compatibility, ventilation efficacy or chemical safety certification. Dimensions of added objects are design assumptions, not measurements of reference facilities.",
+  "room_facilities": {
+    "surroundings": [
+      "optical inspection bench",
+      "analytical balance with draft shield",
+      "sample storage cabinet",
+      "ceiling grid and fluorescent diffusers",
+      "laboratory access door"
+    ],
+    "references": [
+      "https://www-prod.media.mit.edu/posts/meet-yellowbox/",
+      "https://snsf.stanford.edu/facilities/fab/npc"
+    ],
+    "geometry": "Original approximate fixtures; not manufacturer equipment models or a measured room reconstruction."
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "scope": "Exact initial saved-model display geometry for PreparationReplay animated liquid markers; no colliding geometry, dynamics, or pose state.",
+  "geoms": [
+    {
+      "name": "prep/tube_liquid_proxy_visual",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.04
+      ],
+      "geom_size": [
+        0.0114,
+        0.02,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/receiver_liquid_proxy_visual",
+      "body": "aspiration_source",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.8122529485610669
+      ],
+      "geom_size": [
+        0.0197,
+        0.010252448561066873,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_0",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_1",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_2",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_3",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_4",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_5",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_6",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_7",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_8",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_9",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_10",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/pour_visual_11",
+      "body": "world",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geom_size": [
+        0.0014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_0",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_1",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_2",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_3",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_4",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_5",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_6",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_7",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_8",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_9",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_10",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    },
+    {
+      "name": "prep/tube_bottom_liquid_11",
+      "body": "prep/reagent_tube",
+      "geom_pos": [
+        0.0,
+        0.0,
+        0.005
+      ],
+      "geom_size": [
+        0.005,
+        0.0005,
+        0.0
+      ]
+    }
+  ],
+  "source_model_sha256": "907226cfda28bcb3084dea382774c9be95409e942f6bc78087b92ebb697c636a"
+}

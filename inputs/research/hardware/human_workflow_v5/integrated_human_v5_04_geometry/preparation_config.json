@@ -1,0 +1,42 @@
+{
+  "tube_xy_m": [
+    0.43,
+    0.47
+  ],
+  "tabletop_z_m": 0.8000005,
+  "tube_support_height_m": 0.04,
+  "tube_grasp_height_m": 0.095,
+  "tube_initial_volume_m3": 2.5e-05,
+  "target_pour_volume_m3": 2.5e-05,
+  "tube_capacity_m3": 5.5e-05,
+  "tube_mass_kg": 0.055,
+  "receiver_xy_m": [
+    0.4,
+    0.3
+  ],
+  "receiver_inner_radius_m": 0.0197,
+  "receiver_bottom_z_m": 0.8020005,
+  "receiver_initial_volume_m3": 0.0,
+  "proxy_flow_rate_m3_s": 5e-06,
+  "proxy_min_pour_tilt_deg": 70.0,
+  "pour_mouth_height_m": 0.9,
+  "prepour_mouth_height_m": 1.05,
+  "proxy_max_pour_height_above_bottom_m": 0.24,
+  "prefix": "prep/",
+  "tube_outer_radius_m": 0.0125,
+  "tube_wall_thickness_m": 0.0011,
+  "tube_length_m": 0.15,
+  "rack_lower_height_m": 0.04,
+  "rack_upper_height_m": 0.085,
+  "rack_hole_radius_m": 0.01375,
+  "rack_pitch_m": 0.045,
+  "rack_rows": 2,
+  "rack_columns": 3,
+  "beaker_outer_radius_m": 0.021,
+  "beaker_height_m": 0.056,
+  "beaker_wall_assumption_m": 0.0013,
+  "beaker_bottom_assumption_m": 0.002,
+  "preparation_side": "left",
+  "rack_yaw_deg": -90.0,
+  "transport_yaw_deg": -45.0
+}

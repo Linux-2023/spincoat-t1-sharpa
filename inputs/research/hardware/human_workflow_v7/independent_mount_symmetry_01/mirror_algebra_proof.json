@@ -1,0 +1,308 @@
+{
+  "scope": "Read-only bilateral-frame algebra across mirrored source arm configurations; no mount edits.",
+  "script_sha256": "96fb81c46caee79c93a1d76deeb68f975b713767485df203ccf190334c676d43",
+  "algebra": {
+    "world_sagittal_reflection_S": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "supplied_hand_local_anatomical_mirror_H": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_arm_mirrored_coordinates_right_vs_left": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "right_mount_preserved": "A_R=I",
+    "required_left_tool_mount_formula": "A_L(q)=R_TL(q_L)^T * S * R_TR(q_R) * A_R * H",
+    "properness": "det(S)=-1 and det(H)=-1 so det(A_L)=+1; not a reflected physical mesh",
+    "fixed_candidate_rotation": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fixed_candidate_quaternion_wxyz": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "candidate_parent": "astribot_arm_left_tool_link",
+    "candidate_child": "sharpa_left/left_hand_C_MC",
+    "candidate_position_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "equivalent_link7_to_palm_position_m": [
+      0.0,
+      -0.048,
+      0.0
+    ],
+    "equivalent_link7_to_palm_quaternion_wxyz": [
+      0.0,
+      0.0,
+      -0.7071067811865475,
+      0.7071067811865477
+    ]
+  },
+  "mirrored_pose_checks": [
+    {
+      "left_q_rad": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "right_q_rad": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "derive_left_tool_to_palm_rotation": [
+        [
+          -0.999999999757135,
+          2.203920363393545e-05,
+          -5.912550785117343e-13
+        ],
+        [
+          -2.2039203633345056e-05,
+          -0.9999999997301495,
+          7.346464176822754e-06
+        ],
+        [
+          1.6131896490352526e-10,
+          7.346464175051599e-06,
+          0.9999999999730129
+        ]
+      ],
+      "candidate_deviation_deg": 0.0013310600461092256,
+      "old_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 20.00072656395779,
+        "index_MCP_VL": 60.63369845647204,
+        "pinky_MCP_VL": 62.488083519160305
+      },
+      "candidate_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 0.0007627996758011727,
+        "index_MCP_VL": 0.0009804428746699075,
+        "pinky_MCP_VL": 0.0007857774896027416
+      },
+      "source_tool_position_mirror_error_mm": 0.003043456157024
+    },
+    {
+      "left_q_rad": [
+        0.3,
+        -0.4,
+        0.2,
+        1.2,
+        0.3,
+        0.1,
+        -0.2
+      ],
+      "right_q_rad": [
+        -0.3,
+        -0.4,
+        -0.2,
+        1.2,
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "derive_left_tool_to_palm_rotation": [
+        [
+          -0.9999999997364196,
+          2.0468071669895256e-05,
+          -1.0402700652044084e-05
+        ],
+        [
+          -2.0468137644622606e-05,
+          -0.999999999770416,
+          6.342003195302621e-06
+        ],
+        [
+          -1.0402570841070442e-05,
+          6.3422161176769385e-06,
+          0.9999999999257804
+        ]
+      ],
+      "candidate_deviation_deg": 0.0013647711484776135,
+      "old_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 20.000627259958108,
+        "index_MCP_VL": 60.633635106581245,
+        "pinky_MCP_VL": 62.48825720153917
+      },
+      "candidate_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 0.0013852696609868462,
+        "index_MCP_VL": 0.0017331294159776082,
+        "pinky_MCP_VL": 0.0005156798157073582
+      },
+      "source_tool_position_mirror_error_mm": 0.0043217757245092615
+    },
+    {
+      "left_q_rad": [
+        -0.6,
+        -0.8,
+        -0.5,
+        0.7,
+        -0.9,
+        -0.2,
+        0.4
+      ],
+      "right_q_rad": [
+        0.6,
+        -0.8,
+        0.5,
+        0.7,
+        0.9,
+        -0.2,
+        -0.4
+      ],
+      "derive_left_tool_to_palm_rotation": [
+        [
+          -0.9999999998879331,
+          1.4322262259318887e-05,
+          -4.359273305023084e-06
+        ],
+        [
+          -1.4322276583810477e-05,
+          -0.9999999998920358,
+          3.285939724371167e-06
+        ],
+        [
+          -4.359226242462881e-06,
+          3.2860021587654873e-06,
+          0.9999999999850977
+        ]
+      ],
+      "candidate_deviation_deg": 0.00087819322682818,
+      "old_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 20.00032498663305,
+        "index_MCP_VL": 60.633323060723626,
+        "pinky_MCP_VL": 62.4884711232239
+      },
+      "candidate_relative_landmark_mirror_errors_mm": {
+        "middle_MCP_VL": 0.0006607376131527072,
+        "index_MCP_VL": 0.0009095135728325193,
+        "pinky_MCP_VL": 0.0001313622757426946
+      },
+      "source_tool_position_mirror_error_mm": 0.005092132516724986
+    }
+  ],
+  "source_urdf_tool_joints": [
+    {
+      "side": "left",
+      "source": "/home/agilex/spincoat-t1-sharpa/research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_arm_left.urdf",
+      "sha256": "f4fea9bc55a13c90b27cd45cf7a777e9ce4a74843e269a35c08f3f398000c260",
+      "joint_name": "astribot_arm_left_tool_joint",
+      "parent": {
+        "link": "astribot_arm_left_link_7"
+      },
+      "child": {
+        "link": "astribot_arm_left_tool_link"
+      },
+      "origin": {
+        "xyz": "0 -0.15 0",
+        "rpy": "0 0 0"
+      }
+    },
+    {
+      "side": "right",
+      "source": "/home/agilex/spincoat-t1-sharpa/research/hardware/astribot-t1-aos/astribot_t1/model/urdf/astribot_arm_right.urdf",
+      "sha256": "d63f942f00ba50f538bbbb55dc51ea609045d89d5054a1e835585e61423320e4",
+      "joint_name": "astribot_arm_right_tool_joint",
+      "parent": {
+        "link": "astribot_arm_right_link_7"
+      },
+      "child": {
+        "link": "astribot_arm_right_tool_link"
+      },
+      "origin": {
+        "xyz": "0 -0.15 0",
+        "rpy": "0 0 0"
+      }
+    }
+  ],
+  "source_mjcf_tool_bodies": [
+    {
+      "side": "left",
+      "source": "/home/agilex/spincoat-t1-sharpa/research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/kinematic.xml",
+      "sha256": "9d7e2c3310a2ca7b237e0f3eae38549fbddab0116091fa6b6d98b1d8f0013779",
+      "body_attributes": {
+        "name": "astribot_arm_left_tool_link",
+        "pos": "0 -0.048 0",
+        "euler": "1.5707963 0 0"
+      },
+      "contains_original_gripper": true
+    },
+    {
+      "side": "right",
+      "source": "/home/agilex/spincoat-t1-sharpa/research/hardware/astribot-t1-aos/astribot_t1/model/mjcf/robot/kinematic.xml",
+      "sha256": "9d7e2c3310a2ca7b237e0f3eae38549fbddab0116091fa6b6d98b1d8f0013779",
+      "body_attributes": {
+        "name": "astribot_arm_right_tool_link",
+        "pos": "0 -0.048 0",
+        "euler": "1.5707963 0 0"
+      },
+      "contains_original_gripper": true
+    }
+  ],
+  "findings": [
+    "Across three mirrored source configurations, the required added LEFT adapter is approximately local Rz(pi), not an artifact of comparing unmatched zero world poses.",
+    "The original MJCF tool body is an original-gripper parent frame with Rx(pi/2),48mm offset; the same-named URDF tool uses identity orientation and150mm offset. Current task uses MJCF and must not silently substitute URDF framing.",
+    "Current identity LEFT/RIGHT Sharpa adapters are provisional. This algebra fixes only the desired anatomical sagittal-mirror convention relative to the retained RIGHT mount; it does not validate either mount against physical T1+Sharpa hardware.",
+    "No model, source URDF, range, actuator, grasp pose or live qpos has been changed.",
+    "A new mount would require independently rebuilt scenes, fresh grasp planning/actual retention, full path IK/native/FCL and fresh full-chain evidence; existing actual records remain tied to old mounts."
+  ],
+  "physics_steps_executed": 0
+}

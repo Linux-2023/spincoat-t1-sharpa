@@ -1,0 +1,24 @@
+<mujoco model="MuJoCo Model">
+  <compiler angle="radian"/>
+
+  <asset>
+    <mesh name="cabinet" content_type="model/obj" file="/home/agilex/spincoat-t1-sharpa/assets/third_party/lab_bench/cabinet.obj"/>
+    <mesh name="handles" content_type="model/obj" file="/home/agilex/spincoat-t1-sharpa/assets/third_party/lab_bench/handles.obj"/>
+    <mesh name="worktop" content_type="model/obj" file="/home/agilex/spincoat-t1-sharpa/assets/third_party/lab_bench/worktop.obj"/>
+  </asset>
+
+  <worldbody>
+    <body name="lab_bench">
+      <geom name="lab_bench_visual_cabinet" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.64 0.69 0.72 1" mesh="cabinet"/>
+      <geom name="lab_bench_visual_handles" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.08 0.1 0.11 1" mesh="handles"/>
+      <geom name="lab_bench_visual_worktop" type="mesh" contype="0" conaffinity="0" group="1" rgba="0.16 0.2 0.22 1" mesh="worktop"/>
+      <geom name="bench" size="0.375 1 0.0165485" pos="0.375 0 0.783452" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_cabinet_collision" size="0.355 0.974 0.377" pos="0.38 0 0.377" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_handle_collision_0" size="0.0388507 0.0915752 0.00597222" pos="-0.0140168 -0.478227 0.461106" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_handle_collision_1" size="0.0388507 0.0915752 0.00597222" pos="-0.0140168 -0.146508 0.461106" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_handle_collision_2" size="0.0388507 0.0915752 0.00597222" pos="-0.0140168 -0.63355 0.686436" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_handle_collision_3" size="0.0388507 0.0915752 0.00597222" pos="-0.0140168 0.0101203 0.686436" type="box" group="3" rgba="0 0 0 0"/>
+      <geom name="bench_handle_collision_4" size="0.0388507 0.0915714 0.00597222" pos="-0.0140168 0.47572 0.686436" type="box" group="3" rgba="0 0 0 0"/>
+    </body>
+  </worldbody>
+</mujoco>

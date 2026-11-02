@@ -1,0 +1,14 @@
+.venv/
+.cache/
+runs/
+__pycache__/
+*.py[cod]
+*.mjb
+*.mp4
+*.tar.gz
+
+# Required reference initialization, not generated experiment output.
+!/reference/
+!/inputs/reference/
+!/assets/inputs/ready_pose.npz
+!/assets/research/hardware/grasp/probe.npz

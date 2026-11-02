@@ -1,0 +1,49 @@
+{
+  "case_id": "layout_002",
+  "control": false,
+  "baseline_tag": "integrated_human_v31_08_preturn_margin",
+  "offsets_world_xy_m": {
+    "rack_and_tubes": [
+      -0.014229352245753085,
+      0.007580567575974504
+    ],
+    "shared_beaker": [
+      -0.014596992119737064,
+      -0.0064392410393721185
+    ],
+    "pipette_stand_tool": [
+      -0.004427903704343223,
+      0.010308108948508195
+    ],
+    "spincoater": [
+      0.016340828346629758,
+      0.003306541032389202
+    ]
+  },
+  "targets_world_xy_m": {
+    "rack_and_tubes": [
+      0.5857706477542469,
+      0.5075805675759745
+    ],
+    "shared_beaker": [
+      0.535403007880263,
+      0.19356075896062788
+    ],
+    "pipette_stand_tool": [
+      0.6755720962956568,
+      0.010308108948508195
+    ],
+    "spincoater": [
+      0.5663408283466298,
+      -0.3366934589676108
+    ]
+  },
+  "case_dir": "cases/layout_002",
+  "output_dir": "runs/layout_002",
+  "input_sha256": {
+    "layout.json": "da52fbb33a1629b44a200907b9d36870f34ff17d8f6b4f24e7845d38f034a12a",
+    "preparation_config.json": "0c7b32c6c10397e986e8422154f2aa15224f5c67774f476f4c06b148a949567b",
+    "tube_grasp_plan.json": "8de6d2fe28c71d34b13ac6a6118b41d0b58d107f153c49518fd84f9740b77da3",
+    "pour_profile.json": "c4ef62fb9e4210fb9f23076b7eda3524b0b1bf4c909bf71017fc8056794cc874"
+  }
+}

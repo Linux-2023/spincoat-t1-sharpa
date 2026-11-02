@@ -1,0 +1,416 @@
+{
+  "contract": "at least one measured PP/MP/DP support per bearing finger; missing-distance sentinel is invalid, not a measured clearance",
+  "reference": "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_direct07_01",
+  "reference_time_s": 8.78,
+  "joint_names": [
+    "sharpa_right/right_thumb_CMC_FE",
+    "sharpa_right/right_thumb_CMC_AA",
+    "sharpa_right/right_thumb_MCP_FE",
+    "sharpa_right/right_thumb_MCP_AA",
+    "sharpa_right/right_thumb_IP",
+    "sharpa_right/right_index_MCP_FE",
+    "sharpa_right/right_index_MCP_AA",
+    "sharpa_right/right_index_PIP",
+    "sharpa_right/right_index_DIP",
+    "sharpa_right/right_middle_MCP_FE",
+    "sharpa_right/right_middle_MCP_AA",
+    "sharpa_right/right_middle_PIP",
+    "sharpa_right/right_middle_DIP",
+    "sharpa_right/right_ring_MCP_FE",
+    "sharpa_right/right_ring_MCP_AA",
+    "sharpa_right/right_ring_PIP",
+    "sharpa_right/right_ring_DIP",
+    "sharpa_right/right_pinky_CMC",
+    "sharpa_right/right_pinky_MCP_FE",
+    "sharpa_right/right_pinky_MCP_AA",
+    "sharpa_right/right_pinky_PIP",
+    "sharpa_right/right_pinky_DIP"
+  ],
+  "baseline_actual_q_rad": [
+    -0.09259012982629879,
+    -0.299089755333614,
+    0.5645795369168114,
+    0.11786461754684867,
+    1.438663625909714,
+    1.0164639931447432,
+    0.01672660639126565,
+    1.4549369175737508,
+    1.344272455840836,
+    1.0548525975809178,
+    0.005222764702653962,
+    1.478048906735802,
+    1.2271309848589178,
+    0.9729637035164104,
+    -0.007282447177078532,
+    1.5029107467376321,
+    1.3700180417057324,
+    -0.002554631443322276,
+    0.8344921499996636,
+    -0.002582683394248507,
+    1.5969290304912753,
+    1.3684832701092693
+  ],
+  "baseline_command_q_rad": [
+    -0.09896956986657157,
+    -0.3053743613365695,
+    0.5682742405470123,
+    0.12155741966774342,
+    1.4399316950013363,
+    1.0268685919848486,
+    0.012890434614238134,
+    1.7452998999999998,
+    1.3679478797790097,
+    1.0645150228030378,
+    -2.144236219094212e-05,
+    1.7452998860439686,
+    1.2515788170535558,
+    0.9776109720501643,
+    -0.01293988511356229,
+    1.7452998999999998,
+    1.3963,
+    1.0000000000000001e-07,
+    0.8441972787951779,
+    -0.004429097189584459,
+    1.7452998999999998,
+    1.3963
+  ],
+  "contact_q_rad": [
+    -0.09259012982629879,
+    -0.299089755333614,
+    0.5645795369168114,
+    0.11786461754684867,
+    1.438663625909714,
+    1.1516803974964924,
+    0.01672660639126565,
+    1.3677870608711,
+    1.297741998787042,
+    1.2548525975809148,
+    0.005222764702653962,
+    1.3607411837483174,
+    1.1684050872024891,
+    1.1729637035164073,
+    -0.007282447177078532,
+    1.382910746737632,
+    1.3100180417057323,
+    0.25735666608813146,
+    0.8640615871251042,
+    -0.3463818459740033,
+    1.5260302546193276,
+    1.0552751397123084
+  ],
+  "baseline_command_minus_actual_preload_rad": [
+    -0.006379440040272785,
+    -0.006284606002955495,
+    0.0036947036302008573,
+    0.0036928021208947476,
+    0.0012680690916222481,
+    0.010404598840105361,
+    -0.0038361717770275163,
+    0.29036298242624903,
+    0.023675423938173568,
+    0.009662425222120019,
+    -0.0052442070648449045,
+    0.26725097930816655,
+    0.024447832194637975,
+    0.004647268533753968,
+    -0.005657437936483758,
+    0.24238915326236765,
+    0.026281958294267715,
+    0.0025547314433222758,
+    0.009705128795514328,
+    -0.0018464137953359524,
+    0.14837086950872447,
+    0.027816729890730807
+  ],
+  "close_command_q_rad": [
+    -0.09896956986657157,
+    -0.3053743613365695,
+    0.5682742405470123,
+    0.12155741966774342,
+    1.4399316950013363,
+    1.1620849963365978,
+    0.012890434614238134,
+    1.658150043297349,
+    1.3214174227252156,
+    1.2645150228030348,
+    -2.1442362190942157e-05,
+    1.627992163056484,
+    1.1928529193971271,
+    1.1776109720501613,
+    -0.01293988511356229,
+    1.6252998999999997,
+    1.3363,
+    0.03224826421791028,
+    0.8481928361012117,
+    -0.04728842009030024,
+    1.725672494440397,
+    1.3559666423428025
+  ],
+  "old_open_q_rad": [
+    -0.09896956986657157,
+    -0.3053743613365695,
+    0.5682742405470123,
+    0.12155741966774342,
+    1.4399316950013363,
+    0.0,
+    0.010312347691390507,
+    1.39623992,
+    1.0943583038232079,
+    0.0,
+    -1.7153889752753696e-05,
+    1.396239908835175,
+    1.0012630536428446,
+    0.0,
+    -0.010351908090849833,
+    1.39623992,
+    1.11704,
+    8.000000000000001e-08,
+    0.0,
+    -0.0035432777516675677,
+    1.39623992,
+    1.11704
+  ],
+  "finger_details": [
+    {
+      "digit": "index",
+      "old_actual_q_rad": [
+        1.0164639931447432,
+        1.4549369175737508,
+        1.344272455840836
+      ],
+      "contact_q_rad": [
+        1.1516803974964924,
+        1.3677870608711,
+        1.297741998787042
+      ],
+      "delta_actual_q_rad": [
+        0.1352164043517492,
+        -0.08714985670265074,
+        -0.046530457053794105
+      ],
+      "distance_PP_MP_DP_mm": [
+        3.943986815632572,
+        null,
+        0.1008009850818059
+      ],
+      "distance_valid_mask": [
+        true,
+        false,
+        true
+      ],
+      "eligible_support_parts": [
+        "DP"
+      ],
+      "at_least_one_valid_support": true,
+      "max_fit_joint_change_rad": 0.1352164043517492
+    },
+    {
+      "digit": "middle",
+      "old_actual_q_rad": [
+        1.0548525975809178,
+        1.478048906735802,
+        1.2271309848589178
+      ],
+      "contact_q_rad": [
+        1.2548525975809148,
+        1.3607411837483174,
+        1.1684050872024891
+      ],
+      "delta_actual_q_rad": [
+        0.19999999999999707,
+        -0.1173077229874846,
+        -0.05872589765642866
+      ],
+      "distance_PP_MP_DP_mm": [
+        5.060281685382861,
+        null,
+        0.1000677852000531
+      ],
+      "distance_valid_mask": [
+        true,
+        false,
+        true
+      ],
+      "eligible_support_parts": [
+        "DP"
+      ],
+      "at_least_one_valid_support": true,
+      "max_fit_joint_change_rad": 0.19999999999999707
+    },
+    {
+      "digit": "ring",
+      "old_actual_q_rad": [
+        0.9729637035164104,
+        1.5029107467376321,
+        1.3700180417057324
+      ],
+      "contact_q_rad": [
+        1.1729637035164073,
+        1.382910746737632,
+        1.3100180417057323
+      ],
+      "delta_actual_q_rad": [
+        0.19999999999999696,
+        -0.1200000000000001,
+        -0.06000000000000005
+      ],
+      "distance_PP_MP_DP_mm": [
+        0.47327339017133596,
+        null,
+        1.1940717870875805
+      ],
+      "distance_valid_mask": [
+        true,
+        false,
+        true
+      ],
+      "eligible_support_parts": [
+        "PP"
+      ],
+      "at_least_one_valid_support": true,
+      "max_fit_joint_change_rad": 0.19999999999999696
+    },
+    {
+      "digit": "pinky",
+      "old_actual_q_rad": [
+        0.8344921499996636,
+        1.5969290304912753,
+        1.3684832701092693
+      ],
+      "contact_q_rad": [
+        0.8280339819915594,
+        1.4769290304912754,
+        1.3084832701092692
+      ],
+      "delta_actual_q_rad": [
+        -0.00645816800810417,
+        -0.11999999999999988,
+        -0.06000000000000005
+      ],
+      "distance_PP_MP_DP_mm": [
+        0.08802208949426626,
+        null,
+        5.354765760895663
+      ],
+      "distance_valid_mask": [
+        true,
+        false,
+        true
+      ],
+      "eligible_support_parts": [
+        "PP"
+      ],
+      "at_least_one_valid_support": true,
+      "max_fit_joint_change_rad": 0.11999999999999988
+    }
+  ],
+  "hand_obstacle_overlaps": [],
+  "planning_success": true,
+  "scope": "Provisional pinky-only 5DoF cupping/wrap dynamic test; original non-pinky targets and caps/geometry/base acceptance unchanged. Not claimed fully visually closed.",
+  "pinky_visible_wrap": {
+    "baseline": "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_neutralB01_03",
+    "baseline_time_s": 11.4,
+    "changed_joints": [
+      "sharpa_right/right_pinky_CMC",
+      "sharpa_right/right_pinky_MCP_FE",
+      "sharpa_right/right_pinky_MCP_AA",
+      "sharpa_right/right_pinky_PIP",
+      "sharpa_right/right_pinky_DIP"
+    ],
+    "baseline_actual_q_rad": [
+      -0.0006277476551507651,
+      0.8256389606687297,
+      -0.003507262768277052,
+      1.563049499096152,
+      1.3179420009698886
+    ],
+    "baseline_command_q_rad": [
+      1e-06,
+      0.8377391107870737,
+      -0.004429097189584459,
+      1.6252999,
+      1.3363
+    ],
+    "preserved_command_minus_actual_preload_rad": [
+      0.0006287476551507652,
+      0.012100150118344088,
+      -0.0009218344213074072,
+      0.06225040090384781,
+      0.018357999030111483
+    ],
+    "candidate": {
+      "index": 1,
+      "joint_names": [
+        "sharpa_right/right_pinky_CMC",
+        "sharpa_right/right_pinky_MCP_FE",
+        "sharpa_right/right_pinky_MCP_AA",
+        "sharpa_right/right_pinky_PIP",
+        "sharpa_right/right_pinky_DIP"
+      ],
+      "actual_contact_q_rad": [
+        0.25735666608813146,
+        0.8640615871251042,
+        -0.3463818459740033,
+        1.5260302546193276,
+        1.0552751397123084
+      ],
+      "delta_from_baseline_actual_rad": [
+        0.25798441374328224,
+        0.03842262645637451,
+        -0.3428745832057262,
+        -0.037019244476824475,
+        -0.2626668612575802
+      ],
+      "visible_surfaces": {
+        "PP": {
+          "surface_gap_mm": 0.0,
+          "intersection": true,
+          "max_triangle_contact_depth_mm": 0.46573192342225234,
+          "signed_distance_m": -0.00046573192342225234
+        },
+        "MP": {
+          "surface_gap_mm": 7.286668119473316,
+          "intersection": false,
+          "max_triangle_contact_depth_mm": 0.0,
+          "signed_distance_m": 0.007286668119473316
+        },
+        "DP": {
+          "surface_gap_mm": 0.0,
+          "intersection": true,
+          "max_triangle_contact_depth_mm": 0.31444453559242164,
+          "signed_distance_m": -0.00031444453559242164
+        }
+      },
+      "objective": 5.660998647624236,
+      "solver_success": true,
+      "evaluations": 38
+    },
+    "baseline_visible_surfaces": {
+      "PP": {
+        "surface_gap_mm": 0.6849395860998019,
+        "intersection": false,
+        "max_triangle_contact_depth_mm": 0.0,
+        "signed_distance_m": 0.0006849395860998019
+      },
+      "MP": {
+        "surface_gap_mm": 17.41306670991027,
+        "intersection": false,
+        "max_triangle_contact_depth_mm": 0.0,
+        "signed_distance_m": 0.01741306670991027
+      },
+      "DP": {
+        "surface_gap_mm": 0.0,
+        "intersection": true,
+        "max_triangle_contact_depth_mm": 0.18628613125568072,
+        "signed_distance_m": -0.00018628613125568072
+      }
+    },
+    "old_open_q_unchanged": true,
+    "other_hand_commands_unchanged": true,
+    "force_caps_and_collision_geometry_unchanged": true,
+    "requires_fresh_dynamic_validation": true
+  },
+  "visual_full_wrap_goal_pass": false,
+  "planning_acceptance_scope": "Provisional dynamic test only: >50% MP-gap reduction, DP geometric support retained, visible local overlaps <0.5mm. Full MP visible closure goal remains false and fresh physical/base acceptance is required.",
+  "candidate_revision_note": "Eighth blend baseline-to-wrap01 small-finger command; original timing retained, fresh actual gates required."
+}

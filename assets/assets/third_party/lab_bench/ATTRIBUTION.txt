@@ -1,0 +1,4 @@
+Lab bench by Konstantin_Keller
+https://sketchfab.com/3d-models/lab-bench-1ac2a62c52a848bbaf746146dc7253f8
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Removed source shelf and apparatus; scaled axes to 2000 x 750 x 800 mm; recolored cabinet/worktop; added collision envelopes. Not manufacturer CAD or measured real hardware.

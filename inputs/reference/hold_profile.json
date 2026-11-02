@@ -1,0 +1,6 @@
+{
+  "steady_s": 2.0,
+  "ramp_s": 1.0,
+  "extra_force_N": 9.0,
+  "controller": "freeze"
+}

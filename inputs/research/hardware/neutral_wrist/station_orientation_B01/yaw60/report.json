@@ -1,0 +1,1618 @@
+{
+  "study": "B01 RESET-only changed station orientation; not fixed-layout A and not a dynamic episode",
+  "station_yaw_world_deg": 60.0,
+  "rotation_center_world_m": [
+    0.3935590202863953,
+    -0.06795305799257527,
+    0.8839543678386613
+  ],
+  "reference": "/home/agilex/spincoat-t1-sharpa/logs/spincoat/t1/integrated_support04_01",
+  "reference_time_s": 11.4,
+  "reference_model_sha256": "c1eb4b09308d1a23a82c3b949d1d13e8452646fe6ffec4278f1c17e5dcffa8e9",
+  "axis_definition": {
+    "forearm": "link5 origin \u2192 link6 origin",
+    "palm": "palm origin \u2192 middle_MCP_VL origin; both distal directed"
+  },
+  "station_reset_changes": [
+    {
+      "body": "stand/pipette_stand",
+      "parent": "world",
+      "original_local_pos": [
+        0.34,
+        -0.07999999999999996,
+        1.032
+      ],
+      "new_local_pos": [
+        0.37721246795954533,
+        -0.12036000116611201,
+        1.032
+      ],
+      "original_local_quat": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "new_local_quat": [
+        0.8660254037844386,
+        0.0,
+        0.0,
+        0.4999999999999999
+      ]
+    }
+  ],
+  "pipette_reset_freejoint_qpos": [
+    0.3935590202863953,
+    -0.06795305799257527,
+    0.8839543678386613,
+    0.679440200335712,
+    0.01607867274486971,
+    0.0398833020264946,
+    0.7324696667234724
+  ],
+  "stand_rigid_rotation_max_position_error_mm": 1.1123893155135927e-13,
+  "stand_geom_checks": [
+    {
+      "geom": "stand/stand_base",
+      "position_error_mm": 2.7755575615628914e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/tube_collar_back",
+      "position_error_mm": 1.3877787807814457e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/tube_collar_left",
+      "position_error_mm": 1.3877787807814457e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/tube_collar_right",
+      "position_error_mm": 1.1123893155135927e-13,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_base_panel",
+      "position_error_mm": 2.7755575615628914e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_post_front_left",
+      "position_error_mm": 1.3877787807814457e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_post_front_right",
+      "position_error_mm": 6.938893903907228e-15,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_post_back_left",
+      "position_error_mm": 1.3877787807814457e-14,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_post_back_right",
+      "position_error_mm": 0.0,
+      "orientation_error_deg": 3.9186049638140984e-15
+    },
+    {
+      "geom": "stand/wood_top_back",
+      "position_error_mm": 1.3877787807814457e-14,
+      "orientation_error_deg": 6.491281999867108e-15
+    },
+    {
+      "geom": "stand/wood_top_left",
+      "position_error_mm": 5.721958498152797e-14,
+      "orientation_error_deg": 6.491281999867108e-15
+    },
+    {
+      "geom": "stand/wood_top_right",
+      "position_error_mm": 6.938893903907228e-15,
+      "orientation_error_deg": 6.491281999867108e-15
+    }
+  ],
+  "hand_tool_relative_position_error_mm": 1.1035115954238147e-09,
+  "hand_tool_relative_orientation_error_deg": 2.1672532270069752e-10,
+  "hand_finger_qpos_unchanged": true,
+  "official_tool_adapter_quat_unchanged": true,
+  "adapter_quat_wxyz": [
+    0.7071067811865475,
+    0.7071067811865475,
+    0.0,
+    0.0
+  ],
+  "baseline": {
+    "name": "original_support04",
+    "arm_q_rad": [
+      0.6820656296637376,
+      -0.26574030005746724,
+      1.8423912948834638,
+      0.4538678818624087,
+      0.02623780340678839,
+      0.3862486583695457,
+      -1.185189996677695
+    ],
+    "forearm_palm_angle_deg": 72.01659793197317,
+    "forearm_wrist_to_MCP_angle_deg": 71.21507211022916,
+    "palm_position_error_mm": 0.0,
+    "palm_orientation_error_deg": 0.0,
+    "joint_margins_rad": [
+      2.2610656296637375,
+      0.46674030005746725,
+      0.4786087051165364,
+      0.5068678818624087,
+      2.0747621965932117,
+      0.3637513416304543,
+      0.281810003322305
+    ],
+    "min_joint_margin_rad": 0.281810003322305,
+    "wrist_joint_6_7_deg": [
+      22.13041796716535,
+      -67.90638473075599
+    ],
+    "forearm_unit_world": [
+      0.85562344421172,
+      -0.3516577062531452,
+      -0.3797964972824925
+    ],
+    "palm_axis_unit_world": [
+      -0.0032953247092311062,
+      -0.9948963298250623,
+      0.10084856833729129
+    ]
+  },
+  "best": {
+    "name": "seed_5",
+    "arm_q_rad": [
+      0.31280756695357326,
+      -0.32458084840914797,
+      2.120636091853815,
+      0.9277309338977262,
+      0.09417135603674502,
+      0.20309171576481183,
+      0.11774418362406072
+    ],
+    "forearm_palm_angle_deg": 18.658601665426833,
+    "forearm_wrist_to_MCP_angle_deg": 16.91799518784127,
+    "palm_position_error_mm": 1.1034665678739115e-09,
+    "palm_orientation_error_deg": 2.167348307950225e-10,
+    "joint_margins_rad": [
+      1.8918075669535732,
+      0.525580848409148,
+      0.2003639081461852,
+      0.9807309338977263,
+      2.0068286439632548,
+      0.5469082842351882,
+      1.3492558163759394
+    ],
+    "min_joint_margin_rad": 0.2003639081461852,
+    "wrist_joint_6_7_deg": [
+      11.636298167394244,
+      6.746244783872061
+    ],
+    "forearm_unit_world": [
+      0.7823317408257361,
+      -0.5895293922564048,
+      -0.20102771690084772
+    ],
+    "palm_axis_unit_world": [
+      0.8599578334054653,
+      -0.500301999825713,
+      0.10084856833376644
+    ],
+    "solver_success": true,
+    "solver_message": "Optimization terminated successfully",
+    "ik_pose_pass": true
+  },
+  "valid_ik_candidates": 14,
+  "candidates": [
+    {
+      "name": "seed_0",
+      "arm_q_rad": [
+        0.3128075115671746,
+        -0.3245809607957819,
+        2.120635884251432,
+        0.9277308891304095,
+        0.09417156854219362,
+        0.20309175642802405,
+        0.11774407846802289
+      ],
+      "forearm_palm_angle_deg": 18.658601678513126,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994943787807,
+      "palm_position_error_mm": 5.139545753027353e-10,
+      "palm_orientation_error_deg": 1.0351099856434274e-10,
+      "joint_margins_rad": [
+        1.8918075115671746,
+        0.525580960795782,
+        0.20036411574856805,
+        0.9807308891304095,
+        2.0068284314578064,
+        0.546908243571976,
+        1.3492559215319773
+      ],
+      "min_joint_margin_rad": 0.20036411574856805,
+      "wrist_joint_6_7_deg": [
+        11.636300497224685,
+        6.746238758874903
+      ],
+      "forearm_unit_world": [
+        0.7823317961292986,
+        -0.589529305156057,
+        -0.20102775710663023
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334055951,
+        -0.5003019998251124,
+        0.10084856833564051
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_1",
+      "arm_q_rad": [
+        0.31280749012861375,
+        -0.324581004296775,
+        2.120635803895507,
+        0.9277308718026815,
+        0.09417165079594687,
+        0.2030917721667762,
+        0.11774403776552132
+      ],
+      "forearm_palm_angle_deg": 18.6586016835437,
+      "forearm_wrist_to_MCP_angle_deg": 16.91799484928854,
+      "palm_position_error_mm": 4.2783891970631727e-10,
+      "palm_orientation_error_deg": 1.0248605704356984e-10,
+      "joint_margins_rad": [
+        1.8918074901286137,
+        0.525581004296775,
+        0.20036419610449308,
+        0.9807308718026816,
+        2.0068283492040533,
+        0.5469082278332238,
+        1.3492559622344789
+      ],
+      "min_joint_margin_rad": 0.20036419610449308,
+      "wrist_joint_6_7_deg": [
+        11.63630139898876,
+        6.746236426793348
+      ],
+      "forearm_unit_world": [
+        0.7823318175354412,
+        -0.5895292714423935,
+        -0.20102777266908572
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334056727,
+        -0.500301999824987,
+        0.10084856833560024
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_2",
+      "arm_q_rad": [
+        0.3128075049876002,
+        -0.3245809741455181,
+        2.1206358595913537,
+        0.9277308838132192,
+        0.09417159378481244,
+        0.20309176125741868,
+        0.11774406597688526
+      ],
+      "forearm_palm_angle_deg": 18.65860168002224,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994914752867,
+      "palm_position_error_mm": 5.788220993760728e-10,
+      "palm_orientation_error_deg": 1.3289629590438873e-10,
+      "joint_margins_rad": [
+        1.8918075049876002,
+        0.5255809741455182,
+        0.20036414040864647,
+        0.9807308838132193,
+        2.0068284062151873,
+        0.5469082387425813,
+        1.3492559340231147
+      ],
+      "min_joint_margin_rad": 0.20036414040864647,
+      "wrist_joint_6_7_deg": [
+        11.636300773928616,
+        6.746238043185436
+      ],
+      "forearm_unit_world": [
+        0.7823318026985719,
+        -0.589529294809796,
+        -0.20102776188245067
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334056227,
+        -0.5003019998251726,
+        0.10084856833510439
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_3",
+      "arm_q_rad": [
+        -0.3179937200197048,
+        -0.08331128387820431,
+        2.31899999978586,
+        -0.051,
+        -0.46250537346076653,
+        0.748,
+        -1.4649999999946561
+      ],
+      "forearm_palm_angle_deg": 89.50812690793236,
+      "forearm_wrist_to_MCP_angle_deg": 88.22189894408557,
+      "palm_position_error_mm": 558.3518667075041,
+      "palm_orientation_error_deg": 95.7101944640648,
+      "joint_margins_rad": [
+        1.2610062799802952,
+        0.2843112838782043,
+        0.002000000214140041,
+        0.0020000000000000018,
+        1.6384946265392335,
+        0.0020000000000000018,
+        0.0020000000053439493
+      ],
+      "min_joint_margin_rad": 0.0020000000000000018,
+      "wrist_joint_6_7_deg": [
+        42.857243075785576,
+        -83.93831698635942
+      ],
+      "forearm_unit_world": [
+        -0.344217896866611,
+        -0.04764695932556482,
+        -0.9376800129808437
+      ],
+      "palm_axis_unit_world": [
+        -0.12213225799561751,
+        -0.9887876295958135,
+        0.08592284396587643
+      ],
+      "solver_success": false,
+      "solver_message": "Positive directional derivative for linesearch",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_4",
+      "arm_q_rad": [
+        0.31280746779762103,
+        -0.3245810496103695,
+        2.120635720191587,
+        0.9277308537525645,
+        0.09417173647667743,
+        0.20309178856259763,
+        0.11774399536758275
+      ],
+      "forearm_palm_angle_deg": 18.658601688863275,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994750931133,
+      "palm_position_error_mm": 3.314514315034758e-11,
+      "palm_orientation_error_deg": 7.301841796754796e-12,
+      "joint_margins_rad": [
+        1.891807467797621,
+        0.5255810496103694,
+        0.20036427980841331,
+        0.9807308537525645,
+        2.0068282635233228,
+        0.5469082114374024,
+        1.3492560046324173
+      ],
+      "min_joint_margin_rad": 0.20036427980841331,
+      "wrist_joint_6_7_deg": [
+        11.636302338400128,
+        6.746233997570408
+      ],
+      "forearm_unit_world": [
+        0.7823318398334935,
+        -0.5895292363241134,
+        -0.20102778887966874
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057819,
+        -0.500301999824482,
+        0.10084856833717284
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_5",
+      "arm_q_rad": [
+        0.31280756695357326,
+        -0.32458084840914797,
+        2.120636091853815,
+        0.9277309338977262,
+        0.09417135603674502,
+        0.20309171576481183,
+        0.11774418362406072
+      ],
+      "forearm_palm_angle_deg": 18.658601665426833,
+      "forearm_wrist_to_MCP_angle_deg": 16.91799518784127,
+      "palm_position_error_mm": 1.1034665678739115e-09,
+      "palm_orientation_error_deg": 2.167348307950225e-10,
+      "joint_margins_rad": [
+        1.8918075669535732,
+        0.525580848409148,
+        0.2003639081461852,
+        0.9807309338977263,
+        2.0068286439632548,
+        0.5469082842351882,
+        1.3492558163759394
+      ],
+      "min_joint_margin_rad": 0.2003639081461852,
+      "wrist_joint_6_7_deg": [
+        11.636298167394244,
+        6.746244783872061
+      ],
+      "forearm_unit_world": [
+        0.7823317408257361,
+        -0.5895293922564048,
+        -0.20102771690084772
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334054653,
+        -0.500301999825713,
+        0.10084856833376644
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_6",
+      "arm_q_rad": [
+        0.31280747254665375,
+        -0.3245810399742422,
+        2.120635737991636,
+        0.9277308575909944,
+        0.09417171825621491,
+        0.203091785076186,
+        0.11774400438385112
+      ],
+      "forearm_palm_angle_deg": 18.658601687747662,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994771863075,
+      "palm_position_error_mm": 4.939444692446206e-12,
+      "palm_orientation_error_deg": 1.1593395688474835e-12,
+      "joint_margins_rad": [
+        1.8918074725466538,
+        0.5255810399742422,
+        0.20036426200836432,
+        0.9807308575909944,
+        2.0068282817437852,
+        0.546908214923814,
+        1.349255995616149
+      ],
+      "min_joint_margin_rad": 0.20036426200836432,
+      "wrist_joint_6_7_deg": [
+        11.636302138643456,
+        6.746234514164532
+      ],
+      "forearm_unit_world": [
+        0.7823318350917423,
+        -0.5895292437922007,
+        -0.2010277854322205
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057867,
+        -0.5003019998244531,
+        0.10084856833727551
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_7",
+      "arm_q_rad": [
+        0.3128074397754623,
+        -0.3245811064698005,
+        2.1206356151596935,
+        0.9277308311036412,
+        0.09417184398926591,
+        0.20309180913482053,
+        0.11774394216586061
+      ],
+      "forearm_palm_angle_deg": 18.658601695455573,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994627429145,
+      "palm_position_error_mm": 2.260802061413553e-11,
+      "palm_orientation_error_deg": 6.5407092529796555e-12,
+      "joint_margins_rad": [
+        1.8918074397754623,
+        0.5255811064698005,
+        0.20036438484030672,
+        0.9807308311036412,
+        2.006828156010734,
+        0.5469081908651795,
+        1.3492560578341395
+      ],
+      "min_joint_margin_rad": 0.20036438484030672,
+      "wrist_joint_6_7_deg": [
+        11.636303517101675,
+        6.746230949336266
+      ],
+      "forearm_unit_world": [
+        0.7823318678130283,
+        -0.5895291922575427,
+        -0.2010278092213799
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057827,
+        -0.5003019998244779,
+        0.10084856833718628
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_8",
+      "arm_q_rad": [
+        0.3128074974583036,
+        -0.3245809894260877,
+        2.1206358313651643,
+        0.9277308777259825,
+        0.09417162267732623,
+        0.20309176678738852,
+        0.11774405168020864
+      ],
+      "forearm_palm_angle_deg": 18.65860168188324,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994881652668,
+      "palm_position_error_mm": 5.0088471852461315e-11,
+      "palm_orientation_error_deg": 8.975489950224174e-12,
+      "joint_margins_rad": [
+        1.8918074974583035,
+        0.5255809894260877,
+        0.20036416863483586,
+        0.9807308777259826,
+        2.0068283773226736,
+        0.5469082332126115,
+        1.3492559483197915
+      ],
+      "min_joint_margin_rad": 0.20036416863483586,
+      "wrist_joint_6_7_deg": [
+        11.636301090772548,
+        6.7462372240462045
+      ],
+      "forearm_unit_world": [
+        0.7823318102178801,
+        -0.5895292829674474,
+        -0.2010277673484493
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057731,
+        -0.5003019998245006,
+        0.10084856833715501
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_9",
+      "arm_q_rad": [
+        0.3128074599393799,
+        -0.3245810655550237,
+        2.1206356907382364,
+        0.9277308474011206,
+        0.09417176662565072,
+        0.20309179433143343,
+        0.11774398044844986
+      ],
+      "forearm_palm_angle_deg": 18.658601690704035,
+      "forearm_wrist_to_MCP_angle_deg": 16.91799471629025,
+      "palm_position_error_mm": 1.6624700108768522e-10,
+      "palm_orientation_error_deg": 3.3354646136159e-11,
+      "joint_margins_rad": [
+        1.89180745993938,
+        0.5255810655550237,
+        0.20036430926176374,
+        0.9807308474011206,
+        2.0068282333743492,
+        0.5469082056685666,
+        1.3492560195515502
+      ],
+      "min_joint_margin_rad": 0.20036430926176374,
+      "wrist_joint_6_7_deg": [
+        11.636302668930073,
+        6.746233142767059
+      ],
+      "forearm_unit_world": [
+        0.7823318476795296,
+        -0.5895292239668152,
+        -0.20102779458427644
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057467,
+        -0.5003019998246283,
+        0.10084856833674843
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_10",
+      "arm_q_rad": [
+        0.13767113414993892,
+        -1.536,
+        0.9592695921760687,
+        -0.05099999998191165,
+        -0.6175617259798615,
+        0.748,
+        -1.4649999999685235
+      ],
+      "forearm_palm_angle_deg": 89.5081269068464,
+      "forearm_wrist_to_MCP_angle_deg": 88.22189894299609,
+      "palm_position_error_mm": 461.37958856784314,
+      "palm_orientation_error_deg": 131.49599332978798,
+      "joint_margins_rad": [
+        1.716671134149939,
+        0.0020000000000000018,
+        1.3617304078239316,
+        0.002000000018088345,
+        1.4834382740201386,
+        0.0020000000000000018,
+        0.002000000031476601
+      ],
+      "min_joint_margin_rad": 0.0020000000000000018,
+      "wrist_joint_6_7_deg": [
+        42.857243075785576,
+        -83.93831698486213
+      ],
+      "forearm_unit_world": [
+        -0.04305247225785962,
+        -0.9990082273081546,
+        -0.011359859290707647
+      ],
+      "palm_axis_unit_world": [
+        0.9425098123545664,
+        -0.05296284463756753,
+        0.32995483130764597
+      ],
+      "solver_success": false,
+      "solver_message": "Positive directional derivative for linesearch",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_11",
+      "arm_q_rad": [
+        0.3128074758448139,
+        -0.3245810332819682,
+        2.120635750353718,
+        0.9277308602567429,
+        0.09417170560215657,
+        0.2030917826548497,
+        0.11774401064560235
+      ],
+      "forearm_palm_angle_deg": 18.658601686970563,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994786397838,
+      "palm_position_error_mm": 7.707109143173668e-12,
+      "palm_orientation_error_deg": 2.4095691254299648e-12,
+      "joint_margins_rad": [
+        1.8918074758448138,
+        0.5255810332819681,
+        0.2003642496462823,
+        0.9807308602567429,
+        2.0068282943978435,
+        0.5469082173451503,
+        1.3492559893543978
+      ],
+      "min_joint_margin_rad": 0.2003642496462823,
+      "wrist_joint_6_7_deg": [
+        11.636301999911105,
+        6.74623487293645
+      ],
+      "forearm_unit_world": [
+        0.7823318317985996,
+        -0.5895292489787594,
+        -0.2010277830380359
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057882,
+        -0.5003019998244552,
+        0.10084856833725106
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_12",
+      "arm_q_rad": [
+        0.3128075371617347,
+        -0.32458090885902013,
+        2.1206359801896077,
+        0.9277309098189342,
+        0.09417147033826986,
+        0.20309173763576066,
+        0.1177441270628793
+      ],
+      "forearm_palm_angle_deg": 18.65860167241617,
+      "forearm_wrist_to_MCP_angle_deg": 16.917995056521406,
+      "palm_position_error_mm": 1.0904530746234221e-09,
+      "palm_orientation_error_deg": 2.2299741430117726e-10,
+      "joint_margins_rad": [
+        1.8918075371617347,
+        0.5255809088590202,
+        0.20036401981039242,
+        0.9807309098189343,
+        2.00682852966173,
+        0.5469082623642394,
+        1.3492558729371207
+      ],
+      "min_joint_margin_rad": 0.20036401981039242,
+      "wrist_joint_6_7_deg": [
+        11.636299420507306,
+        6.746241543155082
+      ],
+      "forearm_unit_world": [
+        0.7823317705721118,
+        -0.5895293454072357,
+        -0.20102773852685393
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334055068,
+        -0.5003019998256657,
+        0.10084856833364578
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_13",
+      "arm_q_rad": [
+        0.31280747696224404,
+        -0.3245810310131679,
+        2.1206357545444683,
+        0.9277308611606627,
+        0.09417170131252572,
+        0.2030917818333756,
+        0.11774401276794678
+      ],
+      "forearm_palm_angle_deg": 18.6586016866651,
+      "forearm_wrist_to_MCP_angle_deg": 16.91799479128286,
+      "palm_position_error_mm": 2.74722955869242e-10,
+      "palm_orientation_error_deg": 6.429164009384261e-11,
+      "joint_margins_rad": [
+        1.891807476962244,
+        0.5255810310131679,
+        0.2003642454555319,
+        0.9807308611606628,
+        2.0068282986874744,
+        0.5469082181666244,
+        1.3492559872320533
+      ],
+      "min_joint_margin_rad": 0.2003642454555319,
+      "wrist_joint_6_7_deg": [
+        11.636301952844105,
+        6.746234994537829
+      ],
+      "forearm_unit_world": [
+        0.7823318306821646,
+        -0.589529250736963,
+        -0.20102778222675574
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057026,
+        -0.5003019998248064,
+        0.1008485683362392
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_14",
+      "arm_q_rad": [
+        -0.020156408541848213,
+        -0.4529494827622972,
+        0.7759233502505236,
+        -0.051,
+        2.099,
+        0.7469835225299655,
+        -1.3497934448763922
+      ],
+      "forearm_palm_angle_deg": 84.74035122741464,
+      "forearm_wrist_to_MCP_angle_deg": 83.43561812604145,
+      "palm_position_error_mm": 411.74062795961305,
+      "palm_orientation_error_deg": 127.4497713676265,
+      "joint_margins_rad": [
+        1.5588435914581518,
+        0.6539494827622971,
+        1.5209233502505235,
+        0.0020000000000000018,
+        0.0019999999999997797,
+        0.0030164774700345287,
+        0.11720655512360789
+      ],
+      "min_joint_margin_rad": 0.0019999999999997797,
+      "wrist_joint_6_7_deg": [
+        42.799003206782466,
+        -77.33746760584161
+      ],
+      "forearm_unit_world": [
+        -0.05139040142853916,
+        -0.4696063632709344,
+        -0.8813789708272264
+      ],
+      "palm_axis_unit_world": [
+        -0.8785481139799333,
+        -0.44144580846869513,
+        0.18242480535202008
+      ],
+      "solver_success": false,
+      "solver_message": "Positive directional derivative for linesearch",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_15",
+      "arm_q_rad": [
+        0.9807612855544049,
+        -0.02385722471004455,
+        -0.14661911008566242,
+        0.2758341999709943,
+        2.0989999999998985,
+        0.3299062802466799,
+        -1.464999999999958
+      ],
+      "forearm_palm_angle_deg": 86.16964885403874,
+      "forearm_wrist_to_MCP_angle_deg": 85.54555944264436,
+      "palm_position_error_mm": 323.3516314343125,
+      "palm_orientation_error_deg": 59.88260668059497,
+      "joint_margins_rad": [
+        2.1912387144455954,
+        0.22485722471004457,
+        0.5983808899143376,
+        0.3288341999709943,
+        0.002000000000101476,
+        0.4200937197533201,
+        0.0020000000000421903
+      ],
+      "min_joint_margin_rad": 0.0020000000000421903,
+      "wrist_joint_6_7_deg": [
+        18.902237492994917,
+        -83.9383169866632
+      ],
+      "forearm_unit_world": [
+        0.7852107343326933,
+        0.24445130087460498,
+        -0.5689355536345271
+      ],
+      "palm_axis_unit_world": [
+        0.09984397937947807,
+        -0.9214207924000708,
+        -0.3755195109638055
+      ],
+      "solver_success": false,
+      "solver_message": "Iteration limit reached",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_16",
+      "arm_q_rad": [
+        1.612328871047151,
+        -1.4015851971987,
+        -0.743,
+        1.152179575417568,
+        1.4727581072937193,
+        0.748,
+        -1.0193747769166848
+      ],
+      "forearm_palm_angle_deg": 71.71976521145912,
+      "forearm_wrist_to_MCP_angle_deg": 70.30844471530739,
+      "palm_position_error_mm": 170.5231321913184,
+      "palm_orientation_error_deg": 38.69484760630879,
+      "joint_margins_rad": [
+        1.559671128952849,
+        0.13641480280130014,
+        0.0020000000000000018,
+        1.205179575417568,
+        0.6282418927062807,
+        0.0020000000000000018,
+        0.4476252230833153
+      ],
+      "min_joint_margin_rad": 0.0020000000000000018,
+      "wrist_joint_6_7_deg": [
+        42.857243075785576,
+        -58.40587245941585
+      ],
+      "forearm_unit_world": [
+        0.7581740691863429,
+        -0.2892588748877432,
+        -0.5843811976031565
+      ],
+      "palm_axis_unit_world": [
+        0.43524564618031747,
+        -0.7954560004052604,
+        0.42167639120579686
+      ],
+      "solver_success": false,
+      "solver_message": "Positive directional derivative for linesearch",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_17",
+      "arm_q_rad": [
+        3.1699999999999693,
+        -1.536,
+        0.27165369985538534,
+        0.19067093863797832,
+        -0.5307417904468787,
+        -0.19937671105367014,
+        -0.8404716261990489
+      ],
+      "forearm_palm_angle_deg": 47.89425301653559,
+      "forearm_wrist_to_MCP_angle_deg": 48.25356352186226,
+      "palm_position_error_mm": 547.7252314640864,
+      "palm_orientation_error_deg": 114.49195476950021,
+      "joint_margins_rad": [
+        0.002000000000030866,
+        0.0020000000000000018,
+        1.0166536998553855,
+        0.2436709386379783,
+        1.5702582095531212,
+        0.5506232889463298,
+        0.6265283738009512
+      ],
+      "min_joint_margin_rad": 0.0020000000000000018,
+      "wrist_joint_6_7_deg": [
+        -11.423444076574608,
+        -48.15547698170245
+      ],
+      "forearm_unit_world": [
+        -0.060223288397552,
+        -0.9747937876300428,
+        0.2148260392328182
+      ],
+      "palm_axis_unit_world": [
+        -0.7678052151166016,
+        -0.5808000686416087,
+        0.27045597036421987
+      ],
+      "solver_success": false,
+      "solver_message": "Positive directional derivative for linesearch",
+      "ik_pose_pass": false
+    },
+    {
+      "name": "seed_18",
+      "arm_q_rad": [
+        0.3128074714799819,
+        -0.32458104213864414,
+        2.1206357339935065,
+        0.9277308567286895,
+        0.0941717223487462,
+        0.2030917858593302,
+        0.11774400235865644
+      ],
+      "forearm_palm_angle_deg": 18.658601688000378,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994767163464,
+      "palm_position_error_mm": 3.856253001676568e-11,
+      "palm_orientation_error_deg": 7.0662021919864055e-12,
+      "joint_margins_rad": [
+        1.8918074714799817,
+        0.5255810421386442,
+        0.2003642660064937,
+        0.9807308567286895,
+        2.0068282776512536,
+        0.5469082141406698,
+        1.3492559976413436
+      ],
+      "min_joint_margin_rad": 0.2003642660064937,
+      "wrist_joint_6_7_deg": [
+        11.636302183514312,
+        6.746234398129424
+      ],
+      "forearm_unit_world": [
+        0.7823318361567774,
+        -0.589529242114762,
+        -0.2010277862066824
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057788,
+        -0.5003019998244863,
+        0.10084856833717741
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    },
+    {
+      "name": "seed_19",
+      "arm_q_rad": [
+        0.3128074631740901,
+        -0.3245810589911934,
+        2.1206357028630847,
+        0.9277308500158303,
+        0.09417175421454352,
+        0.2030917919563814,
+        0.11774398659000303
+      ],
+      "forearm_palm_angle_deg": 18.65860168993156,
+      "forearm_wrist_to_MCP_angle_deg": 16.917994730535924,
+      "palm_position_error_mm": 2.0718550205367734e-10,
+      "palm_orientation_error_deg": 4.492234589278348e-11,
+      "joint_margins_rad": [
+        1.89180746317409,
+        0.5255810589911933,
+        0.2003642971369155,
+        0.9807308500158304,
+        2.0068282457854565,
+        0.5469082080436186,
+        1.3492560134099971
+      ],
+      "min_joint_margin_rad": 0.2003642971369155,
+      "wrist_joint_6_7_deg": [
+        11.636302532849616,
+        6.746233494652135
+      ],
+      "forearm_unit_world": [
+        0.7823318444495753,
+        -0.5895292290538534,
+        -0.20102779223603623
+      ],
+      "palm_axis_unit_world": [
+        0.8599578334057372,
+        -0.5003019998246846,
+        0.10084856833654976
+      ],
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "ik_pose_pass": true
+    }
+  ],
+  "static_screen": {
+    "hand_rack": {
+      "pairs_total": 312,
+      "within30mm": [
+        {
+          "geoms": [
+            "sharpa_right/right_hand_C_MC",
+            "stand/tube_collar_left"
+          ],
+          "signed_distance_mm": 28.043411738532328
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_hand_C_MC",
+            "stand/wood_post_front_left"
+          ],
+          "signed_distance_mm": 25.408397264221495
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_hand_C_MC",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 29.955037856209955
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_hand_C_MC",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 25.4083972642215
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_hand_C_MC",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 29.955037856209973
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_ring_PP",
+            "stand/wood_post_back_left"
+          ],
+          "signed_distance_mm": 27.5633059913678
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_ring_PP",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 28.322983569619993
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_ring_PP",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 27.492918839683508
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_ring_PP",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 27.56330599136789
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_ring_PP",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 28.322983569620042
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 20.31480946391666
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/tube_collar_left"
+          ],
+          "signed_distance_mm": 6.539704116704156
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 16.70898178565612
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_post_front_left"
+          ],
+          "signed_distance_mm": 3.990362848444893
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 15.391414860106595
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_post_back_left"
+          ],
+          "signed_distance_mm": 21.80997529644202
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 27.09864365913498
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 21.80997529644202
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 3.9903628484448914
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MC",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 15.391414860106625
+        },
+        {
+          "geoms": [
+            "",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 13.373822432933055
+        },
+        {
+          "geoms": [
+            "",
+            "stand/tube_collar_left"
+          ],
+          "signed_distance_mm": 12.637925153371894
+        },
+        {
+          "geoms": [
+            "",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 21.860190403836768
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_post_front_left"
+          ],
+          "signed_distance_mm": 10.062630368753824
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 21.55077689010003
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_post_back_left"
+          ],
+          "signed_distance_mm": 11.275892928996575
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 23.86878509549158
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 11.275892928996575
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 10.054879108408132
+        },
+        {
+          "geoms": [
+            "",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 20.584378258254848
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 9.305780129131492
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/tube_collar_left"
+          ],
+          "signed_distance_mm": 9.076016407008824
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 11.83425020923147
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_post_front_left"
+          ],
+          "signed_distance_mm": 13.623467856277818
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 19.15366262993174
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_post_back_left"
+          ],
+          "signed_distance_mm": 6.499663016581489
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 9.693707926937014
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 6.499663016581489
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 6.499663016581489
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_PP",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 9.693707926937014
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 16.46295973337823
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/tube_collar_left"
+          ],
+          "signed_distance_mm": 29.575954194062106
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 14.288387973499896
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 23.31901933571209
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_post_back_left"
+          ],
+          "signed_distance_mm": 28.345601248035354
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 12.338171548485615
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 12.338171548485615
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_top_left"
+          ],
+          "signed_distance_mm": 28.345601248035397
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_MP",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 12.338171548485622
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 21.74814993169796
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 16.988852476412422
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 15.576443866288104
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 18.233820092262025
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 18.23382009226203
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_DP",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 15.573062961136179
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/tube_collar_back"
+          ],
+          "signed_distance_mm": 21.10853629226686
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/tube_collar_right"
+          ],
+          "signed_distance_mm": 15.778917013950355
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/wood_post_front_right"
+          ],
+          "signed_distance_mm": 14.11684333965049
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/wood_post_back_right"
+          ],
+          "signed_distance_mm": 18.231719975961933
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/wood_top_back"
+          ],
+          "signed_distance_mm": 18.231719975961944
+        },
+        {
+          "geoms": [
+            "sharpa_right/right_pinky_elastomer",
+            "stand/wood_top_right"
+          ],
+          "signed_distance_mm": 14.113035317655028
+        }
+      ],
+      "negative_overlap_count": 0
+    },
+    "hand_table": {
+      "pairs_total": 2938,
+      "within30mm": [],
+      "negative_overlap_count": 0
+    },
+    "arm_table": {
+      "pairs_total": 0,
+      "within30mm": [],
+      "negative_overlap_count": 0
+    },
+    "coverage": {
+      "active_right_arm_geoms": 0,
+      "active_hand_geoms": 26,
+      "table_geoms": 113,
+      "stand_geoms": 12
+    },
+    "warning": "MuJoCo geometric screen and enabled contacts only; missing T1 arm physical colliders and mesh convexification mean no full visual-mesh collision guarantee."
+  },
+  "robot_contacts": [
+    {
+      "bodies": [
+        "sharpa_right/right_hand_C_MC",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_hand_C_MC",
+        ""
+      ],
+      "signed_distance_mm": -0.34827966476212957,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_index_DP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_index_elastomer",
+        ""
+      ],
+      "signed_distance_mm": -0.42567101296385484,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_middle_DP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_middle_elastomer",
+        ""
+      ],
+      "signed_distance_mm": -0.5437861194445884,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_ring_PP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_ring_PP",
+        ""
+      ],
+      "signed_distance_mm": -0.011678918119750316,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_ring_DP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_ring_elastomer",
+        ""
+      ],
+      "signed_distance_mm": -0.5121687487014989,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_pinky_PP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_pinky_PP",
+        ""
+      ],
+      "signed_distance_mm": -0.09506820514351638,
+      "kind": "intended_hand_tool"
+    },
+    {
+      "bodies": [
+        "sharpa_right/right_pinky_DP",
+        "pipette/pipette"
+      ],
+      "geoms": [
+        "sharpa_right/right_pinky_elastomer",
+        ""
+      ],
+      "signed_distance_mm": -0.5187589824746802,
+      "kind": "intended_hand_tool"
+    }
+  ],
+  "no_mj_step_called": true,
+  "no_runtime_episode_written": true,
+  "limitations": [
+    "No dynamic grasp/lift/aspiration/coating accepted",
+    "Reference is actual held pose at 11.4 s, not a fresh initial reach trajectory",
+    "Static qpos assignment is an explicitly disclosed IK/reset diagnostic only",
+    "Station geometry, pose and free tool are transformed together; tabletop and remaining lab stay fixed"
+  ]
+}

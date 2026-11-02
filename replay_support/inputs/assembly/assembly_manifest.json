@@ -1,0 +1,1526 @@
+{
+  "schema_version": 1,
+  "units": "m",
+  "cad_units": "mm",
+  "camera_spec": "../camera_spec_return.json",
+  "frames": {
+    "left": "sharpa_left/left_hand_C_MC",
+    "right": "sharpa_right/right_hand_C_MC"
+  },
+  "static_replaced_vendor_bodies": {
+    "left": [
+      "left_hand_wrist",
+      "left_hand_flange"
+    ],
+    "right": [
+      "right_hand_wrist",
+      "right_hand_flange"
+    ]
+  },
+  "static_interface_replacement_reason": "Explicit manufacturer-static assembly replaces original visual wrist/flange meshes with imported interface CAD and the proposed accessory flange. No source V31 occluder is removed; public CAD-to-visual-mesh differences remain a limitation.",
+  "parts": [
+    {
+      "id": "left_metal_base",
+      "side": "left",
+      "kind": "mount_base",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_metal_base.stl",
+      "step_mm": "cad/left_metal_base.step",
+      "mesh_sha256": "304b1e58161a296f35f98c7b5d4f86775e7eb765b296766282829bf8f9403669",
+      "step_sha256": "9885b3ca490d2414f5e8c05d818035bcc2bc9fc57b733ed4ff5814e6f588dace",
+      "volume_mm3": 13787.657000424162,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_wrist_reference",
+      "side": "left",
+      "kind": "reference_interface",
+      "rgba": [
+        0.43,
+        0.47,
+        0.52,
+        1.0
+      ],
+      "mesh": "parts/left_wrist_reference.stl",
+      "step_mm": "cad/left_wrist_reference.step",
+      "mesh_sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "step_sha256": "9725cebc4056f8b35d37904319a5c9c63f800c28b0f3427caafa897fe339a304",
+      "volume_mm3": 13373.783774421392,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_printed_carrier",
+      "side": "left",
+      "kind": "printed",
+      "rgba": [
+        0.2,
+        0.22,
+        0.25,
+        1.0
+      ],
+      "mesh": "parts/left_printed_carrier.stl",
+      "step_mm": "cad/left_printed_carrier.step",
+      "mesh_sha256": "5bb14186d5730156d103252118e54c335f013837484470e6f5f30af86b42595d",
+      "step_sha256": "73d7c586e632d8009e12f4a9f7bd5ee23a17238c516b69bebca3db41c1ee73ee",
+      "volume_mm3": 11287.79036983768,
+      "solid_valid": true,
+      "solid_count": 1,
+      "review_print_mesh_mm": "cad/left_printed_carrier_mm.stl"
+    },
+    {
+      "id": "left_D405_envelope",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.78,
+        0.79,
+        0.8,
+        1.0
+      ],
+      "mesh": "parts/left_D405_envelope.stl",
+      "step_mm": "cad/left_D405_envelope.step",
+      "mesh_sha256": "f33b22a0486d6a7758d53e8b1c1d38b228e88ccbd8cf1d7e9a97625a58fe4e3e",
+      "step_sha256": "98ddadc98ae7139c0e0738fe7b4d430b72a3897980bf347bbdec6aa0731ac41a",
+      "volume_mm3": 40077.91422828329,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_housing"
+    },
+    {
+      "id": "left_window_0",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/left_window_0.stl",
+      "step_mm": "cad/left_window_0.step",
+      "mesh_sha256": "c526d44f63031ad41b77bbf5344e70e8e488de1dc29271ee80ba1eb01b11dbfe",
+      "step_sha256": "39a41e4e029f6a470c6b5fc2c38ab44ca43743d3210ec23a46af9fb25c569ded",
+      "volume_mm3": 22.628891883807285,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window"
+    },
+    {
+      "id": "left_window_1",
+      "side": "left",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/left_window_1.stl",
+      "step_mm": "cad/left_window_1.step",
+      "mesh_sha256": "b6b52694a3a7e3de619e6b87be323fbf5fa4de43c25b187ba4645be03eff8ae6",
+      "step_sha256": "4e24e0c70d437eb61f45cdd7d599557f6b68997f6481e57cbb9f66a0cd7da7b5",
+      "volume_mm3": 22.62889188380728,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window"
+    },
+    {
+      "id": "left_foot_screw_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_0.stl",
+      "step_mm": "cad/left_foot_screw_0.step",
+      "mesh_sha256": "1a7de262bd82858d8fb462825a3a3832b9272748048c41bebf381565b211e5e6",
+      "step_sha256": "0917b5a9ea2fe20bd0801fd2fb8f5501fbe5b1014f1bb6aec0f22c5845de7508",
+      "volume_mm3": 191.47292939295642,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_screw_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_washer_0.stl",
+      "step_mm": "cad/left_foot_screw_washer_0.step",
+      "mesh_sha256": "1c831aa16e88399f5d8b5a1c5071a2119066548836ff123647d44e44e6af8465",
+      "step_sha256": "e3c56cac69b7bc59a48e72683968b322e9b29e7a53fcea6bd00dbb171eb08242",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_nut_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_nut_washer_0.stl",
+      "step_mm": "cad/left_foot_nut_washer_0.step",
+      "mesh_sha256": "38275d92e6cb1cd7442b3655df852fd24910bebf624750efa9317bd14b37b36c",
+      "step_sha256": "55e3fe2846f074fef50a0704d13570282c33404c1d2c75001ce85314a30dc260",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_locknut_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_locknut_0.stl",
+      "step_mm": "cad/left_foot_locknut_0.step",
+      "mesh_sha256": "3b08a6fa836efd3a6e8b07a286bde00051984196aed330ac1fc48a6daf8cbb9e",
+      "step_sha256": "6f52d8271daa60a66f48c442b1b84e1607a2cda8235aedb2b8443a50703ad6c0",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_screw_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_1.stl",
+      "step_mm": "cad/left_foot_screw_1.step",
+      "mesh_sha256": "1eaf6d28a27d17a12f29253d27dc30a8572d042c38539de7fa0cb4689cbab99d",
+      "step_sha256": "51dc7fb8a2bb196bdd849abade020f8ce5f3823da24078b31fc5f497cd265859",
+      "volume_mm3": 191.47292939295642,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_screw_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_screw_washer_1.stl",
+      "step_mm": "cad/left_foot_screw_washer_1.step",
+      "mesh_sha256": "62c42389d7a49276fc7a616670010af6bf114920f3b319049718274b09408a5d",
+      "step_sha256": "7f35fa357d2b4e7d74c58fd19b6fe878533675b190ddb76dc37a27e888022b47",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_nut_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_foot_nut_washer_1.stl",
+      "step_mm": "cad/left_foot_nut_washer_1.step",
+      "mesh_sha256": "7e0464cf8a60d63954ac83d31dcb4eed2e5aa3acc613e4fd452004d8f9ec978b",
+      "step_sha256": "1e4d48a6de4b51e8516bac8fb1d6883eede4267a50f84a50fb3f06b91f3dab0e",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_foot_locknut_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_foot_locknut_1.stl",
+      "step_mm": "cad/left_foot_locknut_1.step",
+      "mesh_sha256": "813a950ab0db784fa38e4e5a55fd0de99f769364614b99402f14aa2aa7a5ca65",
+      "step_sha256": "21a0712aaca20b4f055e8e5b7c70ae16fa4ab9f7efa2462130928a66474f498a",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_camera_screw_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_camera_screw_0.stl",
+      "step_mm": "cad/left_camera_screw_0.step",
+      "mesh_sha256": "09e70387b98ab77de246b9d9e9bb1db13082dc7f9f83c668be9aa648b536c778",
+      "step_sha256": "061ecb2c3d8d5858f151a8ba3320912c9d598c171fec53ebc354819de5d526bd",
+      "volume_mm3": 120.78709468718618,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_camera_washer_0",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_camera_washer_0.stl",
+      "step_mm": "cad/left_camera_washer_0.step",
+      "mesh_sha256": "9872de8d5d5b84fe18deaf04f8aedbb8cea1126e8b9c837c7390c7dbbc416e17",
+      "step_sha256": "33feee852a8a4a348c2b15127a7a9af9a24d32efd58f584713e52a4a2dfda207",
+      "volume_mm3": 15.221016406642548,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_camera_screw_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/left_camera_screw_1.stl",
+      "step_mm": "cad/left_camera_screw_1.step",
+      "mesh_sha256": "8bf6460074de81493248b0fca3e599e459859d7d23c232971229a56ae286261e",
+      "step_sha256": "fd3b8ece2f11daa18650828dbb0d51c6b52da3d02669d2d45db0b7b2a9f81882",
+      "volume_mm3": 120.78709468718624,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "left_camera_washer_1",
+      "side": "left",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/left_camera_washer_1.stl",
+      "step_mm": "cad/left_camera_washer_1.step",
+      "mesh_sha256": "7dfd4430de709d476b4bb8df2191e56980b521615da3aab030ddb2335660756f",
+      "step_sha256": "fb76f6a2e8ff64e60341201776edab70a1a6a21fd9ec9897a37ad3df510ebc74",
+      "volume_mm3": 15.221016406642546,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_metal_base",
+      "side": "right",
+      "kind": "mount_base",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_metal_base.stl",
+      "step_mm": "cad/right_metal_base.step",
+      "mesh_sha256": "aaf3b411b9ee954c08e381a5ae213506d6836aab1e805b68c1d23ec727683b01",
+      "step_sha256": "6323eb47e333953ca25d8d2b0f3315c65727562b24e8324ff72ea374acc96e3e",
+      "volume_mm3": 14497.247076572723,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_wrist_reference",
+      "side": "right",
+      "kind": "reference_interface",
+      "rgba": [
+        0.43,
+        0.47,
+        0.52,
+        1.0
+      ],
+      "mesh": "parts/right_wrist_reference.stl",
+      "step_mm": "cad/right_wrist_reference.step",
+      "mesh_sha256": "bb6510d0e064b8a382dfea694ac296c14eb5e08f3b317cef86bfc9efd928d763",
+      "step_sha256": "48b77efc946c5a1b062d9b9c981984dc5439fb17bdd5f7c11919b46818508a57",
+      "volume_mm3": 13373.783774421392,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_printed_carrier",
+      "side": "right",
+      "kind": "printed",
+      "rgba": [
+        0.2,
+        0.22,
+        0.25,
+        1.0
+      ],
+      "mesh": "parts/right_printed_carrier.stl",
+      "step_mm": "cad/right_printed_carrier.step",
+      "mesh_sha256": "cb43495e61a74158137bedcfb087bf3bb3c2621b2da0e7311da501d17466fc89",
+      "step_sha256": "9a67988b24f4a42f91b6d9e1b519fd9f08a2c6536c6004f82483ac4bb2e23e87",
+      "volume_mm3": 9660.563618984672,
+      "solid_valid": true,
+      "solid_count": 1,
+      "review_print_mesh_mm": "cad/right_printed_carrier_mm.stl"
+    },
+    {
+      "id": "right_D405_envelope",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.78,
+        0.79,
+        0.8,
+        1.0
+      ],
+      "mesh": "parts/right_D405_envelope.stl",
+      "step_mm": "cad/right_D405_envelope.step",
+      "mesh_sha256": "537d7fed97474e99ca9e4ceb21a53a10cafd89b7ccfd5201823e5a9089c89325",
+      "step_sha256": "f528c29887f0f1ee2ff8861514c00c07ae0ad0ac99f9221d7b50d71f7d1beabe",
+      "volume_mm3": 40077.914228283305,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_housing"
+    },
+    {
+      "id": "right_window_0",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/right_window_0.stl",
+      "step_mm": "cad/right_window_0.step",
+      "mesh_sha256": "2574af6031eb0b8eeb93ff825f57b63b2b9bb012add847dabfe642be444bd135",
+      "step_sha256": "8b28edd30d577c7b3354b6ebe9a764cae4ca3d02ed2cce93a40026fb652be417",
+      "volume_mm3": 22.628891883807306,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window"
+    },
+    {
+      "id": "right_window_1",
+      "side": "right",
+      "kind": "camera_envelope",
+      "rgba": [
+        0.09,
+        0.2,
+        0.23,
+        1.0
+      ],
+      "mesh": "parts/right_window_1.stl",
+      "step_mm": "cad/right_window_1.step",
+      "mesh_sha256": "275971a8d87d4f8d83a23f47f4a6390a2ddabe80feafd25ad26a0afc5bf2551c",
+      "step_sha256": "e21465a448b725d06d8797a8fe15d41a4bcfc04908c46bf70100ee2e4b2edd68",
+      "volume_mm3": 22.62889188380731,
+      "solid_valid": true,
+      "solid_count": 1,
+      "optical_role": "camera_window"
+    },
+    {
+      "id": "right_foot_screw_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_0.stl",
+      "step_mm": "cad/right_foot_screw_0.step",
+      "mesh_sha256": "0f56ec62f0c75190b5775a628b53901d54306b59c979767212471afe0873182c",
+      "step_sha256": "adad00f91d9cfb47e5d25b3b4ac2006756f5aab4ac6c4748ce56ef1fc65e9b51",
+      "volume_mm3": 191.47292939295644,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_screw_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_washer_0.stl",
+      "step_mm": "cad/right_foot_screw_washer_0.step",
+      "mesh_sha256": "4b447e211c7443c57df3d942709f5c4f5cfdccb87d9f2e8b842d7b8908703dfa",
+      "step_sha256": "703eb2a7709917ad98b38abcbb0e2c38788f80efafbcce2a27251d4db7be7103",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_nut_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_nut_washer_0.stl",
+      "step_mm": "cad/right_foot_nut_washer_0.step",
+      "mesh_sha256": "4f368d7420df66debee086c0ce1a674ac7b4e60d9d36be19ee1c7dcc44f6de69",
+      "step_sha256": "6d03ac8eab369686915cd74bde86c9b0f49975f54891d1547e27a5f82c773717",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_locknut_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_locknut_0.stl",
+      "step_mm": "cad/right_foot_locknut_0.step",
+      "mesh_sha256": "e33b4c604e56b09df5a84e29f159f9328cd50a2e9904ddc11e29c977e40df675",
+      "step_sha256": "e8098bc48c7ddee7346cb987aadce33f8617704da2672b031e02a68840ffa858",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_screw_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_1.stl",
+      "step_mm": "cad/right_foot_screw_1.step",
+      "mesh_sha256": "e2be10874c70c9d17276f457834afba594c761b81cf042a6444fcddba6d03870",
+      "step_sha256": "aa9a1ff367a2fb24b1dde53871e03b2ece5f6ef0d989f63e4f3ce9bc9a2ac630",
+      "volume_mm3": 191.47292939295644,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_screw_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_screw_washer_1.stl",
+      "step_mm": "cad/right_foot_screw_washer_1.step",
+      "mesh_sha256": "fad6384041c3d91357e8b3fe0236d67f701d2f50e00f70bcaed933b0b9d71fcb",
+      "step_sha256": "f84ba9b8d41fac7880e549f415f811b360b3fea651cf8439c870f4c654e47f91",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_nut_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_foot_nut_washer_1.stl",
+      "step_mm": "cad/right_foot_nut_washer_1.step",
+      "mesh_sha256": "bc6020a713c23e72f8121d23d755dc0ce8b682f14a7f78f5132c3280d884198b",
+      "step_sha256": "4f23f44462908da0db98cc776c235b2161d9cfb09c9007fa24d9e4a5268e13dd",
+      "volume_mm3": 15.221016406642551,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_foot_locknut_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_foot_locknut_1.stl",
+      "step_mm": "cad/right_foot_locknut_1.step",
+      "mesh_sha256": "4bf4309fcabd8ecfb883599029fe5280325b2f7daf41fd873b3d5edcb186512a",
+      "step_sha256": "18beeb26f62d8841e5433196f8e0266448c8eb0a02639235e995d327bb1c1ff5",
+      "volume_mm3": 76.51473997560885,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_camera_screw_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_camera_screw_0.stl",
+      "step_mm": "cad/right_camera_screw_0.step",
+      "mesh_sha256": "c98cef003226a5606c2e096e28916f0c8f5b2d750b4b209f76bac5d65c265d48",
+      "step_sha256": "f92305f9b5669a6fbba3866a1728aa912b4af5e9c066ca2ccb13bb9b41aacaf6",
+      "volume_mm3": 120.78709468718617,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_camera_washer_0",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_camera_washer_0.stl",
+      "step_mm": "cad/right_camera_washer_0.step",
+      "mesh_sha256": "19d39844d0a390b400cf02ce9223c879df1ab4e2b674f97f328bc4121da132a2",
+      "step_sha256": "4c2b63f16de33cf132e303c146d6e6c1ba7752057681f2412354116e8451d0b9",
+      "volume_mm3": 15.221016406642558,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_camera_screw_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.24,
+        0.27,
+        0.3,
+        1.0
+      ],
+      "mesh": "parts/right_camera_screw_1.stl",
+      "step_mm": "cad/right_camera_screw_1.step",
+      "mesh_sha256": "57be5193f7d894049fbc4b07a4b5b4fb4bd180b3c5cb0c582205911909267964",
+      "step_sha256": "1189e2340a9b0583d30dd24dde709b521e2502f485e64634761a31e628917cbb",
+      "volume_mm3": 120.78709468718611,
+      "solid_valid": true,
+      "solid_count": 1
+    },
+    {
+      "id": "right_camera_washer_1",
+      "side": "right",
+      "kind": "fastener",
+      "rgba": [
+        0.64,
+        0.68,
+        0.73,
+        1.0
+      ],
+      "mesh": "parts/right_camera_washer_1.stl",
+      "step_mm": "cad/right_camera_washer_1.step",
+      "mesh_sha256": "ab4a609cbd5b13715d03c59f6cdcba912541e33abcac15c1e8572ace507e4c25",
+      "step_sha256": "4cfe2c17800f1c4d58f14165ce24a8a7ceb53a7db713d913ec9abea2c036acfd",
+      "volume_mm3": 15.221016406642558,
+      "solid_valid": true,
+      "solid_count": 1
+    }
+  ],
+  "intended_contacts": [
+    {
+      "parts": [
+        "left_metal_base",
+        "left_wrist_reference"
+      ],
+      "reason": "Documented flange/wrist mating surfaces; not a verified T1 adapter"
+    },
+    {
+      "parts": [
+        "left_metal_base",
+        "left_printed_carrier"
+      ],
+      "reason": "Bolted keyed accessory-foot interface"
+    },
+    {
+      "parts": [
+        "left_printed_carrier",
+        "left_D405_envelope"
+      ],
+      "reason": "D405 rear mounting face against the camera plate"
+    },
+    {
+      "parts": [
+        "left_foot_screw_0",
+        "left_foot_screw_washer_0"
+      ],
+      "reason": "Screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "left_foot_screw_washer_0",
+        "left_printed_carrier"
+      ],
+      "reason": "Washer/printed-foot bearing"
+    },
+    {
+      "parts": [
+        "left_foot_nut_washer_0",
+        "left_metal_base"
+      ],
+      "reason": "Washer/metal-pad bearing"
+    },
+    {
+      "parts": [
+        "left_foot_locknut_0",
+        "left_foot_nut_washer_0"
+      ],
+      "reason": "Locknut/washer bearing"
+    },
+    {
+      "parts": [
+        "left_foot_screw_0",
+        "left_foot_locknut_0"
+      ],
+      "reason": "Nominal thread interface; threads and nylon are not resolved"
+    },
+    {
+      "parts": [
+        "left_foot_screw_1",
+        "left_foot_screw_washer_1"
+      ],
+      "reason": "Screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "left_foot_screw_washer_1",
+        "left_printed_carrier"
+      ],
+      "reason": "Washer/printed-foot bearing"
+    },
+    {
+      "parts": [
+        "left_foot_nut_washer_1",
+        "left_metal_base"
+      ],
+      "reason": "Washer/metal-pad bearing"
+    },
+    {
+      "parts": [
+        "left_foot_locknut_1",
+        "left_foot_nut_washer_1"
+      ],
+      "reason": "Locknut/washer bearing"
+    },
+    {
+      "parts": [
+        "left_foot_screw_1",
+        "left_foot_locknut_1"
+      ],
+      "reason": "Nominal thread interface; threads and nylon are not resolved"
+    },
+    {
+      "parts": [
+        "left_camera_screw_0",
+        "left_camera_washer_0"
+      ],
+      "reason": "Camera screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "left_camera_washer_0",
+        "left_printed_carrier"
+      ],
+      "reason": "Camera washer/backplate bearing"
+    },
+    {
+      "parts": [
+        "left_camera_screw_0",
+        "left_D405_envelope"
+      ],
+      "reason": "Nominal M3 rear threaded insert; maximum insertion 4 mm"
+    },
+    {
+      "parts": [
+        "left_camera_screw_1",
+        "left_camera_washer_1"
+      ],
+      "reason": "Camera screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "left_camera_washer_1",
+        "left_printed_carrier"
+      ],
+      "reason": "Camera washer/backplate bearing"
+    },
+    {
+      "parts": [
+        "left_camera_screw_1",
+        "left_D405_envelope"
+      ],
+      "reason": "Nominal M3 rear threaded insert; maximum insertion 4 mm"
+    },
+    {
+      "parts": [
+        "right_metal_base",
+        "right_wrist_reference"
+      ],
+      "reason": "Documented flange/wrist mating surfaces; not a verified T1 adapter"
+    },
+    {
+      "parts": [
+        "right_metal_base",
+        "right_printed_carrier"
+      ],
+      "reason": "Bolted keyed accessory-foot interface"
+    },
+    {
+      "parts": [
+        "right_printed_carrier",
+        "right_D405_envelope"
+      ],
+      "reason": "D405 rear mounting face against the camera plate"
+    },
+    {
+      "parts": [
+        "right_foot_screw_0",
+        "right_foot_screw_washer_0"
+      ],
+      "reason": "Screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "right_foot_screw_washer_0",
+        "right_printed_carrier"
+      ],
+      "reason": "Washer/printed-foot bearing"
+    },
+    {
+      "parts": [
+        "right_foot_nut_washer_0",
+        "right_metal_base"
+      ],
+      "reason": "Washer/metal-pad bearing"
+    },
+    {
+      "parts": [
+        "right_foot_locknut_0",
+        "right_foot_nut_washer_0"
+      ],
+      "reason": "Locknut/washer bearing"
+    },
+    {
+      "parts": [
+        "right_foot_screw_0",
+        "right_foot_locknut_0"
+      ],
+      "reason": "Nominal thread interface; threads and nylon are not resolved"
+    },
+    {
+      "parts": [
+        "right_foot_screw_1",
+        "right_foot_screw_washer_1"
+      ],
+      "reason": "Screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "right_foot_screw_washer_1",
+        "right_printed_carrier"
+      ],
+      "reason": "Washer/printed-foot bearing"
+    },
+    {
+      "parts": [
+        "right_foot_nut_washer_1",
+        "right_metal_base"
+      ],
+      "reason": "Washer/metal-pad bearing"
+    },
+    {
+      "parts": [
+        "right_foot_locknut_1",
+        "right_foot_nut_washer_1"
+      ],
+      "reason": "Locknut/washer bearing"
+    },
+    {
+      "parts": [
+        "right_foot_screw_1",
+        "right_foot_locknut_1"
+      ],
+      "reason": "Nominal thread interface; threads and nylon are not resolved"
+    },
+    {
+      "parts": [
+        "right_camera_screw_0",
+        "right_camera_washer_0"
+      ],
+      "reason": "Camera screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "right_camera_washer_0",
+        "right_printed_carrier"
+      ],
+      "reason": "Camera washer/backplate bearing"
+    },
+    {
+      "parts": [
+        "right_camera_screw_0",
+        "right_D405_envelope"
+      ],
+      "reason": "Nominal M3 rear threaded insert; maximum insertion 4 mm"
+    },
+    {
+      "parts": [
+        "right_camera_screw_1",
+        "right_camera_washer_1"
+      ],
+      "reason": "Camera screw-head/washer bearing"
+    },
+    {
+      "parts": [
+        "right_camera_washer_1",
+        "right_printed_carrier"
+      ],
+      "reason": "Camera washer/backplate bearing"
+    },
+    {
+      "parts": [
+        "right_camera_screw_1",
+        "right_D405_envelope"
+      ],
+      "reason": "Nominal M3 rear threaded insert; maximum insertion 4 mm"
+    }
+  ],
+  "side_reports": {
+    "left": {
+      "metal_base": {
+        "original_material_removed_mm3": 0.0,
+        "added_volume_mm3": 5061.87129801842,
+        "accessory_angle_in_CAD_deg": 90.0,
+        "accessory_neck_height_mm": 7.7,
+        "tie_slot_radial_position_mm": 42.0,
+        "access_checks": [
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": -18.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 18.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 72.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 108.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 162.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 198.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              -17.677669529663685,
+              -17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              -17.677669529663685,
+              17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              17.677669529663685,
+              -17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              17.677669529663685,
+              17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          }
+        ],
+        "attachment": "Proposed integral hand-side accessory ear on a replacement metal flange",
+        "original_fastener_reuse_requires_manufacturer_approval": true,
+        "camera_corner_relief_removed_mm3": 137.5203306150021,
+        "camera_corner_design_clearance_mm": 0.3
+      },
+      "printed_carrier": {
+        "section_style": "compact fixed-angle rectangular backplate and short rectangular foot",
+        "separate_swept_link_or_triangular_gusset": false,
+        "custom_accessory_fixing_point_relocated": false,
+        "camera_pose_and_camera_fastener_axes_unchanged": true,
+        "raw_board_foot_overlap_mm3": 0.0,
+        "short_rectangular_heel_size_mm": [
+          20.0,
+          14.0,
+          8.0
+        ],
+        "raw_board_heel_overlap_mm3": 152.83808030579885,
+        "existing_metal_interface_and_fastener_datums_preserved": true,
+        "camera_backplate_size_mm": [
+          42.0,
+          32.0
+        ],
+        "camera_backplate_corner_radius_mm": 4.0,
+        "camera_plate_thickness_mm": 4.2,
+        "foot_thickness_mm": 6.0,
+        "foot_planform_mm": [
+          20.0,
+          48.0
+        ],
+        "foot_bottom_palm_z_mm": -24.0,
+        "foot_radial_interval_mm": [
+          44.0,
+          64.0
+        ],
+        "foot_tangent_offset_mm": 4.0,
+        "accessory_azimuth_palm_deg": 0.0,
+        "foot_radial_unit_palm": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "foot_tangent_unit_palm": [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        "tie_slot_radial_position_mm": 42.0,
+        "key_planform_mm": [
+          12.0,
+          8.0
+        ],
+        "key_side_clearance_mm": 0.2,
+        "key_depth_clearance_mm": 0.29,
+        "metal_pad_seating_plane_palm_z_mm": -18.0,
+        "metal_pad_lateral_design_clearance_mm": 0.3,
+        "wrist_facing_foot_edge_radius_mm": 44.0,
+        "camera_driver_keepout_radius_mm": 4.0,
+        "camera_driver_intersection_mm3": [
+          0.0,
+          0.0
+        ],
+        "usb_side_design_allowance_mm": [
+          24.7,
+          20.0,
+          18.0
+        ],
+        "usb_allowance_intersection_mm3": 0.0,
+        "usb_allowance_by_side_mm3": {
+          "negative_x": 0.0,
+          "positive_x": 0.0
+        },
+        "connector_reserve_policy": "Both camera-local X sides; not a measured plug or bend-radius model",
+        "actual_USB_plug_and_bend_radius_verified": false
+      },
+      "documented_base_wrist_intersection_mm3": 0.0,
+      "base_camera_intersection_mm3": 0.0,
+      "base_camera_minimum_separation_mm": 0.3000000000000011,
+      "nominal_washer_seating_checks": {
+        "left_foot_screw_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237605072,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "left_foot_nut_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237599846,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "left_foot_screw_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237605072,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "left_foot_nut_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237599853,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "left_camera_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.40530723759269,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "left_camera_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237592243,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        }
+      },
+      "whole_assembly_connector_checks": {
+        "negative_x": {
+          "parts_checked": 18,
+          "maximum_solid_overlap_mm3": 0.0,
+          "interferences": []
+        },
+        "positive_x": {
+          "parts_checked": 18,
+          "maximum_solid_overlap_mm3": 0.0,
+          "interferences": []
+        }
+      },
+      "whole_assembly_driver_checks": [
+        {
+          "fastener": "foot_0",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "camera_0",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "foot_1",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "camera_1",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        }
+      ],
+      "camera_front_aperture_marker_palm_mm": [
+        55.0,
+        40.0,
+        0.0
+      ],
+      "camera_front_centre_palm_mm": [
+        62.734811349541786,
+        35.963512247436014,
+        -2.208949979153106
+      ],
+      "camera_rotation_in_palm": [
+        [
+          0.8594234832824209,
+          -0.48878131373391165,
+          -0.14994700306195446
+        ],
+        [
+          -0.44849863917377586,
+          -0.8615578698237133,
+          0.23783819626816996
+        ],
+        [
+          -0.24543888657256735,
+          -0.13715270427292614,
+          -0.9596608195965081
+        ]
+      ],
+      "carrier_base_intersection_mm3": 0.0,
+      "carrier_wrist_intersection_mm3": 0.0,
+      "carrier_camera_intersection_mm3": 0.0
+    },
+    "right": {
+      "metal_base": {
+        "original_material_removed_mm3": 0.0,
+        "added_volume_mm3": 5771.671617887259,
+        "accessory_angle_in_CAD_deg": 270.0,
+        "accessory_neck_height_mm": 13.7,
+        "tie_slot_radial_position_mm": 59.0,
+        "access_checks": [
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": -18.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 18.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 72.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 108.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 162.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "radial_M4_design_access",
+            "angle_deg": 198.0,
+            "keepout_radius_mm": 4.6,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              -17.677669529663685,
+              -17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              -17.677669529663685,
+              17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              17.677669529663685,
+              -17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          },
+          {
+            "kind": "axial_M6_design_access",
+            "xy_mm": [
+              17.677669529663685,
+              17.677669529663685
+            ],
+            "keepout_radius_mm": 6.0,
+            "added_material_intersection_mm3": 0.0
+          }
+        ],
+        "attachment": "Proposed integral hand-side accessory ear on a replacement metal flange",
+        "original_fastener_reuse_requires_manufacturer_approval": true
+      },
+      "printed_carrier": {
+        "section_style": "compact fixed-angle rectangular backplate and short rectangular foot",
+        "separate_swept_link_or_triangular_gusset": false,
+        "custom_accessory_fixing_point_relocated": true,
+        "camera_pose_and_camera_fastener_axes_unchanged": true,
+        "raw_board_foot_overlap_mm3": 177.329589699091,
+        "short_rectangular_heel_size_mm": null,
+        "raw_board_heel_overlap_mm3": null,
+        "existing_metal_interface_and_fastener_datums_preserved": true,
+        "camera_backplate_size_mm": [
+          42.0,
+          32.0
+        ],
+        "camera_backplate_corner_radius_mm": 4.0,
+        "camera_plate_thickness_mm": 4.2,
+        "foot_thickness_mm": 6.0,
+        "foot_planform_mm": [
+          20.0,
+          40.0
+        ],
+        "foot_bottom_palm_z_mm": -24.0,
+        "foot_radial_interval_mm": [
+          44.0,
+          64.0
+        ],
+        "foot_tangent_offset_mm": 2.0,
+        "accessory_azimuth_palm_deg": -180.0,
+        "foot_radial_unit_palm": [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0
+        ],
+        "foot_tangent_unit_palm": [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0
+        ],
+        "tie_slot_radial_position_mm": 59.0,
+        "key_planform_mm": [
+          12.0,
+          8.0
+        ],
+        "key_side_clearance_mm": 0.2,
+        "key_depth_clearance_mm": 0.29,
+        "metal_pad_seating_plane_palm_z_mm": -18.0,
+        "metal_pad_lateral_design_clearance_mm": 0.3,
+        "wrist_facing_foot_edge_radius_mm": 44.0,
+        "camera_driver_keepout_radius_mm": 4.0,
+        "camera_driver_intersection_mm3": [
+          0.0,
+          0.0
+        ],
+        "usb_side_design_allowance_mm": [
+          24.7,
+          20.0,
+          18.0
+        ],
+        "usb_allowance_intersection_mm3": 0.0,
+        "usb_allowance_by_side_mm3": {
+          "negative_x": 0.0,
+          "positive_x": 0.0
+        },
+        "connector_reserve_policy": "Both camera-local X sides; not a measured plug or bend-radius model",
+        "actual_USB_plug_and_bend_radius_verified": false
+      },
+      "documented_base_wrist_intersection_mm3": 0.0,
+      "base_camera_intersection_mm3": 0.0,
+      "base_camera_minimum_separation_mm": 0.9887314767273807,
+      "nominal_washer_seating_checks": {
+        "right_foot_screw_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237605065,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "right_foot_nut_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237599843,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "right_foot_screw_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.40530723760506,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "right_foot_nut_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.405307237599846,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "right_camera_washer_0": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.40530723759105,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        },
+        "right_camera_washer_1": {
+          "nominal_distance_mm": 0.0,
+          "seating_probe_depth_mm": 0.01,
+          "bearing_area_mm2": 29.40530723759,
+          "expected_full_annular_area_mm2": 29.40530723760046
+        }
+      },
+      "whole_assembly_connector_checks": {
+        "negative_x": {
+          "parts_checked": 18,
+          "maximum_solid_overlap_mm3": 0.0,
+          "interferences": []
+        },
+        "positive_x": {
+          "parts_checked": 18,
+          "maximum_solid_overlap_mm3": 0.0,
+          "interferences": []
+        }
+      },
+      "whole_assembly_driver_checks": [
+        {
+          "fastener": "foot_0",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "camera_0",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "foot_1",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        },
+        {
+          "fastener": "camera_1",
+          "length_mm": 50.0,
+          "radius_mm": 4.0,
+          "assembly_intersections": []
+        }
+      ],
+      "camera_front_aperture_marker_palm_mm": [
+        -45.0,
+        -50.0,
+        -20.0
+      ],
+      "camera_front_centre_palm_mm": [
+        -53.63089675313029,
+        -50.0,
+        -17.448996033557552
+      ],
+      "camera_rotation_in_palm": [
+        [
+          -0.9589885281255872,
+          0.226102539087155,
+          -0.1709346212499428
+        ],
+        [
+          0.0,
+          0.6030612305926385,
+          0.7976948991663997
+        ],
+        [
+          0.2834448851602721,
+          0.7649802572448744,
+          -0.5783288018956397
+        ]
+      ],
+      "carrier_base_intersection_mm3": 0.0,
+      "carrier_wrist_intersection_mm3": 0.0,
+      "carrier_camera_intersection_mm3": 0.0
+    }
+  },
+  "source_hashes": {
+    "/root/dev/projects/DAGroup/DexBioLab-results/spincoat/v31_camera_work/onboard/mechanical_redesign/source_cad/Flange-Interface.STEP": "6151bf8e78be9b110254869c7b2e716fc6e1da534233ae070fd8b7d42a8e2d6b",
+    "/root/dev/projects/DAGroup/DexBioLab-results/spincoat/v31_camera_work/onboard/mechanical_redesign/source_cad/Wrist-Interface.STEP": "173037a00f09525af12d8a971852acd366d6e4752524d1bb49d35c1dbc277267",
+    "/root/dev/projects/DAGroup/DexBioLab-results/spincoat/v31_camera_work/onboard/mechanical_redesign/camera_spec_return.json": "41e134d57eb3368ff6fae57ed52d6344595a8f745e78c480888057498755ab30",
+    "/root/dev/projects/DAGroup/DexBioLab-results/spincoat/v31_camera_work/onboard/mechanical_redesign/build_mechanical_redesign.py": "4c3abf606fd976b5e8fa8f1b7c7109988b37dc079607aa2137eced5b63f7f15d"
+  },
+  "manufacturing_ready": false,
+  "actual_T1_installation_validated": false,
+  "source_episode_modified": false,
+  "camera_candidate": {
+    "model": "RealSense D405; not identified as the original T1 wrist sensor",
+    "nominal_enclosure_mm": [
+      42.0,
+      42.0,
+      23.0
+    ],
+    "rear_mount_thread": "2x M3x0.5",
+    "rear_hole_spacing_mm": 20.0,
+    "maximum_thread_insertion_mm": 4.0,
+    "nominal_screw_insertion_mm": 3.3,
+    "proposed_tolerance_stack_insertion_range_mm": [
+      2.9,
+      3.7
+    ],
+    "tolerance_stack_note": "M3x8 length +/-0.15, plate4.2 +/-0.2, washer0.5 +/-0.05 mm; inspect actual manufactured parts",
+    "optical_reference": "Existing ideal camera point placed at a front aperture marker, not an internal D405 optical/depth origin",
+    "display_only_details": "Corner fillets and optical-window radii are illustrative, not manufacturer metrology"
+  },
+  "new_hardware_per_hand": {
+    "M3x18_socket_screw": 2,
+    "M3_locknut": 2,
+    "M3x8_socket_screw": 2,
+    "M3_washer_0.5mm": 6
+  },
+  "assembly_sequence": [
+    "Approve the actual T1/hand interface and replacement metal flange before manufacturing or changing the robot",
+    "Install the metal flange and wrist using the manufacturer-approved original fastening procedure",
+    "Fasten the D405 to the printed carrier from behind; verify screw insertion and retain rear driver access",
+    "Seat the carrier under the keyed metal ear; insert two M3x18 through-bolts from below and fit top washers and locking nuts",
+    "Pass strain-relief ties through the aligned metal/printed slots, then verify the actual connector and joint service loop",
+    "Calibrate the installed camera and verify all task and joint-extreme clearances before motion"
+  ],
+  "limitations": [
+    "A custom metal replacement flange with accessory ear is proposed; OEM approval and actual T1 adapter data are absent",
+    "The original arm/hand axial stack is not redesigned or certified by these parts",
+    "Printed PA12 is a material candidate; creep, fatigue, solvent compatibility and dynamic deflection are unverified",
+    "The low-profile carriers are geometric designs, not validated stiffness or manufacturing-process specifications",
+    "D405 is a documented camera candidate, not a confirmed camera selection; ideal60-degree source views are not its hardware calibration",
+    "Public CAD and URDF visual meshes differ; their model-based coordinate registration is not a measured hardware calibration",
+    "Connector keepouts are design allowances, not verified cable dimensions or full-motion cable routing",
+    "Source V31 replay/sweep and actual T1 fit must be reported separately from static CAD checks",
+    "Render STL files are in metres; CAD STEP and review-print STL files are in millimetres and are not released for manufacture"
+  ]
+}
