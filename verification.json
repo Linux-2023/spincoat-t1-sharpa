@@ -106,6 +106,353 @@
     "original_model_smoke_frames": 7,
     "physics_steps_executed": 0
   },
-  "clean_checkout_verification": "not_run",
-  "public_download_verification": "not_run"
+  "clean_checkout_verification": {
+    "status": "passed",
+    "tested_source_commit": "86e38e271fb36233a9215a8950cd154a7500462b",
+    "tracked_files_unchanged": 317,
+    "native_success": true,
+    "physics_steps": 112236,
+    "native_duration_s": 112.236,
+    "capture_complete": true,
+    "original_functional_gate_count": 35,
+    "functional_gates": [
+      {
+        "name": "native_result_success",
+        "phase": "finish",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "preparation_success",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "preparation_functional_success",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "tube_held_gate",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "pour_entry_stopped",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "preparation_zero_poststop_wheels",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "preparation_pipette_clearance",
+        "phase": "preparation",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "preparation_no_failure",
+        "phase": "preparation",
+        "passed": true,
+        "observed": null,
+        "requirement": null
+      },
+      {
+        "name": "preparation_environment_clear",
+        "phase": "preparation",
+        "passed": true,
+        "observed": 0,
+        "requirement": "no native force events"
+      },
+      {
+        "name": "preparation_liquid_99pct",
+        "phase": "preparation",
+        "passed": true,
+        "observed": 2.4999994694507638e-05,
+        "requirement": {
+          "ge": 2.4750000000000002e-05
+        }
+      },
+      {
+        "name": "tube_return_within_5mm",
+        "phase": "preparation",
+        "passed": true,
+        "observed": 2.03256623705237,
+        "requirement": {
+          "lt": 5.0
+        }
+      },
+      {
+        "name": "v6_right_grasp_dock",
+        "phase": "grasp",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "v6_right_aspiration_dock",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "v6_right_direct_cup",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "grasp_no_contact_violation",
+        "phase": "grasp",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "grasp_no_failure",
+        "phase": "grasp",
+        "passed": true,
+        "observed": null,
+        "requirement": null
+      },
+      {
+        "name": "grasp_prefix_clear",
+        "phase": "grasp",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "actual_pipette_held_lift_gate",
+        "phase": "grasp",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "grasp_original_fine_base_gate",
+        "phase": "grasp",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "aspiration_success",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "aspiration_original_fine_base_gate",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "aspiration_no_failure",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": null,
+        "requirement": null
+      },
+      {
+        "name": "aspiration_fill_95pct",
+        "phase": "aspiration",
+        "passed": true,
+        "observed": 3e-08,
+        "requirement": {
+          "ge": 2.8499999999999997e-08
+        }
+      },
+      {
+        "name": "transfer_stopped",
+        "phase": "transfer",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "transport_retained_dose_95pct",
+        "phase": "transfer",
+        "passed": true,
+        "observed": 2.984118708545368e-08,
+        "requirement": {
+          "ge": 2.8499999999999997e-08
+        }
+      },
+      {
+        "name": "view_clearance_native_gate",
+        "phase": "transfer",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "rgb_native_measurement_gate",
+        "phase": "transfer",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "coating_success",
+        "phase": "coating",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "dispense_native_release_valid",
+        "phase": "coating",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "dispense_impact_within_0p7mm",
+        "phase": "coating",
+        "passed": true,
+        "observed": 0.09831016295415122,
+        "requirement": {
+          "le": 0.7
+        }
+      },
+      {
+        "name": "dispensed_dose_95pct",
+        "phase": "coating",
+        "passed": true,
+        "observed": 2.9746933917663183e-08,
+        "requirement": {
+          "ge": 2.8499999999999997e-08
+        }
+      },
+      {
+        "name": "finish_success",
+        "phase": "finish",
+        "passed": true,
+        "observed": true,
+        "requirement": true
+      },
+      {
+        "name": "finish_stopped_last_halfsecond",
+        "phase": "finish",
+        "passed": true,
+        "observed": 0.0,
+        "requirement": {
+          "lt": 1.0
+        }
+      },
+      {
+        "name": "finish_tip_clearance",
+        "phase": "finish",
+        "passed": true,
+        "observed": 0.1118171627664758,
+        "requirement": {
+          "ge": 0.08
+        }
+      },
+      {
+        "name": "same_episode_provenance",
+        "phase": "provenance",
+        "passed": true,
+        "observed": {
+          "required_handoffs_present": true,
+          "ordered_handoffs": true,
+          "one_live_model_data_identity": true,
+          "handoff_clock_nondecreasing": true,
+          "initial_handoff_at_reset": true,
+          "live_state_bound": true,
+          "live_physical_clock_strictly_increasing": true,
+          "no_runtime_qpos_writes": true,
+          "finish_same_live_core_no_reset": true
+        },
+        "requirement": "ordered native live handoffs and strictly increasing live observer clock"
+      }
+    ],
+    "failed_gates": [],
+    "evidence_errors": [],
+    "result_sha256": "fe11c9bec93deb28273804aab1538c8b4921481c295b425727c8751079f5a4b1",
+    "timing_report_sha256": "71b881ecce5d8e939368c3007b0d738012255c7763c5fe54c048309ccc7412c1",
+    "reference_timing_record_count": 34,
+    "recorded_reference_factors": [
+      1.0
+    ],
+    "timing_note": "Records include explicitly labeled unexecuted planning envelopes; this count is not a count of physical motions.",
+    "dependency_reuse": "Previously installed isolated Python environment and hash-verified prepared assets; fresh source checkout and independent episode/output."
+  },
+  "complete_portable_reference_replay": {
+    "status": "completed",
+    "mode": "full",
+    "source_episode": "walledge_native_11_layout_002",
+    "frames_rendered": 2589,
+    "available_native_frames": 2589,
+    "original_timeline_complete": true,
+    "physics_steps_executed": 0,
+    "physics_step_attempts": 0,
+    "optical_probe_passed": true,
+    "source_files_unchanged": true,
+    "physical_model_arrays_unchanged": true,
+    "recorded_display_geometries_restored": 26,
+    "peak_rss_bytes": 2858131456,
+    "elapsed_seconds": 296.20862807706,
+    "video_sha256": "1e17644893a375ff1c7cc0990595d84211c099bd880f477699d0c8ed13b0c3b5",
+    "video_validation": {
+      "frames": 2589,
+      "fps": 30,
+      "frame_wh": [
+        3840,
+        800
+      ],
+      "exact_rational_pts_match": true,
+      "stream": {
+        "width": 3840,
+        "height": 800,
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "duration": "86.300000",
+        "nb_frames": "2589"
+      },
+      "full_decode_passed": true,
+      "source_action_video_verifier": {
+        "fps": 30,
+        "frames": 2589,
+        "action_video_pts_match": true,
+        "native_pose_and_control_share_source_tick": true,
+        "stream": {
+          "codec_name": "h264",
+          "width": 3840,
+          "height": 800,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "duration": "86.300000",
+          "nb_frames": "2589"
+        },
+        "video_sha256": "1e17644893a375ff1c7cc0990595d84211c099bd880f477699d0c8ed13b0c3b5"
+      }
+    },
+    "visual_inspection": "Full-video contact sheet and selected native-resolution frame inspection; not a per-frame human review."
+  },
+  "publication_receipt_url": "https://github.com/Linux-2023/spincoat-t1-sharpa/releases/download/reproducible-1x-20261102/publication-receipt.json"
 }
