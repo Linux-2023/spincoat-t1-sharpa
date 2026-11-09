@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "task_id": "spincoat-three-camera-measured-torque-v1",
+  "source_parent_commit": "a36cc83028390136831c84c75b7402bbd0783b50",
+  "scope": "Fresh interface/native-execution/C14/evidence smoke, not a successful laboratory policy or trained-agent benchmark result",
+  "tested_source_files": {
+    "benchmark/rendering.py": "d42ac779562e4f90c10f55302df1511b281a4298a54b179ebd2214e214d6ef27",
+    "benchmark/bootstrap.py": "c79714270908d64c819aca06d638957b6ea6f47863342489c788838059bc337a",
+    "benchmark/aggregate.py": "88db354cc3cf05528f7f193d6230d1d9f72f21d49ba3e81c1c7bc4a823730963",
+    "benchmark/native_task.py": "47c184889aa6ef8d862df89a4500bf4b85100220d10a9474e6d82c399c947177",
+    "benchmark/native_controller.py": "7cc92661b56a4b3883ae9b7413875625e7fb6287f129011b7f911025fb0f0bff",
+    "benchmark/backend.py": "2e6781ddc05e5ffd4445525eab046bff6b5aad247b493808c3baa3ee0127a36e",
+    "benchmark/client.py": "08791bee8768fa2431bf337b60c4e70a15e48daf93884fbefd140399d884ca4d",
+    "benchmark/recording.py": "fc460d2d005ae4dd812ac544ecae6d11e8485dedb1563c3ad923524564eeed2f",
+    "benchmark/server.py": "1b2c5dc728d2b469dc23cb387f198bd93172bb11ac2e68b0dde913c596c17a31",
+    "benchmark/task_contract.json": "8f40788ce4283b3d986d880694e18937355e9442aad2257fa2f7e581d30d8a80",
+    "benchmark/native_sources.py": "1e8a82519236372e8ac314198557c7839c45fb58a2810378e3c4d7d6bd455608",
+    "benchmark/__init__.py": "7f84f3b7e83947cc30490bfd3db45fd32a3e93a2ca9fa44ee93659a48bb97819",
+    "benchmark/session.py": "452aa6dfe01dcbb1f190fb6349a3b6914e74135c6881b6628917ea23c33104c2",
+    "benchmark/physics_support/measurements.py": "07e21d7edf2553b5193499fd6ba2fe9074dc13d151230057de69b5ce45ea249c",
+    "benchmark/physics_support/contract.py": "09179e47514efe25c98d1172abf08fb8c801ad1713edc08fdb460d01fdc8fc6d",
+    "benchmark/physics_support/source_provenance.json": "35bb7a3222938327a7626673e7c5701adaa9e5d11150f76f59156b6beb903261",
+    "benchmark/physics_support/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "benchmark/cases/reference.json": "b935844db688cd8f1857928281124e1bd6be6ec94d085fe3185713b971e54bd7",
+    "benchmark/cases/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "benchmark/camera_support/inputs.lock.json": "45a698f61961d8b2788659d8fef4f9e386c92dc8fcd9d65996ffda884e00fa4a",
+    "benchmark/camera_support/visuals.py": "3fb3baffa1a5972b06662c5f04bde3f8eac0628ac2f7f2d27cff03337c1fc4e4",
+    "benchmark/camera_support/__init__.py": "0d2e894d2d91e743e1420cf59d1f7f4d4058295e229723614e516d50387805eb",
+    "tests/test_model_identity.py": "d0e6197b1f7f9c73e51399d17cd0d09920f9c8480fb77bec5b32714a88f35bf6",
+    "tests/test_benchmark_camera_contract.py": "b531fcebcc792591bd265b6f6dc4185334a568d57161c1945b7579c8c1c9f323",
+    "tests/test_benchmark_protocol.py": "fdd9c5da4f1542e822e6f88dbb9b0004faeca1f3fdf3d83d5daa5f1af29f30ec",
+    "tests/test_benchmark_outcomes.py": "bd89dc4c708ce53185d661d31b6507d51fa39fe72192206e003594f140c24f8d",
+    "tests/test_benchmark_aggregate.py": "b9d498be5cd9edca0f82dfd2d19b8b81e6acad60d3b3620a0f9764274c9a8515",
+    "tests/test_benchmark_http.py": "59adfedda6967573354a80ff40476cd54547a84625fd36295e2549ae3d52c635",
+    "tests/test_recorded_display.py": "5189d193b22275acd756c727b7fe5d16756490fd43f5a17c0d408538f0992d1b",
+    "benchmark.py": "dd7445a7efa2895dfbca9da0e1811f014d9f6d6d2b69f7d2adfcd6dd3da6119e",
+    "runtime.py": "3e32cc830312f2a264b8b0c9c9256ad6e7b48a3e7ef2d0b2180582b0ff7754d2",
+    "runtime_manifest.json": "6ae6f8d85bef0e8e07a60edbbd60d4cadab7cb578f1aa60f53fb606fc02dbd18",
+    "model_identity.py": "7802bd38d4c73521e116f021e8f5ff1c5d857e186189802e1373d8ae30a9c162",
+    "asset_identity.py": "e4755aafe2e039bba6b0c74d9a363b67ce97b710535e229d9df4f57032c2e48c",
+    "replay_adapter.py": "3f4c4a1e01e6775ff06c85f56742843debac37548d8961eb1ee23d997a1692bb",
+    "requirements.txt": "fded1f6831ae3318215798363d5cbef470aa72c8a00ada19b3cc99e5801d8a3d",
+    "assets.lock.json": "cac91df4a63be7a612d4133347a74beb4b3c898990efa5f45535b6cd425f994b",
+    "replay_manifest.json": "1fc3963b59a84c086480c6b3db8d4914d0cc0e4bffa2fb61b8b4d4aad5c4ade9",
+    "tests/test_benchmark_actuators.py": "cb90e20a95f6cf40e7844abfdccf2431a0296debd05f81791a1f0bb722d43004"
+  },
+  "tests": {
+    "count": 57,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "live_smoke": {
+    "physics_steps": 25,
+    "simulation_seconds": 0.025,
+    "checks": {
+      "arbitrary_batch_lengths": true,
+      "auth": true,
+      "exactly_once_request": true,
+      "invalid_batch_atomic": true,
+      "native_state_evolved": true,
+      "observation_does_not_step": true,
+      "optical_projection_depth_and_noninterference": true,
+      "private_state_inaccessible": true,
+      "response_image_hashes": true,
+      "sealed_evidence_aggregation": true,
+      "synchronized_native_rgb": true
+    },
+    "graphics": {
+      "backend": "osmesa",
+      "renderer": "llvmpipe (LLVM 20.1.8, 256 bits)",
+      "vendor": "Mesa",
+      "version": "4.5 (Compatibility Profile) Mesa 25.1.7-1ubuntu3"
+    },
+    "wall_seconds": 37.88452172605321,
+    "peak_rss_bytes": 3239575552,
+    "observations": [
+      {
+        "id": 0,
+        "images": {
+          "cam_head": {
+            "height": 720,
+            "sha256": "7d843b57527e84c2145dccf362feea7a7b1df412376d99ba623363be54995281",
+            "url": "/v1/images/000000/cam_head.png",
+            "width": 1280
+          },
+          "cam_left_wrist": {
+            "height": 720,
+            "sha256": "1b36b6df6e405e0761307fbdfd67c9b8392ddf110104841c25cfa47b8cb899db",
+            "url": "/v1/images/000000/cam_left_wrist.png",
+            "width": 1280
+          },
+          "cam_right_wrist": {
+            "height": 720,
+            "sha256": "dfa1cc6cdfc171a567c1b5a7aeda2512aa23b99f922676644bf7eb6a2a4b49e6",
+            "url": "/v1/images/000000/cam_right_wrist.png",
+            "width": 1280
+          }
+        },
+        "tick": 0
+      },
+      {
+        "id": 1,
+        "images": {
+          "cam_head": {
+            "height": 720,
+            "sha256": "7e0b3c95940550f8e1685ae5401f4eca6b6aba7b0a669f3d843ed0aecec40f5f",
+            "url": "/v1/images/000001/cam_head.png",
+            "width": 1280
+          },
+          "cam_left_wrist": {
+            "height": 720,
+            "sha256": "9efee5d8c7f87b2a2b4ccaaa5f6f093481a2160682fc5b63306465ed49b9b2de",
+            "url": "/v1/images/000001/cam_left_wrist.png",
+            "width": 1280
+          },
+          "cam_right_wrist": {
+            "height": 720,
+            "sha256": "6251b76e8b3e60feac74ff24dab04f1aa9bf0da49466eb8569e1aa2c3289bb10",
+            "url": "/v1/images/000001/cam_right_wrist.png",
+            "width": 1280
+          }
+        },
+        "tick": 25
+      }
+    ],
+    "outcome": {
+      "configured_contact_checks": false,
+      "functional": false,
+      "hardware_certified": null,
+      "reason": "incomplete",
+      "strict_physics": null
+    },
+    "exercised_actuator": "astribot_chassis_motor_RF",
+    "instrumentation": "Private optical proof and client thread wrap the unchanged original server loop; no controller or physics overrides"
+  },
+  "optics": {
+    "tick": 0,
+    "live_state_unchanged": true,
+    "cameras": {
+      "cam_head": {
+        "near_m": 0.10826136929710298,
+        "maximum_projection_error_px": 0.2246455937467035,
+        "maximum_depth_error_m": 0.0008515417575837292,
+        "full_scene_restored": true
+      },
+      "cam_left_wrist": {
+        "near_m": 0.003,
+        "maximum_projection_error_px": 0.22773870540752714,
+        "maximum_depth_error_m": 0.0004618641734124296,
+        "full_scene_restored": true
+      },
+      "cam_right_wrist": {
+        "near_m": 0.003,
+        "maximum_projection_error_px": 0.227738705407379,
+        "maximum_depth_error_m": 0.0004643452167510942,
+        "full_scene_restored": true
+      }
+    }
+  },
+  "visual_inspection": {
+    "tick": 25,
+    "views": [
+      "cam_head",
+      "cam_left_wrist",
+      "cam_right_wrist"
+    ],
+    "observed": "Head: bench and right arm. Left wrist: hand occlusion, wall and bottles. Right wrist: bench, receiver and pipette stand. Occlusion was retained; no camera remounting or view masking."
+  },
+  "backend_identity": {
+    "source_identity": "063b477b6a061f6c34b769b7b034dd9c68510f26761e2493f337d2f04122f40c",
+    "model_sha256": "edc9538898c089342dc5ea634b18296862a50ab932d5fe4ecddb937a6b4170bc",
+    "initialization_manifest_sha256": "2627af4c01bf8bbde91a44aa6cbf877bebe26eac80f80a9eba64955be1dac34a",
+    "apparatus": {
+      "deceleration_at_s": 4.2,
+      "deceleration_duration_s": 2.0,
+      "dof": 147,
+      "id": "benchmark-rotor-torque-v1-inertia-normalized-600rpm",
+      "inertia_kg_m2": 2.0000000000000052e-05,
+      "input": "native qfrc_applied generalized torque N*m",
+      "joint": "spincoater/rotor",
+      "limit_law": "2*(I_reset*20*pi/0.5 + damping*20*pi + frictionloss)",
+      "native_damping_Nm_s_rad": 0.0,
+      "native_frictionloss_Nm": 0.0,
+      "native_physics_equivalent_to_prescribed_velocity": false,
+      "ramp_s": 0.5,
+      "response_s": 0.02,
+      "target_rpm": 600.0,
+      "torque_limit_Nm": 0.005026548245743682
+    }
+  },
+  "not_claimed": [
+    "Full laboratory-policy success",
+    "Strict-physics or hardware certification",
+    "Held-out-layout robustness",
+    "New execution of the unchanged historical full planner"
+  ],
+  "earlier_failures_retained": [
+    "Optional native-buffer hash instability, resolved with allocated-buffer evidence and active-cache rejection coverage",
+    "Native wheel incorrectly rejected by a joint-name prefix, resolved with robot ancestry validation",
+    "Obsolete public task projection caused HTTP 500, resolved by exposing the installed static contract"
+  ],
+  "evidence_distribution": "Raw runs and images are retained by the operator, not committed to Git. This summary contains their measured checks and hashes."
+}

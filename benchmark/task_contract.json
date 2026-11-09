@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "spincoat-three-camera-measured-torque-v1",
+  "description": "In a fresh layout_002 laboratory, physically acquire and lift the reagent tube, perform measured supported mixing, pour at least 99% of its initial 25 mL into the shared receiver and return the tube. Acquire and lift the empty pipette, aspirate at least 95% of its 30 microlitre capacity from that receiver using its physical button, transport and dispense over the substrate, withdraw, and finish a measured spin and stop without prohibited apparatus contact.",
+  "workflow": "Unrestricted participant model, planner, skills, language, control batching and observation timing. No named-stage command, RGB detector, expert policy or hidden planned waypoint is required. Phase names are private observations, never actions.",
+  "physics_dt_ns": 1000000,
+  "budgets": {"max_physics_steps": 180000, "max_wall_seconds": 1800},
+  "reset": "Only evaluator-owned cases/reference.json: fresh public anatomical ready pose and separate 15000-step tube-only initialization settlement; no historical episode state. Layout perturbations are not implemented.",
+  "observations": ["cam_head RGB", "cam_left_wrist RGB", "cam_right_wrist RGB", "per-camera calibration", "declared actuated robot joint positions and velocities", "current robot FK of both EEFs in chassis_base frame"],
+  "excluded_observations": ["object poses", "touch/contact data", "liquid state", "private task metrics", "world base pose"],
+  "execution_controller": {
+    "id": "benchmark-execution-v1-left-encoder-native-wheel-brake-bias",
+    "encoder_integral_per_s": 3.0, "encoder_bound_rad": 0.03,
+    "wheel_hold_gain_scale": 32.0, "wheel_brake_s": 0.4,
+    "description": "68 original robot joint actuators with original control/force limits. Left thumb/index/middle use bounded encoder correction; all-zero wheel request invokes native braking and hold, nonzero requests use original route gains. Bias compensation acts only on non-wheel actuated robot DOFs. Actual controls and applied forces are recorded separately from requests. No task policy, pose write, friction change, collision removal or force-cap increase."
+  },
+  "acceptance": {
+    "base": {"radius_m": 0.01, "planar_speed_m_s": 0.001, "yaw_rate_rad_s": 0.002, "stable_samples": 500},
+    "tube": {"contact_force_N": 0.01, "minimum_nonthumb_support": 2, "support_samples": 500, "minimum_lift_m": 0.06, "rack_clearance_m": 0.025, "relative_translation_m": 0.002, "relative_rotation_rad": 0.05235987755982989, "return_error_m": 0.005, "captured_fraction": 0.99},
+    "mixing": {"duration_s": 2.0, "axis_travel_rad": 2.0943951023931953, "reversal_excursion_rad": 0.08726646259971647, "significant_reversals": 6, "mouth_excursion_m": 0.05},
+    "pipette": {"contact_force_N": 0.01, "support_samples": 500, "minimum_tip_lift_m": 0.06, "contact_sample_stride": 20, "withdrawal_over_rim_m": 0.034, "minimum_body_z_m": 0.76},
+    "dispense": {"standoff_m": 0.012, "alignment_error_m": 0.0003, "alignment_speed_m_s": 0.0075, "alignment_tilt_rad": 0.005, "alignment_hold_s": 0.04, "minimum_height_m": 0.003, "maximum_height_m": 0.03, "maximum_release_speed_m_s": 0.05, "maximum_impact_error_m": 0.0007, "motor_start_clearance_m": 0.04, "finish_clearance_m": 0.08},
+    "rotor": {"id": "benchmark-rotor-torque-v1-inertia-normalized-600rpm", "target_rpm": 600.0, "ramp_s": 0.5, "deceleration_at_s": 4.2, "deceleration_duration_s": 2.0, "response_s": 0.02, "torque_headroom": 2.0, "minimum_measured_rpm": 540.0, "maximum_measured_rpm": 660.0, "rated_speed_samples": 3000, "stop_maximum_rpm": 1.0, "stop_samples": 500, "finish_earliest_age_s": 6.7},
+    "safety": {"preparation_contact_N": 0.1, "source_contact_N": 0.01, "station_contact_N": 0.001, "volume_balance_tolerance_m3": 1e-12},
+    "aspiration_parameters": {"capacity_m3": 3e-8, "metering_stroke_m": 0.005, "released_qpos_tolerance_m": 0.0002, "min_immersion_m": 0.001, "bottom_clearance_m": 0.001, "radial_clearance_m": 0.001, "press_hold_s": 0.08, "immersion_hold_s": 0.1, "aspiration_hold_s": 0.15, "withdrawal_hold_s": 0.1, "withdrawal_clearance_m": 0.005, "min_fill_fraction": 0.95, "reverse_motion_tolerance_m": 0.0001, "timeout_s": 30.0}
+  },
+  "criteria": {
+    "base": "Within radius inclusive; speeds strictly below limits; final wheel commands exactly zero for 500 consecutive native samples. Preparation and pipette grasp must be settled at their first force-supported contact. Preparation wheels remain zero until preparation completes; aspiration station remains settled from observer activation through geometric withdrawal. Regions derive from the public layout; the right grasp dock includes the actual stand XY offset.",
+    "tube": "Actual lift >= max(minimum_lift, rack_top + rack_clearance - initial tube origin z). Thumb plus at least two other fingers each exceed the contact-force limit over a 500-sample window, with relative translation and rotation strictly below limits. Return error is strictly below its limit; captured fraction is inclusive.",
+    "mixing": "Before any outflow, one uninterrupted supported near-pivot window must meet duration, actual tube-axis travel and significant tilt reversals, while mouth displacement stays within its bound. Derived conservatively from public 3 Hz, +/-5 degree, 1+2+1 second mixing configuration: half ideal steady-window travel and six >=5 degree reversals. Static holds, translational carry and sub-degree jitter do not qualify. No chemical homogeneity claim.",
+    "pipette": "Actual tip lift meets the minimum after 500 consecutive samples with all four non-thumb contacts each above the force limit. The unchanged public aspiration observer judges actual button/immersion/release/withdrawal samples. Completion additionally requires the held-lift gate, contact samples throughout aspiration, no source collision, and tip z >= max(public receiver rim + 34 mm, current liquid surface + 5 mm). No frozen lateral withdrawal waypoint.",
+    "dispense": "Hold actual tip within 0.3 mm Euclidean distance of the substrate target plus a publicly declared vertical 12 mm standoff, with speed and tilt strictly below limits for 40 ms before physical recompression. This replaces the old hidden 0.1 mm lateral planned offset. Each actual metered volume increment starts a ballistic parcel immediately; every parcel must satisfy height/speed/contact conditions and impact within 0.7 mm. At least 95% of capacity must land before automatic motor start, with no remaining flights and clearance >40 mm.",
+    "rotor": "A NEW bounded native generalized-torque velocity motor, not prescribed qvel. Torque = clip(I*(target-measured)/(response+dt) + native_damping*measured, +/-limit), with reset-frozen limit = headroom*(I_reset*target/ramp + native_damping*target + native_frictionloss). Original 600 rpm program; measured speed must remain in [540,660] rpm for 3000 consecutive native samples. Film uses the interval average of measured native shaft velocity; native damping, friction and inertia are unchanged.",
+    "finish": "At or after 6.7 s of motor age, all functional gates must be true, including a complete 500-sample measured stop window strictly below 1 rpm and current tip clearance >=80 mm. Failures are terminal; partial local progress is not whole-task success.",
+    "configured_contact_checks": "Reported separately from functional completion: uninterrupted left support from held acquisition until return; uninterrupted right four-finger contacts after aspiration activation; zero measured cross-digit, non-pad tube, inward wall-normal and full-wall-thickness violation counters. These configured simulation checks do not certify strict physics or hardware."
+  },
+  "limitations": [
+    "This new initializer/apparatus/judge identity is not equivalent to the historical expert's 35 checks and is not evidence of participant success.",
+    "Fixed liquid-mass surrogate; uncalibrated reduced hydrostatic/Torricelli pour, kinematic pipette volume proxy and reduced film model. No CFD/SPH, chemical homogeneity, evaporation, resolved droplet breakup/impact or liquid reaction forces.",
+    "Ballistic coupling uses actual release pose/velocity and a substrate landing plane, not resolved intermediate droplet-object collisions. Film is integrated on its original 20 ms outer clock using 1 ms measured shaft-velocity quadrature.",
+    "No required film uniformity/CV/coverage certification; these remain measured diagnostics. No repeated-layout robustness claim.",
+    "Solver contact geometry/forces are from the just-completed native step, while positions and robot FK are refreshed read-only at the endpoint; up to one native millisecond of contact geometry lag.",
+    "C14 optical geometry is not mount dynamics, manufacturing or hardware certification. Strict physics and hardware outcomes are unknown, not inferred from configured contact checks.",
+    "Only three RGBs/calibration and declared robot proprioception reach participants. The evaluator may use private physical truth; the transport is not a sandbox against a participant with evaluator-host filesystem access."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "Source provenance, not validation. No private origin is needed at runtime.",
+  "public_parent_commit": "a36cc83028390136831c84c75b7402bbd0783b50",
+  "extracted_origins": {
+    "native_task.py": {
+      "historical_source": "teacher_runtime/_task.py",
+      "sha256": "7d210c815c10d648847999287843c8615b596f60305066ceb1f43155215bf02e"
+    },
+    "native_controller.py": {
+      "historical_source": "teacher_runtime/_controller.py",
+      "sha256": "47f82abd425088bae886aa43f6b35429af8fc6767659d9dd5bbcf3adb183f87c"
+    },
+    "native_sources.py": {
+      "historical_source": "teacher_runtime/_sources.py",
+      "sha256": "485e3bc0bf86373124128a8667b7e85e7a1890b7ba934425e8c5dacb59b9ef0d"
+    }
+  },
+  "public_origins": {
+"inputs/reference/hold_profile.json": "88a89f9008de3fc32126ef341b6108a30e4f96b745d4ed218a9b437c7f64d59c",
+"native/t1_v10_v27_stage_v28.py": "4446765422a11449841209bb6a71ba4312c8b782ccbea57bdfdef001d99daeb2",
+"native/t1_liquid_palette.py": "2c71b68d99ff44e439ea2f769381b71e04c9f05f06ffd45a4f6174beefa62383",
+"native/t1_gravity_liquid_render_v2.py": "237ac748e98ea76dda01745d923ade25b80761fd188c5ea73c6a7e59adaded16",
+    "runtime.py": "3e32cc830312f2a264b8b0c9c9256ad6e7b48a3e7ef2d0b2180582b0ff7754d2",
+    "runtime_manifest.json": "6ae6f8d85bef0e8e07a60edbbd60d4cadab7cb578f1aa60f53fb606fc02dbd18",
+    "assets.lock.json": "cac91df4a63be7a612d4133347a74beb4b3c898990efa5f45535b6cd425f994b",
+    "native/t1_anatomical_mount_scene_v7.py": "c789641bc8c363da9f5cc75cbc52446dd6670e823fb2220174f2f0123d05c527",
+    "native/t1_interior_scene_v6.py": "b7d23eabfd27d9ed701962f5dd80fef4a00c43c9333edf644da96b6ecdede677",
+    "native/settle_t1_glass_reset.py": "4e5f03a395a8bd01b8ba289696bb53978d1a10600030ab181a44a25173a671b6",
+    "native/t1_right_passive_settle_v5.py": "d6fbef1331547bc1038249f78da7c228a907197c4024f7aafc4297b81dce8d30",
+    "native/t1_right_transport_low_v3.py": "9e09100e5cd0c6e29c1760b6717b7af9715406a0e64ef1e6f948d1f6b34643b9",
+    "native/t1_wrist_mixing_v26.py": "8f0acd0c6f07603b0156ae2b4c5f790f4272c25979fcb769f1443fb45693f4c0",
+    "native/t1_wrist_mixing_v27.py": "fe970b01d9dadea86b7908c031b1cb0ca84a1c3d4c166b9305482ece3e9b3bd1",
+    "native/t1_aspiration_stage.py": "4dfff5b67323117fa3f59d9d19e23d464eb83b179260d80b99a67eeac18e1233",
+    "native/t1_gravity_pour_liquid_v2.py": "fe625d61cc75b644b368edda0efc39e04247d361bbd7597e62d0248bebd495de",
+    "native_fluid/thin_film.py": "708dd7703a97e076ea7a5dee0c085da352ab5ceeab1252c6a86735ceaeaeb2e0",
+    "native_fluid/fluid_v2.py": "71a578f26a9474d470f749afff09771242370de95bea63c758ab62daca9d1f4b"
+  },
+  "new_implementations": {
+    "bootstrap.py": "Fresh public initializer composition; no task expert or old MJB dependency.",
+    "measurements.py": "Held-lift original four-finger threshold with exactly 500 native samples. New supported pre-pour mixing-motion criterion derived from public 3Hz/5deg/2s plateau.",
+    "contract.py": "Single installed task definition loader for native evaluator, controller and measurement helpers."
+  },
+  "declared_changes": [
+    "Bounded inertia-normalized physical shaft torque replaces prescribed qvel; actual speed drives film and measured spin/stop gates.",
+    "Public-case station regions including actual shifted right dock.",
+    "No historical lateral withdrawal waypoint or hidden 0.1mm dispense offset.",
+    "Immediate ballistic release for each measured stroke increment; original gravity/aspiration/film leaf bytes remain unchanged.",
+    "No task phase selection, exploration recovery or state restore API in this fresh benchmark.",
+    "Configured contact outcomes separate from unknown strict/hardware certification."
+  ],
+  "verification": "not_run"
+}

@@ -12,3 +12,7 @@ __pycache__/
 !/inputs/reference/
 !/assets/inputs/ready_pose.npz
 !/assets/research/hardware/grasp/probe.npz
+
+# Evaluator-only connection credentials, never source inputs.
+participant.token
+connection.json

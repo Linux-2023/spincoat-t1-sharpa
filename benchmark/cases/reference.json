@@ -1,0 +1,11 @@
+{
+  "id": "layout_002_fresh_torque_v1",
+  "reset": "public_anatomical_ready_settled_tube_v1",
+  "layout_source": "inputs/reference/layout.json",
+  "layout_sha256": "da52fbb33a1629b44a200907b9d36870f34ff17d8f6b4f24e7845d38f034a12a",
+  "preparation_source": "inputs/reference/preparation_config.json",
+  "preparation_sha256": "0c7b32c6c10397e986e8422154f2aa15224f5c67774f476f4c06b148a949567b",
+  "right_dock_rule": "canonical_grasp_plus_stand_delta",
+  "layout_perturbations": {},
+  "scope": "Evaluator-owned fresh reference reset, not a recorded successful episode. Only this exact reference is implemented; no randomization or robustness claim."
+}

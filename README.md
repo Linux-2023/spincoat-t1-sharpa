@@ -6,6 +6,14 @@ The default simulator retains the latest wall-approach / disk-edge-then-center p
 
 This is scripted simulation, not a trained VLA policy or a hardware result. Functional completion does **not** imply accepted strict grasp/contact geometry, repeatability across layouts, calibrated liquid physics, or certified camera hardware.
 
+## Interactive three-camera benchmark
+
+`benchmark.py` serves a fresh, evaluator-owned world with current C14 head/left-wrist/right-wrist observations and a language-neutral actuator API. It does not prescribe or launch a participant agent workflow.
+
+See [BENCHMARK.md](BENCHMARK.md) for installation, isolation, observation/action contracts, task criteria and complete-attempt scoring. [benchmark_verification.json](benchmark_verification.json) records the exercised native-step/HTTP/optical smoke and its limits. This benchmark has a separate measured-torque apparatus/judge identity, not historical all35 equivalence or a demonstrated full-task policy success.
+
+The existing `run.py` and `replay.py` reproduction entrypoints and their reference evidence remain unchanged.
+
 ## Requirements
 
 - Linux x86-64, Python 3.11, Git, FFmpeg/FFprobe.
@@ -80,6 +88,8 @@ C14 preserves `cam_head`, `cam_left_wrist`, and `cam_right_wrist`, each wrist's 
 - `replay_support/`: the accepted C14 saved-state drawing implementation and assembly inputs.
 - `runtime_manifest.json`, `replay_manifest.json`, `reference/`: hash-bound execution and recovery contracts.
 - `verification.json`, `source_provenance.json`: exercised evidence and source mapping.
+- `benchmark.py`, `benchmark/`: workflow-independent live benchmark, C14 observations, native execution, public task definition and private evaluation.
+- `BENCHMARK.md`, `benchmark_verification.json`: benchmark operation and separately scoped verification; generated attempts remain outside source control.
 
 Generated runs, model binaries, videos, environments, credentials, private agent sessions and historical experiment directories are not tracked. The one preserved trajectory is a checksummed release asset, not a large Git history dump. The package is published as a subtree of the existing source repository; its source ancestry is recorded without publishing unrelated historical trees.
 
