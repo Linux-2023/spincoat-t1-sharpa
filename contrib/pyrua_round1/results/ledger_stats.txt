@@ -1,0 +1,159 @@
+spincoat/spincoat: 112 episodes (learn), by program, mode, library; ±: standard error of the mean stage rate
+
+spincoat_final-a9278bc270 | frozen | b-9e5862d272
+  n 1 (layouts 223; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.20
+  stages   tube_lifted 1/1, mixed 1/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_final-c50b2d5929 | frozen | b-9e5862d272
+  n 9 (layouts 231-303; runs r01)
+  complete 0/9 (95% interval 0%-30%), stage rate 0.12±0.02
+  stages   tube_lifted 8/9, mixed 3/9, poured 0/9, tube_returned 0/9, pipette_lifted 0/9, aspirated 0/9, at_coater 0/9, dispensed 0/9, spun 0/9, stopped 0/9
+
+round_retained-95c9e50b91 | frozen | b-9e5862d272
+  n 10 (layouts 206-295; runs r01)
+  complete 0/10 (95% interval 0%-28%), stage rate 0.12±0.02
+  stages   tube_lifted 9/10, mixed 3/10, poured 0/10, tube_returned 0/10, pipette_lifted 0/10, aspirated 0/10, at_coater 0/10, dispensed 0/10, spun 0/10, stopped 0/10
+
+explore | explore | b-9e5862d272
+  n 20 (layouts 200-259; runs r01)
+  complete 0/20 (95% interval 0%-16%), stage rate 0.12±0.01
+  stages   tube_lifted 20/20, mixed 3/20, poured 1/20, tube_returned 0/20, pipette_lifted 0/20, aspirated 0/20, at_coater 0/20, dispensed 0/20, spun 0/20, stopped 0/20
+  explored with stage feedback and rewinds: what was reached, not a rate
+
+spincoat_direct-d7b044663a | frozen | b-9e5862d272
+  n 10 (layouts 211-311; runs r01)
+  complete 0/10 (95% interval 0%-28%), stage rate 0.10±0.00
+  stages   tube_lifted 10/10, mixed 0/10, poured 0/10, tube_returned 0/10, pipette_lifted 0/10, aspirated 0/10, at_coater 0/10, dispensed 0/10, spun 0/10, stopped 0/10
+
+spincoat-96db7afe8a | frozen | b-9e5862d272
+  n 1 (layouts 202; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat-6a40296d26 | frozen | b-9e5862d272
+  n 1 (layouts 209; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_high-10825ffb06 | frozen | b-9e5862d272
+  n 1 (layouts 204; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat-8e630e7a1e | frozen | b-9e5862d272
+  n 1 (layouts 227; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_round-e934e72bcd | frozen | b-9e5862d272
+  n 1 (layouts 237; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_peer-024868d568 | frozen | b-9e5862d272
+  n 1 (layouts 253; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_final_stereo-ab0b0d06b9 | frozen | b-9e5862d272
+  n 1 (layouts 255; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_portable-80dd67a511 | frozen | b-9e5862d272
+  n 1 (layouts 230; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.10
+  stages   tube_lifted 1/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_round-35249aadd7 | frozen | b-9e5862d272
+  n 10 (layouts 251-287; runs r01)
+  complete 0/10 (95% interval 0%-28%), stage rate 0.08±0.01
+  stages   tube_lifted 8/10, mixed 0/10, poured 0/10, tube_returned 0/10, pipette_lifted 0/10, aspirated 0/10, at_coater 0/10, dispensed 0/10, spun 0/10, stopped 0/10
+
+spincoat_final-70bf54e7c5 | frozen | b-9e5862d272
+  n 10 (layouts 238-271; runs r01)
+  complete 0/10 (95% interval 0%-28%), stage rate 0.08±0.01
+  stages   tube_lifted 8/10, mixed 0/10, poured 0/10, tube_returned 0/10, pipette_lifted 0/10, aspirated 0/10, at_coater 0/10, dispensed 0/10, spun 0/10, stopped 0/10
+
+spincoat_lift-92e4f7e831 | frozen | b-9e5862d272
+  n 9 (layouts 241-279; runs r01)
+  complete 0/9 (95% interval 0%-30%), stage rate 0.06±0.02
+  stages   tube_lifted 5/9, mixed 0/9, poured 0/9, tube_returned 0/9, pipette_lifted 0/9, aspirated 0/9, at_coater 0/9, dispensed 0/9, spun 0/9, stopped 0/9
+
+spincoat_policy-f25607a854 | frozen | b-9e5862d272
+  n 2 (layouts 234-235; runs r01)
+  complete 0/2 (95% interval 0%-66%), stage rate 0.05±0.05
+  stages   tube_lifted 1/2, mixed 0/2, poured 0/2, tube_returned 0/2, pipette_lifted 0/2, aspirated 0/2, at_coater 0/2, dispensed 0/2, spun 0/2, stopped 0/2
+
+spincoat_submit-ac2fd3d601 | frozen | b-9e5862d272
+  n 9 (layouts 221-319; runs r01)
+  complete 0/9 (95% interval 0%-30%), stage rate 0.04±0.02
+  stages   tube_lifted 3/9, mixed 1/9, poured 0/9, tube_returned 0/9, pipette_lifted 0/9, aspirated 0/9, at_coater 0/9, dispensed 0/9, spun 0/9, stopped 0/9
+
+spincoat_film-7c4d08b1a7 | frozen | b-9e5862d272
+  n 2 (layouts 218-219; runs r01)
+  complete 0/2 (95% interval 0%-66%), stage rate 0.00±0.00
+  stages   tube_lifted 0/2, mixed 0/2, poured 0/2, tube_returned 0/2, pipette_lifted 0/2, aspirated 0/2, at_coater 0/2, dispensed 0/2, spun 0/2, stopped 0/2
+
+spincoat-e8e1e32eec | frozen | b-9e5862d272
+  n 1 (layouts 201; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat-33d8abd78e | frozen | b-9e5862d272
+  n 1 (layouts 225; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_film-a5e5c040ff | frozen | b-9e5862d272
+  n 1 (layouts 217; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_policy-f9da65b93a | frozen | b-9e5862d272
+  n 1 (layouts 233; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_seed-8dd0e67c9c | frozen | b-9e5862d272
+  n 1 (layouts 249; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spinprep-16a6546fc2 | frozen | b-9e5862d272
+  n 1 (layouts 257; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spinprep-52e6ada9fb | frozen | b-9e5862d272
+  n 1 (layouts 258; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spinprep_shared-8fd2a730db | frozen | b-9e5862d272
+  n 1 (layouts 260; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_final-8010f33b7e | frozen | b-9e5862d272
+  n 1 (layouts 254; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_aligned-371cd1cd1b | frozen | b-9e5862d272
+  n 1 (layouts 229; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_final-26cf812118 | frozen | b-9e5862d272
+  n 1 (layouts 214; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+spincoat_final_fixed-eb27697a60 | frozen | b-9e5862d272
+  n 1 (layouts 215; runs r01)
+  complete 0/1 (95% interval 0%-79%), stage rate 0.00
+  stages   tube_lifted 0/1, mixed 0/1, poured 0/1, tube_returned 0/1, pipette_lifted 0/1, aspirated 0/1, at_coater 0/1, dispensed 0/1, spun 0/1, stopped 0/1
+
+best frozen program with 8 or more episodes: spincoat_final-c50b2d5929 (0/9 complete, stage 0.12)
