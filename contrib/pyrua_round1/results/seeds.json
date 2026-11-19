@@ -1,0 +1,136 @@
+{
+ "spincoat_r01_s01": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "round_retained-38b89f11da",
+   "round_retained-95c9e50b91",
+   "spincoat-96db7afe8a",
+   "spincoat-e8e1e32eec",
+   "spincoat_high-10825ffb06"
+  ],
+  "submitted": "round_retained-95c9e50b91",
+  "episodes": 32,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted",
+   "mixed"
+  ]
+ },
+ "spincoat_r01_s02": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "spincoat-33d8abd78e",
+   "spincoat-3827f0a11c",
+   "spincoat-8e630e7a1e",
+   "spincoat-a546661ff9",
+   "spincoat_aligned-371cd1cd1b",
+   "spincoat_final-c50b2d5929",
+   "spincoat_portable-80dd67a511",
+   "spincoat_shared-8010f33b7e"
+  ],
+  "submitted": "spincoat_final-c50b2d5929",
+  "episodes": 32,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted",
+   "mixed"
+  ]
+ },
+ "spincoat_r01_s03": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "spincoat-6a40296d26",
+   "spincoat_direct-d7b044663a",
+   "spincoat_final-26cf812118",
+   "spincoat_final_fixed-eb27697a60",
+   "spincoat_shared_clip-bd7a5a0602"
+  ],
+  "submitted": "spincoat_direct-d7b044663a",
+  "episodes": 32,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted"
+  ]
+ },
+ "spincoat_r01_s04": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "spincoat_film-472ea6fbe6",
+   "spincoat_film-7c4d08b1a7",
+   "spincoat_film-a5e5c040ff",
+   "spincoat_final-a9278bc270",
+   "spincoat_final-eba0cf90c0",
+   "spincoat_submit-ac2fd3d601"
+  ],
+  "submitted": "spincoat_submit-ac2fd3d601",
+  "episodes": 32,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted",
+   "mixed",
+   "poured"
+  ]
+ },
+ "spincoat_r01_s05": {
+  "phase": "submitted",
+  "layouts_used": 3,
+  "programs": [
+   "spincoat_direct-e028ee30e6",
+   "spincoat_lift-92e4f7e831"
+  ],
+  "submitted": "spincoat_lift-92e4f7e831",
+  "episodes": 19,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted"
+  ]
+ },
+ "spincoat_r01_s06": {
+  "phase": "exploring",
+  "layouts_used": 6,
+  "programs": [
+   "spincoat_highlift-ddd2dae63a",
+   "spinprep-16a6546fc2",
+   "spinprep-52e6ada9fb",
+   "spinprep_shared-8fd2a730db"
+  ],
+  "submitted": null,
+  "episodes": 21,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted",
+   "mixed",
+   "poured"
+  ]
+ },
+ "spincoat_r01_s07": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "spincoat_final-8010f33b7e",
+   "spincoat_final_stereo-ab0b0d06b9",
+   "spincoat_peer-024868d568",
+   "spincoat_round-35249aadd7",
+   "spincoat_seed-8dd0e67c9c"
+  ],
+  "submitted": "spincoat_round-35249aadd7",
+  "episodes": 24,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted"
+  ]
+ },
+ "spincoat_r01_s08": {
+  "phase": "submitted",
+  "layouts_used": 8,
+  "programs": [
+   "spincoat_final-70bf54e7c5",
+   "spincoat_policy-f25607a854",
+   "spincoat_policy-f9da65b93a",
+   "spincoat_round-e934e72bcd",
+   "spincoat_round_adaptive-c13b2e2438"
+  ],
+  "submitted": "spincoat_final-70bf54e7c5",
+  "episodes": 24,
+  "stages_reached_in_closed_episodes": [
+   "tube_lifted"
+  ]
+ }
+}
